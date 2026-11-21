@@ -48,7 +48,7 @@ export default function DuskSection() {
   // Strip empty static dialog from HTML
   const sanitizedHtml = homeData.dusk.replace(/<dialog[\s\S]*?<\/dialog>/, "");
 
-  // Attach click listeners to the 8 polaroid buttons inside the HTML
+  // Attach click listeners to polaroid buttons and setup scroll-triggered image reveal
   useEffect(() => {
     const container = containerRef.current;
     if (!container) return;
@@ -60,6 +60,41 @@ export default function DuskSection() {
         openLightbox(idx);
       };
     });
+
+    // Reveal animation observer for polaroids
+    const revealItems = container.querySelectorAll<HTMLElement>("li[data-reveal]");
+    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (prefersReducedMotion) {
+      revealItems.forEach((item) => {
+        item.dataset.revealed = "true";
+      });
+    } else {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const target = entry.target as HTMLElement;
+              target.dataset.revealed = "true";
+              observer.unobserve(target);
+            }
+          });
+        },
+        { rootMargin: "0px 0px -6% 0px", threshold: 0.08 }
+      );
+
+      revealItems.forEach((item) => {
+        item.dataset.armed = "true";
+        observer.observe(item);
+      });
+
+      return () => {
+        observer.disconnect();
+        buttons.forEach((btn) => {
+          btn.onclick = null;
+        });
+      };
+    }
 
     return () => {
       buttons.forEach((btn) => {

@@ -23,12 +23,33 @@ export default function MeetPupsSection() {
     const updateScrollAnimation = () => {
       ticking = false;
 
-      // On small mobile screens (< 768px), allow natural responsive grid layout
+      // On small mobile screens (< 768px), disable pinned conveyor belt and allow 2-col responsive grid
       if (window.innerWidth < 768) {
-        track.style.transform = "none";
+        section.removeAttribute("data-pinned");
         section.setAttribute("data-here", "false");
+        pinRange.style.setProperty("--pinned", "0");
+        pinRange.style.height = "auto";
+        track.style.transform = "none";
+        track.style.display = "grid";
+        track.style.gridTemplateColumns = "repeat(2, 1fr)";
+        track.style.gap = "1.25rem 1rem";
+        track.style.padding = "1rem var(--gutter)";
+
+        doors.forEach((door) => {
+          door.setAttribute("data-open", "false");
+          door.style.setProperty("--door-open", "0deg");
+        });
         return;
       }
+
+      // Restore desktop pinned conveyor settings
+      section.setAttribute("data-pinned", "true");
+      pinRange.style.setProperty("--pinned", "1");
+      pinRange.style.height = "calc(3226px + 100vh)";
+      track.style.display = "";
+      track.style.gridTemplateColumns = "";
+      track.style.gap = "";
+      track.style.padding = "";
 
       const rect = pinRange.getBoundingClientRect();
       const pinHeight = pinRange.offsetHeight;
@@ -41,7 +62,7 @@ export default function MeetPupsSection() {
       const scrolled = -rect.top;
       const progress = Math.max(0, Math.min(1, scrolled / maxScroll));
 
-      // Calculate total horizontal travel distance (approx 3842px as measured on reference)
+      // Calculate total horizontal travel distance (approx 3840px)
       const trackScrollWidth = track.scrollWidth;
       const stageWidth = window.innerWidth;
       const maxTravel = Math.max(trackScrollWidth - stageWidth + window.innerWidth * 0.15, 3840);
@@ -56,7 +77,6 @@ export default function MeetPupsSection() {
       // Update section active state
       if (progress > 0 && progress < 1) {
         section.setAttribute("data-here", "true");
-        section.setAttribute("data-pinned", "true");
       } else {
         section.setAttribute("data-here", "false");
       }
@@ -65,7 +85,7 @@ export default function MeetPupsSection() {
         section.setAttribute("data-visited", "true");
       }
 
-      // Check doors near the central viewing zone (mascot area at ~10vw to ~40vw)
+      // Check doors near the central viewing zone (mascot area at ~10vw to ~42vw)
       const zoneMin = window.innerWidth * 0.10;
       const zoneMax = window.innerWidth * 0.42;
 
@@ -98,20 +118,17 @@ export default function MeetPupsSection() {
     // Mouse drag support on desktop
     let isDragging = false;
     let startX = 0;
-    let scrollStart = 0;
 
     const onMouseDown = (e: MouseEvent) => {
       if (window.innerWidth < 768) return;
       isDragging = true;
       startX = e.clientX;
-      scrollStart = window.scrollY;
       track.style.cursor = "grabbing";
     };
 
     const onMouseMove = (e: MouseEvent) => {
       if (!isDragging) return;
       const deltaX = e.clientX - startX;
-      // Convert horizontal drag to vertical scroll progress
       window.scrollBy({ top: -deltaX * 1.5, behavior: "auto" });
       startX = e.clientX;
     };

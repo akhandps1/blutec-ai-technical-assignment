@@ -6,6 +6,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import MobileActionBar from "@/components/layout/MobileActionBar";
 import PupBuddyManager from "@/components/animations/PupBuddyManager";
+import SiteLoader from "@/components/layout/SiteLoader";
 
 const figtree = Figtree({
   subsets: ["latin"],
@@ -42,6 +43,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${figtree.variable} ${fraunces.variable} ${shantell.variable}`}>
       <body className="min-h-screen flex flex-col bg-milk text-cocoa antialiased selection:bg-amber selection:text-cocoa">
+        <SiteLoader />
         <a
           href="#main"
           className="sr-only-focusable fixed left-4 top-4 z-[100] rounded-full bg-cocoa px-5 py-3 font-semibold text-milk"
