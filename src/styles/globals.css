@@ -37,12 +37,35 @@
   --ink-soft: var(--color-cocoa-soft);
 }
 
+html {
+  overflow-x: clip;
+  cursor: url("/cursor/paw.svg") 9 6, auto;
+}
+
 body {
   color: var(--color-cocoa);
   background-color: var(--color-milk);
   font-family: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
-  overflow-x: hidden;
+  overflow-x: clip;
   -webkit-font-smoothing: antialiased;
+  cursor: url("/cursor/paw.svg") 9 6, auto;
+}
+
+.pup-buddy[data-live] {
+  pointer-events: auto;
+}
+
+a,
+button,
+[role="button"],
+input[type="submit"],
+input[type="button"],
+.tp-door,
+.tp-polaroid,
+.pup-buddy,
+summary,
+select {
+  cursor: url("/cursor/paw-press.svg") 9 6, pointer;
 }
 
 /* Typography Utility Classes */

@@ -50,7 +50,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav aria-label="Main" className="tp-header__nav">
+        <nav aria-label="Main" className="tp-header__nav hidden md:block">
           <ul>
             {navLinks.map((link) => {
               const isActive = pathname === link.href;

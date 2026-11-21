@@ -1,0 +1,102 @@
+{
+  "viewports": [
+    {
+      "viewport": "desktop-ultrawide",
+      "width": 1920,
+      "height": 1080,
+      "localScrollWidth": 1920,
+      "localInnerWidth": 1920,
+      "localZeroOverflow": true,
+      "refZeroOverflow": true
+    },
+    {
+      "viewport": "desktop-standard",
+      "width": 1440,
+      "height": 900,
+      "localScrollWidth": 1440,
+      "localInnerWidth": 1440,
+      "localZeroOverflow": true,
+      "refZeroOverflow": true
+    },
+    {
+      "viewport": "laptop",
+      "width": 1280,
+      "height": 800,
+      "localScrollWidth": 1280,
+      "localInnerWidth": 1280,
+      "localZeroOverflow": true,
+      "refZeroOverflow": true
+    },
+    {
+      "viewport": "desktop-small",
+      "width": 1024,
+      "height": 768,
+      "localScrollWidth": 1024,
+      "localInnerWidth": 1024,
+      "localZeroOverflow": true,
+      "refZeroOverflow": true
+    },
+    {
+      "viewport": "tablet-portrait",
+      "width": 768,
+      "height": 1024,
+      "localScrollWidth": 768,
+      "localInnerWidth": 768,
+      "localZeroOverflow": true,
+      "refZeroOverflow": true
+    },
+    {
+      "viewport": "mobile-large-430",
+      "width": 430,
+      "height": 932,
+      "localScrollWidth": 430,
+      "localInnerWidth": 430,
+      "localZeroOverflow": true,
+      "refZeroOverflow": true
+    },
+    {
+      "viewport": "mobile-iphone14-390",
+      "width": 390,
+      "height": 844,
+      "localScrollWidth": 390,
+      "localInnerWidth": 390,
+      "localZeroOverflow": true,
+      "refZeroOverflow": true
+    },
+    {
+      "viewport": "mobile-iphoneX-375",
+      "width": 375,
+      "height": 812,
+      "localScrollWidth": 375,
+      "localInnerWidth": 375,
+      "localZeroOverflow": true,
+      "refZeroOverflow": true
+    },
+    {
+      "viewport": "mobile-android-360",
+      "width": 360,
+      "height": 800,
+      "localScrollWidth": 360,
+      "localInnerWidth": 360,
+      "localZeroOverflow": true,
+      "refZeroOverflow": true
+    }
+  ],
+  "mouseTracking": {
+    "facingLeftPass": true,
+    "facingRightPass": true,
+    "clickBubbleShown": true,
+    "bubbleMessage": "boing!"
+  },
+  "scrollAnimation": {
+    "midTrackPos": "translateX(-2106.88px)",
+    "endTrackPos": "translateX(-4213.76px)",
+    "pinnedScrollFunctional": true
+  },
+  "cursorAssets": {
+    "bodyCursor": "url(\"http://localhost:3030/cursor/paw.svg\") 9 6, auto",
+    "btnCursor": "url(\"http://localhost:3030/cursor/paw-press.svg\") 9 6, pointer",
+    "hasPawCursor": true,
+    "hasPawPressCursor": true
+  }
+}

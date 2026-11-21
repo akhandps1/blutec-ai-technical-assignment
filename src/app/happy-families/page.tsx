@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import happyFamiliesData from "@/data/happy_families_data.json";
+import HappyFamiliesView from "@/components/views/HappyFamiliesView";
 
 export const metadata: Metadata = {
   title: "Happy families | TeddyPups U.A.E.",
@@ -7,10 +7,5 @@ export const metadata: Metadata = {
 };
 
 export default function HappyFamiliesPage() {
-  return (
-    <div
-      dangerouslySetInnerHTML={{ __html: happyFamiliesData.main }}
-      suppressHydrationWarning
-    />
-  );
+  return <HappyFamiliesView />;
 }
