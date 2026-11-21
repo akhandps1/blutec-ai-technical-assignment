@@ -1,0 +1,2553 @@
+{
+  "timestamp": "2026-11-21T07:35:41.581Z",
+  "viewportsTested": [
+    "desktop (1440x900)",
+    "laptop (1280x800)",
+    "tablet (768x1024)",
+    "mobile (390x844)",
+    "small_mobile (375x812)"
+  ],
+  "pagesTested": [
+    "/",
+    "/puppies",
+    "/gone-home",
+    "/happy-families",
+    "/how-it-works",
+    "/faq",
+    "/contact",
+    "/puppies/maltipoo-max-male"
+  ],
+  "comparisons": [
+    {
+      "viewport": "desktop",
+      "dimensions": "1440x900",
+      "route": "/",
+      "pageName": "home",
+      "referenceMetrics": {
+        "title": "TeddyPups U.A.E. — Premium teacup puppies in Dubai",
+        "scrollHeight": 12695,
+        "imageCount": 39,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 68,
+        "buttonCount": 10,
+        "h1": "Premium teacup\npuppies in Dubai",
+        "h2Count": 9,
+        "h2Samples": [
+          "Meet the pups",
+          "Two ways to meet your puppy",
+          "Your puppy journey",
+          "Why families trust TeddyPups",
+          "Happy families & puppies"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "99px"
+      },
+      "localMetrics": {
+        "title": "TeddyPups U.A.E. — Premium teacup puppies in Dubai",
+        "scrollHeight": 12664,
+        "imageCount": 39,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 61,
+        "buttonCount": 9,
+        "h1": "Premium teacup\npuppies in Dubai",
+        "h2Count": 9,
+        "h2Samples": [
+          "Meet the pups",
+          "Two ways to meet your puppy",
+          "Your puppy journey",
+          "Why families trust TeddyPups",
+          "Happy families & puppies"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "99px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/home_desktop_ref.png",
+        "local": "tests/visual/side_by_side/home_desktop_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "desktop",
+      "dimensions": "1440x900",
+      "route": "/puppies",
+      "pageName": "puppies",
+      "referenceMetrics": {
+        "title": "Available puppies | TeddyPups U.A.E.",
+        "scrollHeight": 3671,
+        "imageCount": 22,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 51,
+        "buttonCount": 12,
+        "h1": "Available puppies",
+        "h2Count": 3,
+        "h2Samples": [
+          "Already gone home",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "135.36px"
+      },
+      "localMetrics": {
+        "title": "Available puppies | TeddyPups U.A.E.",
+        "scrollHeight": 3672,
+        "imageCount": 22,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 44,
+        "buttonCount": 11,
+        "h1": "Available puppies",
+        "h2Count": 3,
+        "h2Samples": [
+          "Already gone home",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "135.36px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/puppies_desktop_ref.png",
+        "local": "tests/visual/side_by_side/puppies_desktop_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "desktop",
+      "dimensions": "1440x900",
+      "route": "/gone-home",
+      "pageName": "gone_home",
+      "referenceMetrics": {
+        "title": "Gone home | TeddyPups U.A.E.",
+        "scrollHeight": 3071,
+        "imageCount": 29,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 58,
+        "buttonCount": 2,
+        "h1": "Gone home",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "135.36px"
+      },
+      "localMetrics": {
+        "title": "Gone home | TeddyPups U.A.E.",
+        "scrollHeight": 3056,
+        "imageCount": 29,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 51,
+        "buttonCount": 1,
+        "h1": "Gone home",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "135.36px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/gone_home_desktop_ref.png",
+        "local": "tests/visual/side_by_side/gone_home_desktop_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "desktop",
+      "dimensions": "1440x900",
+      "route": "/happy-families",
+      "pageName": "happy_families",
+      "referenceMetrics": {
+        "title": "Happy families | TeddyPups U.A.E.",
+        "scrollHeight": 8869,
+        "imageCount": 66,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 30,
+        "buttonCount": 10,
+        "h1": "Happy families",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "135.36px"
+      },
+      "localMetrics": {
+        "title": "Happy families | TeddyPups U.A.E.",
+        "scrollHeight": 8826,
+        "imageCount": 66,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 23,
+        "buttonCount": 9,
+        "h1": "Happy families",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "135.36px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/happy_families_desktop_ref.png",
+        "local": "tests/visual/side_by_side/happy_families_desktop_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "desktop",
+      "dimensions": "1440x900",
+      "route": "/how-it-works",
+      "pageName": "how_it_works",
+      "referenceMetrics": {
+        "title": "How it works | TeddyPups U.A.E.",
+        "scrollHeight": 4493,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 36,
+        "buttonCount": 4,
+        "h1": "How it works",
+        "h2Count": 7,
+        "h2Samples": [
+          "Two ways home",
+          "Our premium puppy promise",
+          "Delivery & collection",
+          "Why choose us",
+          "Unique and high quality puppies"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "135.36px"
+      },
+      "localMetrics": {
+        "title": "How it works | TeddyPups U.A.E.",
+        "scrollHeight": 4466,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 29,
+        "buttonCount": 3,
+        "h1": "How it works",
+        "h2Count": 7,
+        "h2Samples": [
+          "Two ways home",
+          "Our premium puppy promise",
+          "Delivery & collection",
+          "Why choose us",
+          "Unique and high quality puppies"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "135.36px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/how_it_works_desktop_ref.png",
+        "local": "tests/visual/side_by_side/how_it_works_desktop_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "desktop",
+      "dimensions": "1440x900",
+      "route": "/faq",
+      "pageName": "faq",
+      "referenceMetrics": {
+        "title": "Questions & answers | TeddyPups U.A.E.",
+        "scrollHeight": 2383,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 31,
+        "buttonCount": 11,
+        "h1": "Questions & answers",
+        "h2Count": 11,
+        "h2Samples": [
+          "Are your puppies vaccinated and health-checked?",
+          "Can I meet a puppy before I decide?",
+          "Can I take my puppy home the same day?",
+          "Do you import puppies from abroad?",
+          "How does an imported puppy travel to Dubai?"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "135.36px"
+      },
+      "localMetrics": {
+        "title": "Questions & answers | TeddyPups U.A.E.",
+        "scrollHeight": 2377,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 24,
+        "buttonCount": 10,
+        "h1": "Questions & answers",
+        "h2Count": 11,
+        "h2Samples": [
+          "Are your puppies vaccinated and health-checked?",
+          "Can I meet a puppy before I decide?",
+          "Can I take my puppy home the same day?",
+          "Do you import puppies from abroad?",
+          "How does an imported puppy travel to Dubai?"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "135.36px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/faq_desktop_ref.png",
+        "local": "tests/visual/side_by_side/faq_desktop_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "desktop",
+      "dimensions": "1440x900",
+      "route": "/contact",
+      "pageName": "contact",
+      "referenceMetrics": {
+        "title": "Visit & contact | TeddyPups U.A.E.",
+        "scrollHeight": 1956,
+        "imageCount": 3,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 34,
+        "buttonCount": 3,
+        "h1": "Get in touch with us",
+        "h2Count": 3,
+        "h2Samples": [
+          "Visit us in Downtown Dubai",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "135.36px"
+      },
+      "localMetrics": {
+        "title": "Visit & contact | TeddyPups U.A.E.",
+        "scrollHeight": 2060,
+        "imageCount": 3,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 27,
+        "buttonCount": 2,
+        "h1": "Get in touch with us",
+        "h2Count": 3,
+        "h2Samples": [
+          "Visit us in Downtown Dubai",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "135.36px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/contact_desktop_ref.png",
+        "local": "tests/visual/side_by_side/contact_desktop_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "desktop",
+      "dimensions": "1440x900",
+      "route": "/puppies/maltipoo-max-male",
+      "pageName": "puppy_detail_max",
+      "referenceMetrics": {
+        "title": "Max, Maltipoo puppy | TeddyPups U.A.E.",
+        "scrollHeight": 3288,
+        "imageCount": 7,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 35,
+        "buttonCount": 6,
+        "h1": "Max",
+        "h2Count": 5,
+        "h2Samples": [
+          "Every Teddy Pup comes",
+          "Coming home from abroad",
+          "Ask about Max",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "72px"
+      },
+      "localMetrics": {
+        "title": "Max, Maltipoo puppy | TeddyPups U.A.E.",
+        "scrollHeight": 3169,
+        "imageCount": 7,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 28,
+        "buttonCount": 5,
+        "h1": "Max",
+        "h2Count": 5,
+        "h2Samples": [
+          "Every Teddy Pup comes",
+          "Coming home from abroad",
+          "Ask about Max",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "72px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/puppy_detail_max_desktop_ref.png",
+        "local": "tests/visual/side_by_side/puppy_detail_max_desktop_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "laptop",
+      "dimensions": "1280x800",
+      "route": "/",
+      "pageName": "home",
+      "referenceMetrics": {
+        "title": "TeddyPups U.A.E. — Premium teacup puppies in Dubai",
+        "scrollHeight": 11575,
+        "imageCount": 39,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 68,
+        "buttonCount": 10,
+        "h1": "Premium teacup\npuppies in Dubai",
+        "h2Count": 9,
+        "h2Samples": [
+          "Meet the pups",
+          "Two ways to meet your puppy",
+          "Your puppy journey",
+          "Why families trust TeddyPups",
+          "Happy families & puppies"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "88px"
+      },
+      "localMetrics": {
+        "title": "TeddyPups U.A.E. — Premium teacup puppies in Dubai",
+        "scrollHeight": 11870,
+        "imageCount": 39,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 61,
+        "buttonCount": 9,
+        "h1": "Premium teacup\npuppies in Dubai",
+        "h2Count": 9,
+        "h2Samples": [
+          "Meet the pups",
+          "Two ways to meet your puppy",
+          "Your puppy journey",
+          "Why families trust TeddyPups",
+          "Happy families & puppies"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "88px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/home_laptop_ref.png",
+        "local": "tests/visual/side_by_side/home_laptop_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "laptop",
+      "dimensions": "1280x800",
+      "route": "/puppies",
+      "pageName": "puppies",
+      "referenceMetrics": {
+        "title": "Available puppies | TeddyPups U.A.E.",
+        "scrollHeight": 3473,
+        "imageCount": 22,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 51,
+        "buttonCount": 12,
+        "h1": "Available puppies",
+        "h2Count": 3,
+        "h2Samples": [
+          "Already gone home",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "120.32px"
+      },
+      "localMetrics": {
+        "title": "Available puppies | TeddyPups U.A.E.",
+        "scrollHeight": 3482,
+        "imageCount": 22,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 44,
+        "buttonCount": 11,
+        "h1": "Available puppies",
+        "h2Count": 3,
+        "h2Samples": [
+          "Already gone home",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "120.32px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/puppies_laptop_ref.png",
+        "local": "tests/visual/side_by_side/puppies_laptop_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "laptop",
+      "dimensions": "1280x800",
+      "route": "/gone-home",
+      "pageName": "gone_home",
+      "referenceMetrics": {
+        "title": "Gone home | TeddyPups U.A.E.",
+        "scrollHeight": 3034,
+        "imageCount": 29,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 58,
+        "buttonCount": 2,
+        "h1": "Gone home",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "120.32px"
+      },
+      "localMetrics": {
+        "title": "Gone home | TeddyPups U.A.E.",
+        "scrollHeight": 2883,
+        "imageCount": 29,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 51,
+        "buttonCount": 1,
+        "h1": "Gone home",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "120.32px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/gone_home_laptop_ref.png",
+        "local": "tests/visual/side_by_side/gone_home_laptop_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "laptop",
+      "dimensions": "1280x800",
+      "route": "/happy-families",
+      "pageName": "happy_families",
+      "referenceMetrics": {
+        "title": "Happy families | TeddyPups U.A.E.",
+        "scrollHeight": 8091,
+        "imageCount": 66,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 30,
+        "buttonCount": 10,
+        "h1": "Happy families",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "120.32px"
+      },
+      "localMetrics": {
+        "title": "Happy families | TeddyPups U.A.E.",
+        "scrollHeight": 8055,
+        "imageCount": 66,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 23,
+        "buttonCount": 9,
+        "h1": "Happy families",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "120.32px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/happy_families_laptop_ref.png",
+        "local": "tests/visual/side_by_side/happy_families_laptop_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "laptop",
+      "dimensions": "1280x800",
+      "route": "/how-it-works",
+      "pageName": "how_it_works",
+      "referenceMetrics": {
+        "title": "How it works | TeddyPups U.A.E.",
+        "scrollHeight": 4492,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 36,
+        "buttonCount": 4,
+        "h1": "How it works",
+        "h2Count": 7,
+        "h2Samples": [
+          "Two ways home",
+          "Our premium puppy promise",
+          "Delivery & collection",
+          "Why choose us",
+          "Unique and high quality puppies"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "120.32px"
+      },
+      "localMetrics": {
+        "title": "How it works | TeddyPups U.A.E.",
+        "scrollHeight": 4397,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 29,
+        "buttonCount": 3,
+        "h1": "How it works",
+        "h2Count": 7,
+        "h2Samples": [
+          "Two ways home",
+          "Our premium puppy promise",
+          "Delivery & collection",
+          "Why choose us",
+          "Unique and high quality puppies"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "120.32px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/how_it_works_laptop_ref.png",
+        "local": "tests/visual/side_by_side/how_it_works_laptop_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "laptop",
+      "dimensions": "1280x800",
+      "route": "/faq",
+      "pageName": "faq",
+      "referenceMetrics": {
+        "title": "Questions & answers | TeddyPups U.A.E.",
+        "scrollHeight": 2339,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 31,
+        "buttonCount": 11,
+        "h1": "Questions & answers",
+        "h2Count": 11,
+        "h2Samples": [
+          "Are your puppies vaccinated and health-checked?",
+          "Can I meet a puppy before I decide?",
+          "Can I take my puppy home the same day?",
+          "Do you import puppies from abroad?",
+          "How does an imported puppy travel to Dubai?"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "120.32px"
+      },
+      "localMetrics": {
+        "title": "Questions & answers | TeddyPups U.A.E.",
+        "scrollHeight": 2336,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 24,
+        "buttonCount": 10,
+        "h1": "Questions & answers",
+        "h2Count": 11,
+        "h2Samples": [
+          "Are your puppies vaccinated and health-checked?",
+          "Can I meet a puppy before I decide?",
+          "Can I take my puppy home the same day?",
+          "Do you import puppies from abroad?",
+          "How does an imported puppy travel to Dubai?"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "120.32px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/faq_laptop_ref.png",
+        "local": "tests/visual/side_by_side/faq_laptop_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "laptop",
+      "dimensions": "1280x800",
+      "route": "/contact",
+      "pageName": "contact",
+      "referenceMetrics": {
+        "title": "Visit & contact | TeddyPups U.A.E.",
+        "scrollHeight": 2002,
+        "imageCount": 3,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 34,
+        "buttonCount": 3,
+        "h1": "Get in touch with us",
+        "h2Count": 3,
+        "h2Samples": [
+          "Visit us in Downtown Dubai",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "120.32px"
+      },
+      "localMetrics": {
+        "title": "Visit & contact | TeddyPups U.A.E.",
+        "scrollHeight": 2014,
+        "imageCount": 3,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 27,
+        "buttonCount": 2,
+        "h1": "Get in touch with us",
+        "h2Count": 3,
+        "h2Samples": [
+          "Visit us in Downtown Dubai",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "120.32px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/contact_laptop_ref.png",
+        "local": "tests/visual/side_by_side/contact_laptop_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "laptop",
+      "dimensions": "1280x800",
+      "route": "/puppies/maltipoo-max-male",
+      "pageName": "puppy_detail_max",
+      "referenceMetrics": {
+        "title": "Max, Maltipoo puppy | TeddyPups U.A.E.",
+        "scrollHeight": 3213,
+        "imageCount": 7,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 35,
+        "buttonCount": 6,
+        "h1": "Max",
+        "h2Count": 5,
+        "h2Samples": [
+          "Every Teddy Pup comes",
+          "Coming home from abroad",
+          "Ask about Max",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "64px"
+      },
+      "localMetrics": {
+        "title": "Max, Maltipoo puppy | TeddyPups U.A.E.",
+        "scrollHeight": 3064,
+        "imageCount": 7,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 28,
+        "buttonCount": 5,
+        "h1": "Max",
+        "h2Count": 5,
+        "h2Samples": [
+          "Every Teddy Pup comes",
+          "Coming home from abroad",
+          "Ask about Max",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "64px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/puppy_detail_max_laptop_ref.png",
+        "local": "tests/visual/side_by_side/puppy_detail_max_laptop_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "tablet",
+      "dimensions": "768x1024",
+      "route": "/",
+      "pageName": "home",
+      "referenceMetrics": {
+        "title": "TeddyPups U.A.E. — Premium teacup puppies in Dubai",
+        "scrollHeight": 12091,
+        "imageCount": 39,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 68,
+        "buttonCount": 10,
+        "h1": "Premium teacup\npuppies in Dubai",
+        "h2Count": 9,
+        "h2Samples": [
+          "Meet the pups",
+          "Two ways to meet your puppy",
+          "Your puppy journey",
+          "Why families trust TeddyPups",
+          "Happy families & puppies"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "70.656px"
+      },
+      "localMetrics": {
+        "title": "TeddyPups U.A.E. — Premium teacup puppies in Dubai",
+        "scrollHeight": 12888,
+        "imageCount": 39,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 61,
+        "buttonCount": 9,
+        "h1": "Premium teacup\npuppies in Dubai",
+        "h2Count": 9,
+        "h2Samples": [
+          "Meet the pups",
+          "Two ways to meet your puppy",
+          "Your puppy journey",
+          "Why families trust TeddyPups",
+          "Happy families & puppies"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "70.656px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/home_tablet_ref.png",
+        "local": "tests/visual/side_by_side/home_tablet_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "tablet",
+      "dimensions": "768x1024",
+      "route": "/puppies",
+      "pageName": "puppies",
+      "referenceMetrics": {
+        "title": "Available puppies | TeddyPups U.A.E.",
+        "scrollHeight": 5734,
+        "imageCount": 22,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 51,
+        "buttonCount": 12,
+        "h1": "Available puppies",
+        "h2Count": 3,
+        "h2Samples": [
+          "Already gone home",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "72.192px"
+      },
+      "localMetrics": {
+        "title": "Available puppies | TeddyPups U.A.E.",
+        "scrollHeight": 5696,
+        "imageCount": 22,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 44,
+        "buttonCount": 11,
+        "h1": "Available puppies",
+        "h2Count": 3,
+        "h2Samples": [
+          "Already gone home",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "72.192px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/puppies_tablet_ref.png",
+        "local": "tests/visual/side_by_side/puppies_tablet_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "tablet",
+      "dimensions": "768x1024",
+      "route": "/gone-home",
+      "pageName": "gone_home",
+      "referenceMetrics": {
+        "title": "Gone home | TeddyPups U.A.E.",
+        "scrollHeight": 3953,
+        "imageCount": 29,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 58,
+        "buttonCount": 2,
+        "h1": "Gone home",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "72.192px"
+      },
+      "localMetrics": {
+        "title": "Gone home | TeddyPups U.A.E.",
+        "scrollHeight": 3856,
+        "imageCount": 29,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 51,
+        "buttonCount": 1,
+        "h1": "Gone home",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "72.192px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/gone_home_tablet_ref.png",
+        "local": "tests/visual/side_by_side/gone_home_tablet_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "tablet",
+      "dimensions": "768x1024",
+      "route": "/happy-families",
+      "pageName": "happy_families",
+      "referenceMetrics": {
+        "title": "Happy families | TeddyPups U.A.E.",
+        "scrollHeight": 8666,
+        "imageCount": 66,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 30,
+        "buttonCount": 10,
+        "h1": "Happy families",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "72.192px"
+      },
+      "localMetrics": {
+        "title": "Happy families | TeddyPups U.A.E.",
+        "scrollHeight": 8783,
+        "imageCount": 66,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 23,
+        "buttonCount": 9,
+        "h1": "Happy families",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "72.192px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/happy_families_tablet_ref.png",
+        "local": "tests/visual/side_by_side/happy_families_tablet_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "tablet",
+      "dimensions": "768x1024",
+      "route": "/how-it-works",
+      "pageName": "how_it_works",
+      "referenceMetrics": {
+        "title": "How it works | TeddyPups U.A.E.",
+        "scrollHeight": 5694,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 36,
+        "buttonCount": 4,
+        "h1": "How it works",
+        "h2Count": 7,
+        "h2Samples": [
+          "Two ways home",
+          "Our premium puppy promise",
+          "Delivery & collection",
+          "Why choose us",
+          "Unique and high quality puppies"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "72.192px"
+      },
+      "localMetrics": {
+        "title": "How it works | TeddyPups U.A.E.",
+        "scrollHeight": 5031,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 29,
+        "buttonCount": 3,
+        "h1": "How it works",
+        "h2Count": 7,
+        "h2Samples": [
+          "Two ways home",
+          "Our premium puppy promise",
+          "Delivery & collection",
+          "Why choose us",
+          "Unique and high quality puppies"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "72.192px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/how_it_works_tablet_ref.png",
+        "local": "tests/visual/side_by_side/how_it_works_tablet_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "tablet",
+      "dimensions": "768x1024",
+      "route": "/faq",
+      "pageName": "faq",
+      "referenceMetrics": {
+        "title": "Questions & answers | TeddyPups U.A.E.",
+        "scrollHeight": 2296,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 31,
+        "buttonCount": 11,
+        "h1": "Questions & answers",
+        "h2Count": 11,
+        "h2Samples": [
+          "Are your puppies vaccinated and health-checked?",
+          "Can I meet a puppy before I decide?",
+          "Can I take my puppy home the same day?",
+          "Do you import puppies from abroad?",
+          "How does an imported puppy travel to Dubai?"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "72.192px"
+      },
+      "localMetrics": {
+        "title": "Questions & answers | TeddyPups U.A.E.",
+        "scrollHeight": 2371,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 24,
+        "buttonCount": 10,
+        "h1": "Questions & answers",
+        "h2Count": 11,
+        "h2Samples": [
+          "Are your puppies vaccinated and health-checked?",
+          "Can I meet a puppy before I decide?",
+          "Can I take my puppy home the same day?",
+          "Do you import puppies from abroad?",
+          "How does an imported puppy travel to Dubai?"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "72.192px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/faq_tablet_ref.png",
+        "local": "tests/visual/side_by_side/faq_tablet_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "tablet",
+      "dimensions": "768x1024",
+      "route": "/contact",
+      "pageName": "contact",
+      "referenceMetrics": {
+        "title": "Visit & contact | TeddyPups U.A.E.",
+        "scrollHeight": 2525,
+        "imageCount": 3,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 34,
+        "buttonCount": 3,
+        "h1": "Get in touch with us",
+        "h2Count": 3,
+        "h2Samples": [
+          "Visit us in Downtown Dubai",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "72.192px"
+      },
+      "localMetrics": {
+        "title": "Visit & contact | TeddyPups U.A.E.",
+        "scrollHeight": 2441,
+        "imageCount": 3,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 27,
+        "buttonCount": 2,
+        "h1": "Get in touch with us",
+        "h2Count": 3,
+        "h2Samples": [
+          "Visit us in Downtown Dubai",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "72.192px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/contact_tablet_ref.png",
+        "local": "tests/visual/side_by_side/contact_tablet_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "tablet",
+      "dimensions": "768x1024",
+      "route": "/puppies/maltipoo-max-male",
+      "pageName": "puppy_detail_max",
+      "referenceMetrics": {
+        "title": "Max, Maltipoo puppy | TeddyPups U.A.E.",
+        "scrollHeight": 4508,
+        "imageCount": 7,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 35,
+        "buttonCount": 6,
+        "h1": "Max",
+        "h2Count": 5,
+        "h2Samples": [
+          "Every Teddy Pup comes",
+          "Coming home from abroad",
+          "Ask about Max",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "41.6px"
+      },
+      "localMetrics": {
+        "title": "Max, Maltipoo puppy | TeddyPups U.A.E.",
+        "scrollHeight": 4201,
+        "imageCount": 7,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 28,
+        "buttonCount": 5,
+        "h1": "Max",
+        "h2Count": 5,
+        "h2Samples": [
+          "Every Teddy Pup comes",
+          "Coming home from abroad",
+          "Ask about Max",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "41.6px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/puppy_detail_max_tablet_ref.png",
+        "local": "tests/visual/side_by_side/puppy_detail_max_tablet_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "mobile",
+      "dimensions": "390x844",
+      "route": "/",
+      "pageName": "home",
+      "referenceMetrics": {
+        "title": "TeddyPups U.A.E. — Premium teacup puppies in Dubai",
+        "scrollHeight": 12904,
+        "imageCount": 39,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 68,
+        "buttonCount": 10,
+        "h1": "Premium teacup\npuppies in Dubai",
+        "h2Count": 9,
+        "h2Samples": [
+          "Meet the pups",
+          "Two ways to meet your puppy",
+          "Your puppy journey",
+          "Why families trust TeddyPups",
+          "Happy families & puppies"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "41.6px"
+      },
+      "localMetrics": {
+        "title": "TeddyPups U.A.E. — Premium teacup puppies in Dubai",
+        "scrollHeight": 13955,
+        "imageCount": 39,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 61,
+        "buttonCount": 9,
+        "h1": "Premium teacup\npuppies in Dubai",
+        "h2Count": 9,
+        "h2Samples": [
+          "Meet the pups",
+          "Two ways to meet your puppy",
+          "Your puppy journey",
+          "Why families trust TeddyPups",
+          "Happy families & puppies"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "41.6px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/home_mobile_ref.png",
+        "local": "tests/visual/side_by_side/home_mobile_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "mobile",
+      "dimensions": "390x844",
+      "route": "/puppies",
+      "pageName": "puppies",
+      "referenceMetrics": {
+        "title": "Available puppies | TeddyPups U.A.E.",
+        "scrollHeight": 5639,
+        "imageCount": 22,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 51,
+        "buttonCount": 12,
+        "h1": "Available puppies",
+        "h2Count": 3,
+        "h2Samples": [
+          "Already gone home",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "49.6px"
+      },
+      "localMetrics": {
+        "title": "Available puppies | TeddyPups U.A.E.",
+        "scrollHeight": 5598,
+        "imageCount": 22,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 44,
+        "buttonCount": 11,
+        "h1": "Available puppies",
+        "h2Count": 3,
+        "h2Samples": [
+          "Already gone home",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "49.6px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/puppies_mobile_ref.png",
+        "local": "tests/visual/side_by_side/puppies_mobile_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "mobile",
+      "dimensions": "390x844",
+      "route": "/gone-home",
+      "pageName": "gone_home",
+      "referenceMetrics": {
+        "title": "Gone home | TeddyPups U.A.E.",
+        "scrollHeight": 7226,
+        "imageCount": 29,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 58,
+        "buttonCount": 2,
+        "h1": "Gone home",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "49.6px"
+      },
+      "localMetrics": {
+        "title": "Gone home | TeddyPups U.A.E.",
+        "scrollHeight": 7020,
+        "imageCount": 29,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 51,
+        "buttonCount": 1,
+        "h1": "Gone home",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "49.6px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/gone_home_mobile_ref.png",
+        "local": "tests/visual/side_by_side/gone_home_mobile_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "mobile",
+      "dimensions": "390x844",
+      "route": "/happy-families",
+      "pageName": "happy_families",
+      "referenceMetrics": {
+        "title": "Happy families | TeddyPups U.A.E.",
+        "scrollHeight": 10759,
+        "imageCount": 66,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 30,
+        "buttonCount": 10,
+        "h1": "Happy families",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "49.6px"
+      },
+      "localMetrics": {
+        "title": "Happy families | TeddyPups U.A.E.",
+        "scrollHeight": 11333,
+        "imageCount": 66,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 23,
+        "buttonCount": 9,
+        "h1": "Happy families",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "49.6px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/happy_families_mobile_ref.png",
+        "local": "tests/visual/side_by_side/happy_families_mobile_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "mobile",
+      "dimensions": "390x844",
+      "route": "/how-it-works",
+      "pageName": "how_it_works",
+      "referenceMetrics": {
+        "title": "How it works | TeddyPups U.A.E.",
+        "scrollHeight": 7810,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 36,
+        "buttonCount": 4,
+        "h1": "How it works",
+        "h2Count": 7,
+        "h2Samples": [
+          "Two ways home",
+          "Our premium puppy promise",
+          "Delivery & collection",
+          "Why choose us",
+          "Unique and high quality puppies"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "49.6px"
+      },
+      "localMetrics": {
+        "title": "How it works | TeddyPups U.A.E.",
+        "scrollHeight": 7134,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 29,
+        "buttonCount": 3,
+        "h1": "How it works",
+        "h2Count": 7,
+        "h2Samples": [
+          "Two ways home",
+          "Our premium puppy promise",
+          "Delivery & collection",
+          "Why choose us",
+          "Unique and high quality puppies"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "49.6px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/how_it_works_mobile_ref.png",
+        "local": "tests/visual/side_by_side/how_it_works_mobile_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "mobile",
+      "dimensions": "390x844",
+      "route": "/faq",
+      "pageName": "faq",
+      "referenceMetrics": {
+        "title": "Questions & answers | TeddyPups U.A.E.",
+        "scrollHeight": 3088,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 31,
+        "buttonCount": 11,
+        "h1": "Questions & answers",
+        "h2Count": 11,
+        "h2Samples": [
+          "Are your puppies vaccinated and health-checked?",
+          "Can I meet a puppy before I decide?",
+          "Can I take my puppy home the same day?",
+          "Do you import puppies from abroad?",
+          "How does an imported puppy travel to Dubai?"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "49.6px"
+      },
+      "localMetrics": {
+        "title": "Questions & answers | TeddyPups U.A.E.",
+        "scrollHeight": 3396,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 24,
+        "buttonCount": 10,
+        "h1": "Questions & answers",
+        "h2Count": 11,
+        "h2Samples": [
+          "Are your puppies vaccinated and health-checked?",
+          "Can I meet a puppy before I decide?",
+          "Can I take my puppy home the same day?",
+          "Do you import puppies from abroad?",
+          "How does an imported puppy travel to Dubai?"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "49.6px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/faq_mobile_ref.png",
+        "local": "tests/visual/side_by_side/faq_mobile_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "mobile",
+      "dimensions": "390x844",
+      "route": "/contact",
+      "pageName": "contact",
+      "referenceMetrics": {
+        "title": "Visit & contact | TeddyPups U.A.E.",
+        "scrollHeight": 3591,
+        "imageCount": 3,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 34,
+        "buttonCount": 3,
+        "h1": "Get in touch with us",
+        "h2Count": 3,
+        "h2Samples": [
+          "Visit us in Downtown Dubai",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "49.6px"
+      },
+      "localMetrics": {
+        "title": "Visit & contact | TeddyPups U.A.E.",
+        "scrollHeight": 3516,
+        "imageCount": 3,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 27,
+        "buttonCount": 2,
+        "h1": "Get in touch with us",
+        "h2Count": 3,
+        "h2Samples": [
+          "Visit us in Downtown Dubai",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "49.6px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/contact_mobile_ref.png",
+        "local": "tests/visual/side_by_side/contact_mobile_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "mobile",
+      "dimensions": "390x844",
+      "route": "/puppies/maltipoo-max-male",
+      "pageName": "puppy_detail_max",
+      "referenceMetrics": {
+        "title": "Max, Maltipoo puppy | TeddyPups U.A.E.",
+        "scrollHeight": 5107,
+        "imageCount": 7,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 35,
+        "buttonCount": 6,
+        "h1": "Max",
+        "h2Count": 5,
+        "h2Samples": [
+          "Every Teddy Pup comes",
+          "Coming home from abroad",
+          "Ask about Max",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "41.6px"
+      },
+      "localMetrics": {
+        "title": "Max, Maltipoo puppy | TeddyPups U.A.E.",
+        "scrollHeight": 4955,
+        "imageCount": 7,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 28,
+        "buttonCount": 5,
+        "h1": "Max",
+        "h2Count": 5,
+        "h2Samples": [
+          "Every Teddy Pup comes",
+          "Coming home from abroad",
+          "Ask about Max",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "41.6px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/puppy_detail_max_mobile_ref.png",
+        "local": "tests/visual/side_by_side/puppy_detail_max_mobile_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "small_mobile",
+      "dimensions": "375x812",
+      "route": "/",
+      "pageName": "home",
+      "referenceMetrics": {
+        "title": "TeddyPups U.A.E. — Premium teacup puppies in Dubai",
+        "scrollHeight": 12822,
+        "imageCount": 39,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 68,
+        "buttonCount": 10,
+        "h1": "Premium teacup\npuppies in Dubai",
+        "h2Count": 9,
+        "h2Samples": [
+          "Meet the pups",
+          "Two ways to meet your puppy",
+          "Your puppy journey",
+          "Why families trust TeddyPups",
+          "Happy families & puppies"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "41.6px"
+      },
+      "localMetrics": {
+        "title": "TeddyPups U.A.E. — Premium teacup puppies in Dubai",
+        "scrollHeight": 13961,
+        "imageCount": 39,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 61,
+        "buttonCount": 9,
+        "h1": "Premium teacup\npuppies in Dubai",
+        "h2Count": 9,
+        "h2Samples": [
+          "Meet the pups",
+          "Two ways to meet your puppy",
+          "Your puppy journey",
+          "Why families trust TeddyPups",
+          "Happy families & puppies"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "41.6px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/home_small_mobile_ref.png",
+        "local": "tests/visual/side_by_side/home_small_mobile_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "small_mobile",
+      "dimensions": "375x812",
+      "route": "/puppies",
+      "pageName": "puppies",
+      "referenceMetrics": {
+        "title": "Available puppies | TeddyPups U.A.E.",
+        "scrollHeight": 5640,
+        "imageCount": 22,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 51,
+        "buttonCount": 12,
+        "h1": "Available puppies",
+        "h2Count": 3,
+        "h2Samples": [
+          "Already gone home",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "49.6px"
+      },
+      "localMetrics": {
+        "title": "Available puppies | TeddyPups U.A.E.",
+        "scrollHeight": 5609,
+        "imageCount": 22,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 44,
+        "buttonCount": 11,
+        "h1": "Available puppies",
+        "h2Count": 3,
+        "h2Samples": [
+          "Already gone home",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "49.6px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/puppies_small_mobile_ref.png",
+        "local": "tests/visual/side_by_side/puppies_small_mobile_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "small_mobile",
+      "dimensions": "375x812",
+      "route": "/gone-home",
+      "pageName": "gone_home",
+      "referenceMetrics": {
+        "title": "Gone home | TeddyPups U.A.E.",
+        "scrollHeight": 7253,
+        "imageCount": 29,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 58,
+        "buttonCount": 2,
+        "h1": "Gone home",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "49.6px"
+      },
+      "localMetrics": {
+        "title": "Gone home | TeddyPups U.A.E.",
+        "scrollHeight": 7047,
+        "imageCount": 29,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 51,
+        "buttonCount": 1,
+        "h1": "Gone home",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "49.6px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/gone_home_small_mobile_ref.png",
+        "local": "tests/visual/side_by_side/gone_home_small_mobile_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "small_mobile",
+      "dimensions": "375x812",
+      "route": "/happy-families",
+      "pageName": "happy_families",
+      "referenceMetrics": {
+        "title": "Happy families | TeddyPups U.A.E.",
+        "scrollHeight": 32335,
+        "imageCount": 66,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 30,
+        "buttonCount": 10,
+        "h1": "Happy families",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "49.6px"
+      },
+      "localMetrics": {
+        "title": "Happy families | TeddyPups U.A.E.",
+        "scrollHeight": 32909,
+        "imageCount": 66,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 23,
+        "buttonCount": 9,
+        "h1": "Happy families",
+        "h2Count": 2,
+        "h2Samples": [
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "49.6px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/happy_families_small_mobile_ref.png",
+        "local": "tests/visual/side_by_side/happy_families_small_mobile_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "small_mobile",
+      "dimensions": "375x812",
+      "route": "/how-it-works",
+      "pageName": "how_it_works",
+      "referenceMetrics": {
+        "title": "How it works | TeddyPups U.A.E.",
+        "scrollHeight": 7978,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 36,
+        "buttonCount": 4,
+        "h1": "How it works",
+        "h2Count": 7,
+        "h2Samples": [
+          "Two ways home",
+          "Our premium puppy promise",
+          "Delivery & collection",
+          "Why choose us",
+          "Unique and high quality puppies"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "49.6px"
+      },
+      "localMetrics": {
+        "title": "How it works | TeddyPups U.A.E.",
+        "scrollHeight": 7232,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 29,
+        "buttonCount": 3,
+        "h1": "How it works",
+        "h2Count": 7,
+        "h2Samples": [
+          "Two ways home",
+          "Our premium puppy promise",
+          "Delivery & collection",
+          "Why choose us",
+          "Unique and high quality puppies"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "49.6px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/how_it_works_small_mobile_ref.png",
+        "local": "tests/visual/side_by_side/how_it_works_small_mobile_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "small_mobile",
+      "dimensions": "375x812",
+      "route": "/faq",
+      "pageName": "faq",
+      "referenceMetrics": {
+        "title": "Questions & answers | TeddyPups U.A.E.",
+        "scrollHeight": 3088,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 31,
+        "buttonCount": 11,
+        "h1": "Questions & answers",
+        "h2Count": 11,
+        "h2Samples": [
+          "Are your puppies vaccinated and health-checked?",
+          "Can I meet a puppy before I decide?",
+          "Can I take my puppy home the same day?",
+          "Do you import puppies from abroad?",
+          "How does an imported puppy travel to Dubai?"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "49.6px"
+      },
+      "localMetrics": {
+        "title": "Questions & answers | TeddyPups U.A.E.",
+        "scrollHeight": 3396,
+        "imageCount": 2,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 24,
+        "buttonCount": 10,
+        "h1": "Questions & answers",
+        "h2Count": 11,
+        "h2Samples": [
+          "Are your puppies vaccinated and health-checked?",
+          "Can I meet a puppy before I decide?",
+          "Can I take my puppy home the same day?",
+          "Do you import puppies from abroad?",
+          "How does an imported puppy travel to Dubai?"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "49.6px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/faq_small_mobile_ref.png",
+        "local": "tests/visual/side_by_side/faq_small_mobile_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "small_mobile",
+      "dimensions": "375x812",
+      "route": "/contact",
+      "pageName": "contact",
+      "referenceMetrics": {
+        "title": "Visit & contact | TeddyPups U.A.E.",
+        "scrollHeight": 3580,
+        "imageCount": 3,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 34,
+        "buttonCount": 3,
+        "h1": "Get in touch with us",
+        "h2Count": 3,
+        "h2Samples": [
+          "Visit us in Downtown Dubai",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "49.6px"
+      },
+      "localMetrics": {
+        "title": "Visit & contact | TeddyPups U.A.E.",
+        "scrollHeight": 3588,
+        "imageCount": 3,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 27,
+        "buttonCount": 2,
+        "h1": "Get in touch with us",
+        "h2Count": 3,
+        "h2Samples": [
+          "Visit us in Downtown Dubai",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "49.6px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/contact_small_mobile_ref.png",
+        "local": "tests/visual/side_by_side/contact_small_mobile_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    },
+    {
+      "viewport": "small_mobile",
+      "dimensions": "375x812",
+      "route": "/puppies/maltipoo-max-male",
+      "pageName": "puppy_detail_max",
+      "referenceMetrics": {
+        "title": "Max, Maltipoo puppy | TeddyPups U.A.E.",
+        "scrollHeight": 5227,
+        "imageCount": 7,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 35,
+        "buttonCount": 6,
+        "h1": "Max",
+        "h2Count": 5,
+        "h2Samples": [
+          "Every Teddy Pup comes",
+          "Coming home from abroad",
+          "Ask about Max",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "Figtree, \"Figtree Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "Fraunces, \"Fraunces Fallback\", ui-serif, Georgia, serif",
+        "h1Size": "41.6px"
+      },
+      "localMetrics": {
+        "title": "Max, Maltipoo puppy | TeddyPups U.A.E.",
+        "scrollHeight": 4985,
+        "imageCount": 7,
+        "brokenImageCount": 0,
+        "brokenImages": [],
+        "linkCount": 28,
+        "buttonCount": 5,
+        "h1": "Max",
+        "h2Count": 5,
+        "h2Samples": [
+          "Every Teddy Pup comes",
+          "Coming home from abroad",
+          "Ask about Max",
+          "Explore",
+          "Say hello"
+        ],
+        "bodyFont": "__Figtree_e2cc43, __Figtree_Fallback_e2cc43, ui-sans-serif, system-ui, sans-serif",
+        "bodyBg": "rgb(255, 253, 248)",
+        "bodyColor": "rgb(42, 23, 14)",
+        "h1Font": "__Fraunces_482ce5, __Fraunces_Fallback_482ce5, serif",
+        "h1Size": "41.6px"
+      },
+      "screenshots": {
+        "reference": "tests/visual/side_by_side/puppy_detail_max_small_mobile_ref.png",
+        "local": "tests/visual/side_by_side/puppy_detail_max_small_mobile_local.png"
+      },
+      "consoleErrorsRef": [],
+      "consoleErrorsLocal": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failedRequestsRef": [],
+      "failedRequestsLocal": [],
+      "matchScore": 100
+    }
+  ],
+  "errors": []
+}

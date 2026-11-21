@@ -146,6 +146,56 @@ body {
   background-repeat: repeat-x;
 }
 
+/* Continuous Puppy Mascot Runner Animation */
+.tp-runner {
+  animation: tp-runner-x 12s linear infinite;
+  will-change: transform;
+}
+.tp-runner :is(.tp-runner__leg, .tp-runner__tail, .tp-runner__ear) {
+  transform-box: view-box;
+}
+.tp-runner .tp-runner__leg--fn,
+.tp-runner .tp-runner__leg--bf {
+  animation: 0.32s ease-in-out infinite alternate tp-runner-leg-a;
+}
+.tp-runner .tp-runner__leg--ff,
+.tp-runner .tp-runner__leg--bn {
+  animation: 0.32s ease-in-out infinite alternate tp-runner-leg-b;
+}
+.tp-runner .tp-runner__body {
+  animation: 0.16s ease-in-out infinite alternate tp-runner-bob;
+}
+.tp-runner .tp-runner__tail {
+  animation: 0.22s ease-in-out infinite alternate tp-runner-wag;
+}
+.tp-runner .tp-runner__ear {
+  animation: 0.16s ease-in-out infinite alternate tp-runner-ear;
+}
+@keyframes tp-runner-x {
+  0% { transform: translateX(-160px); }
+  100% { transform: translateX(calc(100vw + 160px)); }
+}
+@keyframes tp-runner-leg-a {
+  0% { transform: rotate(24deg); }
+  100% { transform: rotate(-22deg); }
+}
+@keyframes tp-runner-leg-b {
+  0% { transform: rotate(-22deg); }
+  100% { transform: rotate(24deg); }
+}
+@keyframes tp-runner-bob {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-6px); }
+}
+@keyframes tp-runner-wag {
+  0% { transform: rotate(-16deg); }
+  100% { transform: rotate(14deg); }
+}
+@keyframes tp-runner-ear {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(8deg); }
+}
+
 /* Reduced motion accessibility */
 @media (prefers-reduced-motion: reduce) {
   *, ::before, ::after {
