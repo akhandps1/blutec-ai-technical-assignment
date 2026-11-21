@@ -42,5 +42,33 @@ export async function GET(
     });
   }
 
+  // Fallback: proxy from upstream sources and cache locally
+  const fallbackUrls = [
+    `https://puppy.instabizweb.com/media/${params.slug.join("/")}`,
+    `https://static.wixstatic.com/media/${filename.replace("-mv2.", "~mv2.")}`,
+    `https://static.wixstatic.com/media/${filename}`,
+  ];
+
+  for (const url of fallbackUrls) {
+    try {
+      const res = await fetch(url);
+      if (res.ok) {
+        const arrayBuffer = await res.arrayBuffer();
+        const buffer = Buffer.from(arrayBuffer);
+        // Cache to disk
+        try {
+          fs.writeFileSync(imagePath, buffer);
+        } catch {}
+        return new NextResponse(buffer, {
+          status: 200,
+          headers: {
+            "Content-Type": res.headers.get("content-type") || contentType,
+            "Cache-Control": "public, max-age=31536000, immutable",
+          },
+        });
+      }
+    } catch {}
+  }
+
   return new NextResponse("Not Found", { status: 404 });
 }

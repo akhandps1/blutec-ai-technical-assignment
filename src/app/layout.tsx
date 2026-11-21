@@ -7,6 +7,7 @@ import Footer from "@/components/layout/Footer";
 import MobileActionBar from "@/components/layout/MobileActionBar";
 import PupBuddyManager from "@/components/animations/PupBuddyManager";
 import SiteLoader from "@/components/layout/SiteLoader";
+import ScrollRevealManager from "@/components/layout/ScrollRevealManager";
 
 const figtree = Figtree({
   subsets: ["latin"],
@@ -55,6 +56,7 @@ export default function RootLayout({
         <Footer />
         <MobileActionBar />
         <PupBuddyManager />
+        <ScrollRevealManager />
       </body>
     </html>
   );
