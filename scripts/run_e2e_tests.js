@@ -133,13 +133,14 @@ async function runE2ESuite() {
     console.log("\n--- TEST GROUP 3: PuppyRunner & Meet Pups Horizontal Pinned Scroll ---");
     await page.goto(`${BASE_URL}/`, { waitUntil: "networkidle" });
 
-    // Check Mascot Runner Trot Animation
-    const runnerHasAnimation = await page.evaluate(() => {
+    // Verify Problem A: No unwanted puppy loop running across header/page
+    const runnerLoopRemoved = await page.evaluate(() => {
       const runner = document.querySelector(".tp-runner");
-      const style = runner ? window.getComputedStyle(runner).animationName : "none";
-      return style.includes("tp-runner-x");
+      if (!runner) return true;
+      const style = window.getComputedStyle(runner);
+      return style.display === "none" || !style.animationName.includes("tp-runner-x");
     });
-    record("PuppyRunner: Mascot Animation Keyframes Active", runnerHasAnimation);
+    record("PuppyRunner: Unwanted Navbar Loop Removed", runnerLoopRemoved);
     await page.screenshot({ path: path.join(screenshotBase, "puppyrunner", "puppyrunner-mascot-active.png") });
 
     // Scroll to Meet Pups Section

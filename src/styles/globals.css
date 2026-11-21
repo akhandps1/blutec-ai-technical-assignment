@@ -169,10 +169,19 @@ select {
   background-repeat: repeat-x;
 }
 
-/* Continuous Puppy Mascot Runner Animation */
+/* Accessible Skip Link */
+.sr-only-focusable:not(:focus) {
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Continuous Puppy Mascot Runner Animation (Disabled - unwanted loop) */
 .tp-runner {
-  animation: tp-runner-x 12s linear infinite;
-  will-change: transform;
+  display: none !important;
 }
 .tp-runner :is(.tp-runner__leg, .tp-runner__tail, .tp-runner__ear) {
   transform-box: view-box;

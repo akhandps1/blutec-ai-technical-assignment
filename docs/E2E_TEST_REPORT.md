@@ -1,7 +1,7 @@
 # Automated End-to-End (E2E) Test Suite Report
 
 **Target Local Environment:** `http://localhost:3030`  
-**Execution Timestamp:** 2026-11-21T10:06:41.857Z  
+**Execution Timestamp:** 2026-11-21T10:48:51.929Z  
 **Total Tests Executed:** 32  
 **Passed:** 32 | **Failed:** 0  
 **Success Rate:** **100.0%**
@@ -28,7 +28,7 @@
 | Happy Families: Lightbox Next Button Navigation | **PASS** | Counter: 2 / 64 |
 | Happy Families: Keyboard ArrowLeft Navigation | **PASS** | Counter: 1 / 64 |
 | Happy Families: Lightbox Closes Cleanly | **PASS** |  |
-| PuppyRunner: Mascot Animation Keyframes Active | **PASS** |  |
+| PuppyRunner: Unwanted Navbar Loop Removed | **PASS** |  |
 | Meet Pups: Initial Corridor Position at Start | **PASS** |  |
 | Meet Pups: Horizontal Translation at Mid-Scroll (y=2500) | **PASS** | Transform: translateX(-2106.88px) |
 | Meet Pups: Horizontal Translation at End-Scroll (y=4100) | **PASS** | Transform: translateX(-4213.76px) |

@@ -5,7 +5,6 @@ import { siteConfig } from "@/config/site";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import MobileActionBar from "@/components/layout/MobileActionBar";
-import PuppyRunner from "@/components/animations/PuppyRunner";
 import PupBuddyManager from "@/components/animations/PupBuddyManager";
 
 const figtree = Figtree({
@@ -53,7 +52,6 @@ export default function RootLayout({
         {children}
         <Footer />
         <MobileActionBar />
-        <PuppyRunner />
         <PupBuddyManager />
       </body>
     </html>
