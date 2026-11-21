@@ -1,80 +1,65 @@
-# Homepage Section Inventory & Structural Mapping
+# Homepage Section Inventory & Layout Verification
 
-## 1. Overview
-This document specifies the exact structural order, semantic DOM elements, design tokens, asset bindings, and interactive behaviors for every section of the Homepage (`/`).
+The TeddyPups homepage consists of 8 core content sections and a bespoke interactive footer. Every section contains a designated mascot waypoint ([data-pup-stop]) and scene container ([data-pup-scene]).
 
----
+## Section Details
 
-## 2. Master Section Order & Inventory
+### 1. Hero Section (.tp-hero)
+- **Headline:** "Premium teacup puppies in Dubai"
+- **Subheadline:** "Meet your new best friend in our Dubai showroom, or order a rare miniature breed from trusted breeders worldwide."
+- **CTAs:** "View available puppies" (primary brown pill) & "Enquire on WhatsApp" (secondary outline pill).
+- **Mascot Stop:** data-pup-stop="true" data-pose="peek" data-facing="right" data-act="peekaboo" data-behind="true" data-lane="true".
+- **Visual Features:** Scalloped quilt edge with arched puppy photo cutouts. Character peeks out from beneath the scalloped quilt.
 
-### Section 1: Hero Section (`.tp-hero`)
-- **Semantic Tag:** `<section data-pup-scene="true" data-tone="light" class="tp-scene tp-hero" aria-labelledby="hero-title">`
-- **Background Styling:** `linear-gradient(#fffdf8, #fff1d8)` with SVG sunrise arc (`.tp-hero__sun`).
-- **Core Content:**
-  - Kicker: `"every puppy is family"` with hand-drawn wavy underline (`font-scrawl`).
-  - H1: `"Premium teacup puppies in Dubai"` (`font-plush`).
-  - Lede: `"Meet your new best friend in our Dubai showroom, or order a rare miniature breed from trusted breeders worldwide."`
-  - CTAs: Primary button `"View available puppies"` (`/puppies`) and ghost button `"Enquire on WhatsApp"` with WhatsApp link.
-- **Lineup & Mascot:**
-  - `.tp-lineup`: 7 featured showroom puppies peeking over quilt edge with polaroid photo cards, tilt angles (`--tilt: -5deg`, `3deg`, `-2deg`), and individual puppy badges.
-  - Mascot (`.pup-buddy`): Peek pose (`pose: "peek"`), resting paws over quilt (`ledgePaws`), reactive gaze tracking pointer.
+### 2. Meet the Pups (.tp-meet)
+- **Headline:** "Meet the pups"
+- **Subheadline:** "Real puppies, real photos, looking for their families right now."
+- **CTA:** "See all available puppies" (top-right).
+- **Mascot Stop:** data-pup-stop="true" data-pose="walk" data-facing="right" data-act="treadmill" class="pup-stop tp-meet__teddy".
+- **Interaction:** Horizontal treadmill scroll corridor with wooden puppy kennel doors and availability badges. Character walks in synchrony with the corridor movement.
 
-### Section 2: Meet the Pups Corridor (`.tp-meet`)
-- **Semantic Tag:** `<section id="meet" class="tp-meet" data-pin-range="true">`
-- **Pinning & Stage:**
-  - Sticky stage height: `100vh`, pinned over `calc(3226px + 100vh)` scroll distance on viewports >= 768px.
-  - Horizontal translation track: `.tp-meet__track` translating from `translateX(0px)` to `translateX(-4213px)`.
-- **Corridor Elements:**
-  - Central Mascot Actor: Sitting attentively (`pose: "sit"`), watching doors pass by.
-  - Checkerboard Floor: Real-time tile translation (`--floor-x`) matching scroll speed.
-  - Interactive Doors (`.tp-door`): 12 distinct puppy room doors with brass nameplates, swing angles (`--door-open: -75deg`), and puppy reveal illustrations.
+### 3. Two Ways to Meet Your Puppy (.tp-paths)
+- **Headline:** "Two ways to meet your puppy"
+- **Signpost:** Dual wooden direction board: "Puppies in Dubai" & "Imported for you".
+- **Dubai Showroom:** Miniature city skyline with showroom photo card.
+- **Import Flight:** Animated airplane flying along dashed arc from Korea to Dubai.
+- **Mascot Stop:** data-pup-stop="true" data-pose="sit" data-facing="right" class="pup-stop tp-fork__teddy". Character sits at signpost base.
 
-### Section 3: Two Paths to Your Puppy (`.tp-paths`)
-- **Semantic Tag:** `<section id="paths" class="tp-scene tp-paths" data-tone="warm">`
-- **Header:** Kicker `"two ways to find each other"`, title `"From our showroom, or from afar"`.
-- **Cards Grid:**
-  - **Path A (Showroom):** Dubai showroom visit, booking appointment, meet in person.
-  - **Path B (Bespoke Import):** Direct flight from elite partner breeders in South Korea, health clearances, climate-controlled transport.
-- **Mascot Instance:** Standing pose (`pose: "stand"`), following cursor.
+### 4. Your Puppy Journey (.tp-chat)
+- **Headline:** "Your puppy journey"
+- **Subheadline:** "A premium, step-by-step concierge experience. We make adoption simple, secure, and purely joyful."
+- **3 Steps:** 1. Choose your breed, 2. Get photos & details, 3. Secure & safe delivery.
+- **Interactive Mockup:** 3D WhatsApp iPhone mockup showing live chat conversation with puppy photos and videos.
+- **Mascot Stop:** data-pup-stop="true" data-pose="sit" data-facing="right" class="pup-stop tp-chat__teddy". Character sits beside phone.
 
-### Section 4: Journey & Timeline Switcher (`.tp-journey` / `.tp-journeys`)
-- **Semantic Tag:** `<section class="tp-scene tp-journeys">`
-- **Interactive Switcher:**
-  - Segmented toggle (`.tp-switch`) with sliding thumb indicator (`.tp-switch__thumb`).
-  - Tab 1: `"Dubai Showroom"` (Same-day adoption).
-  - Tab 2: `"Imported from Korea"` (Door-to-door flight journey).
-- **Postcard & Flight Map:**
-  - SVG airplane bob animation (`tp-plane-bob`).
-  - Dotted flight trajectory route connecting Seoul (ICN) to Dubai (DXB).
-- **Step Cards:** 4 staggered milestone cards entering with `--i` animation delays.
+### 5. Why Families Trust TeddyPups (.tp-passport)
+- **Headline:** "Why families trust TeddyPups"
+- **Subheadline:** "Every puppy comes with international vet health passport, microchip certification, and genetic health guarantee."
+- **Mockup:** Dual-page leatherbound passport book with custom official rubber stamps and signatures.
+- **Mascot Stop:** data-pup-stop="true" data-pose="sit" data-facing="right" class="pup-stop tp-book__teddy". Character sits on the center seam of the passport.
 
-### Section 5: The TeddyPups Passport & Guarantee (`.tp-passport`)
-- **Semantic Tag:** `<section id="passport" class="tp-scene tp-passport">`
-- **Interactive Flip / Stamp Card:**
-  - Gold-embossed leather passport cover with metallic crest.
-  - Guarantee list: 10-year genetic health guarantee, microchip registration, vaccination record, UAE municipality registration.
-- **Mascot Instance:** Sitting attentively (`pose: "sit"`).
+### 6. Happy Families Wall (.tp-dusk)
+- **Headline:** "Happy families across the Emirates"
+- **Subheadline:** "Over 60+ real families in Dubai, Abu Dhabi, and worldwide welcoming their dream companions."
+- **Photo Board:** Warm dusk corkboard with pinned Polaroid photographs and owner quotes.
+- **Mascot Stop:** data-pup-stop="true" data-pose="sit" data-facing="right" class="pup-stop tp-dusk__teddy".
 
-### Section 6: Dusk Scene — Happy Families Preview (`.tp-dusk`)
-- **Semantic Tag:** `<section id="dusk" class="tp-scene tp-dusk" data-tone="dusk">`
-- **Color Shift:** Smooth gradient transition from honey cream into warm twilight amber (`#f7c66b` to `#c2622b`).
-- **Content:**
-  - Polaroid photo masonry preview of adopted puppies across UAE.
-  - Link to full gallery: `"Explore 64+ Happy Families"`.
-- **Mascot Instance:** Sitting cozy (`pose: "sit"`).
+### 7. Frequently Asked Questions (.tp-night)
+- **Headline:** "Questions before bringing puppy home?"
+- **Interaction:** Accordion toggles with animated chevron indicators.
+- **Visual Theme:** Night sky with hanging lantern, wonder mark ("?"), and warm glow.
+- **Mascot Stop:** data-pup-stop="true" data-pose="sit" data-facing="right" data-act="tilt" class="pup-stop tp-night__teddy". Character cocks head inquisitively.
 
-### Section 7: Night Scene — Ambient Starfield (`.tp-night`)
-- **Semantic Tag:** `<section id="night" class="tp-scene tp-night" data-tone="night">`
-- **Atmosphere:** Deep espresso cocoa background with 30 twinkling SVG stars (`tp-twinkle`).
-- **Mascot Instance:** Sleeping / snuggling pose (`pose: "sleep"`).
+### 8. Ready to Meet Your Best Friend? (.tp-home)
+- **Headline:** "Ready to meet your new best friend?"
+- **Subheadline:** "Bring home a healthy, happy teacup or designer puppy with expert guidance every step of the way."
+- **Cottage Porch:** Wooden doghouse cottage with welcome mat and hinged door.
+- **Animation:** When visited, door opens with 3D transform rotateY(-102deg).
+- **Mascot Stop:** data-pup-stop="true" data-pose="bow" data-facing="right" class="pup-stop tp-house__teddy". Character bows in greeting.
 
-### Section 8: Home Section & Final CTA (`.tp-home`)
-- **Semantic Tag:** `<section id="home" class="tp-scene tp-home">`
-- **Final Banner:**
-  - Call to action: `"Ready to welcome your new family member?"`
-  - Showroom address, opening hours, and direct WhatsApp / call buttons.
-- **Mascot Instance:** Sitting happily (`pose: "sit"`).
-
-### Section 9: Global Persistent Mascot Runner (`PuppyRunner`)
-- **Semantic Tag:** `<div class="pup-layer pointer-events-none fixed inset-x-0 bottom-4 z-30">`
-- **Trot Animation:** Continuous cycle across viewport (`tp-runner-x`, `tp-runner-leg-a`, `tp-runner-leg-b`, `tp-runner-wag`, `tp-runner-bob`).
+### 9. Interactive Footer (footer.tp-footer)
+- **Headline:** "Home, at last."
+- **Company Info:** TeddyPups U.A.E., Dubai, WhatsApp +971 50 000 0000, Downtown Dubai.
+- **Wicker Basket Destination:** Multi-layer SVG wicker weave basket with soft cushion and rim lines.
+- **Mascot Stop:** data-pup-stop="true" data-pose="snug" data-facing="right" data-act="basket" data-behind="true" data-lane="true" class="tp-basket__pup".
+- **Final State:** Character docks snugly inside the wicker basket, peering out comfortably.

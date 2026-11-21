@@ -7,6 +7,7 @@ import PassportSection from "@/components/sections/PassportSection";
 import DuskSection from "@/components/sections/DuskSection";
 import NightSection from "@/components/sections/NightSection";
 import HomeSection from "@/components/sections/HomeSection";
+import PupJourney from "@/components/animations/PupJourney";
 
 export const metadata: Metadata = {
   title: "TeddyPups U.A.E. — Premium teacup puppies in Dubai",
@@ -27,8 +28,7 @@ export default function HomePage() {
         <NightSection />
         <HomeSection />
       </div>
-      <div className="pup-probe" />
-      <div className="pup-prints" />
+      <PupJourney />
     </main>
   );
 }
