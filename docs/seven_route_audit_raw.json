@@ -1,0 +1,3632 @@
+{
+  "timestamp": "2026-11-21T09:57:48.124Z",
+  "routes": {
+    "homepage": {
+      "name": "Homepage",
+      "route": "/",
+      "reference": {
+        "sections": [
+          {
+            "index": 1,
+            "tagName": "header",
+            "id": "site-header",
+            "className": "tp-header fixed inset-x-0 top-0 z-50",
+            "heading": "",
+            "top": 0,
+            "height": 76,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "WhatsApp us",
+              "Menu",
+              "Close",
+              "WhatsApp us"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 2,
+            "tagName": "section",
+            "id": "section-2",
+            "className": "tp-scene tp-hero",
+            "heading": "Premium teacup\npuppies in Dubai",
+            "top": 76,
+            "height": 824,
+            "width": 1440,
+            "imagesCount": 7,
+            "buttons": [
+              "View available puppies",
+              "Enquire on WhatsApp"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 3,
+            "tagName": "section",
+            "id": "section-3",
+            "className": "tp-scene tp-meet",
+            "heading": "Meet the pups",
+            "top": 900,
+            "height": 4126,
+            "width": 1440,
+            "imagesCount": 15,
+            "buttons": [
+              "See all available puppies"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 4,
+            "tagName": "header",
+            "id": "section-4",
+            "className": "tp-meet__head gutter",
+            "heading": "Meet the pups",
+            "top": 1003,
+            "height": 127,
+            "width": 1440,
+            "imagesCount": 0,
+            "buttons": [
+              "See all available puppies"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 5,
+            "tagName": "section",
+            "id": "section-5",
+            "className": "tp-scene tp-paths",
+            "heading": "Two ways to meet your puppy",
+            "top": 5026,
+            "height": 1107,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "Meet local puppies",
+              "See imported puppies"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 6,
+            "tagName": "section",
+            "id": "section-6",
+            "className": "tp-scene tp-chat",
+            "heading": "Your puppy journey",
+            "top": 6133,
+            "height": 1697,
+            "width": 1440,
+            "imagesCount": 5,
+            "buttons": [
+              "How it works"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 7,
+            "tagName": "section",
+            "id": "section-7",
+            "className": "tp-scene tp-passport",
+            "heading": "Why families trust TeddyPups",
+            "top": 7830,
+            "height": 922,
+            "width": 1440,
+            "imagesCount": 0,
+            "buttons": [],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 8,
+            "tagName": "section",
+            "id": "section-8",
+            "className": "tp-scene tp-dusk",
+            "heading": "Happy families & puppies",
+            "top": 8753,
+            "height": 1584,
+            "width": 1440,
+            "imagesCount": 8,
+            "buttons": [
+              "Lulu 🧸 with her new mummy ❤️",
+              "Adorable Maltipoo baby 🧸❤️",
+              "My new teddy puppy 🥰🧸",
+              "Our new puppies 🧸🥰🤗",
+              "New puppy 🧸😍"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 9,
+            "tagName": "section",
+            "id": "section-9",
+            "className": "tp-scene tp-night",
+            "heading": "Questions, answered",
+            "top": 10336,
+            "height": 636,
+            "width": 1440,
+            "imagesCount": 0,
+            "buttons": [
+              "Read all questions"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 10,
+            "tagName": "section",
+            "id": "section-10",
+            "className": "tp-scene tp-home",
+            "heading": "Ready to meet your new best friend?",
+            "top": 10972,
+            "height": 1021,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "Enquire on WhatsApp",
+              "Visit & contact"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 11,
+            "tagName": "footer",
+            "id": "section-11",
+            "className": "tp-footer relative pb-[calc(var(--bar-h)+2rem)] text-milk md:pb-10",
+            "heading": "Explore",
+            "top": 11993,
+            "height": 701,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [],
+            "backgroundColor": "rgb(36, 19, 11)"
+          }
+        ],
+        "assets": {
+          "imagesCount": 39,
+          "brokenImages": [],
+          "videosCount": 1,
+          "linksCount": 68,
+          "sampleImages": [
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fbrand%2Flogo.png&w=128&q=75",
+              "alt": "",
+              "naturalWidth": 64,
+              "naturalHeight": 64,
+              "displayWidth": 48,
+              "displayHeight": 48,
+              "isBroken": false,
+              "loading": "auto"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2F3yOfnmoyPooH%2F81e0c7e00c%2Fb942a5_556841b9a73942e5a9d782a683f3bc68-mv2.jpg&w=3840&q=75",
+              "alt": "Female Pomeranian puppy",
+              "naturalWidth": 176,
+              "naturalHeight": 313,
+              "displayWidth": 132,
+              "displayHeight": 191,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FgAaGwoGej2g6%2F5523e884dd%2Fb942a5_50f0ae67c9ff437d911597d52a9e63b3-mv2.jpg&w=3840&q=75",
+              "alt": "Female Korean Teacup Maltipoo puppy",
+              "naturalWidth": 176,
+              "naturalHeight": 234,
+              "displayWidth": 160,
+              "displayHeight": 227,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FwNm2_VIBEQvK%2F4b68f59e75%2Fb942a5_7dd33c9b78c04f78a6a1c7386fb55620-mv2.jpg&w=3840&q=75",
+              "alt": "Female Maltipoo puppy",
+              "naturalWidth": 176,
+              "naturalHeight": 234,
+              "displayWidth": 141,
+              "displayHeight": 203,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FYQhey4j7uWvZ%2F3ea10db6c1%2Fb942a5_7ce7e7bd18424b6c8fb16dd30113ade2-mv2.jpg&w=3840&q=75",
+              "alt": "Male Maltipoo & Cavapoo puppy",
+              "naturalWidth": 176,
+              "naturalHeight": 234,
+              "displayWidth": 144,
+              "displayHeight": 207,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2Fvzf7P8SPCZ-Q%2Fa8db4ee114%2Fb942a5_967bb346583b4146acb56607f5da5f21-mv2.jpg&w=3840&q=75",
+              "alt": "Female Korean Teacup Pomeranian puppy",
+              "naturalWidth": 176,
+              "naturalHeight": 223,
+              "displayWidth": 164,
+              "displayHeight": 231,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2F3WJNmn6VVgVu%2F732f779474%2Fb942a5_2b5dcece361b4589890ae920c66a1b70-mv2.jpg&w=3840&q=75",
+              "alt": "Female Maltipoo puppy",
+              "naturalWidth": 176,
+              "naturalHeight": 234,
+              "displayWidth": 128,
+              "displayHeight": 187,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2Fcrgs9ih6as_M%2Fe37bafb1bf%2Fb942a5_344e49c6c34940d2b09a3ddd5c2e3234-mv2.jpg&w=3840&q=75",
+              "alt": "",
+              "naturalWidth": 176,
+              "naturalHeight": 234,
+              "displayWidth": 1,
+              "displayHeight": 220,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FZ0ToauDx7Eve%2F5fffe4d022%2Fb942a5_4b8cfb8204d24eadaf524332aba1dc15-mv2.webp&w=3840&q=75",
+              "alt": "Max, male Maltipoo puppy",
+              "naturalWidth": 240,
+              "naturalHeight": 276,
+              "displayWidth": 210,
+              "displayHeight": 278,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FgAaGwoGej2g6%2F5523e884dd%2Fb942a5_50f0ae67c9ff437d911597d52a9e63b3-mv2.jpg&w=3840&q=75",
+              "alt": "Female Korean Teacup Maltipoo puppy",
+              "naturalWidth": 240,
+              "naturalHeight": 320,
+              "displayWidth": 210,
+              "displayHeight": 278,
+              "isBroken": false,
+              "loading": "lazy"
+            }
+          ]
+        }
+      },
+      "local": {
+        "sections": [
+          {
+            "index": 1,
+            "tagName": "header",
+            "id": "site-header",
+            "className": "tp-header fixed inset-x-0 top-0 z-50 transition-all duration-300",
+            "heading": "",
+            "top": 0,
+            "height": 76,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "WhatsApp us",
+              "Menu"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 2,
+            "tagName": "section",
+            "id": "section-2",
+            "className": "tp-scene tp-hero",
+            "heading": "Premium teacup\npuppies in Dubai",
+            "top": 76,
+            "height": 824,
+            "width": 1440,
+            "imagesCount": 7,
+            "buttons": [
+              "View available puppies",
+              "Enquire on WhatsApp"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 3,
+            "tagName": "section",
+            "id": "section-3",
+            "className": "tp-scene tp-meet",
+            "heading": "Meet the pups",
+            "top": 900,
+            "height": 4126,
+            "width": 1440,
+            "imagesCount": 15,
+            "buttons": [
+              "See all available puppies"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 4,
+            "tagName": "header",
+            "id": "section-4",
+            "className": "tp-meet__head gutter",
+            "heading": "Meet the pups",
+            "top": 1003,
+            "height": 142,
+            "width": 1440,
+            "imagesCount": 0,
+            "buttons": [
+              "See all available puppies"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 5,
+            "tagName": "section",
+            "id": "section-5",
+            "className": "tp-scene tp-paths",
+            "heading": "Two ways to meet your puppy",
+            "top": 5026,
+            "height": 1099,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "Meet local puppies",
+              "See imported puppies"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 6,
+            "tagName": "section",
+            "id": "section-6",
+            "className": "tp-scene tp-chat",
+            "heading": "Your puppy journey",
+            "top": 6125,
+            "height": 1667,
+            "width": 1440,
+            "imagesCount": 5,
+            "buttons": [
+              "How it works"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 7,
+            "tagName": "section",
+            "id": "section-7",
+            "className": "tp-scene tp-passport",
+            "heading": "Why families trust TeddyPups",
+            "top": 7792,
+            "height": 922,
+            "width": 1440,
+            "imagesCount": 0,
+            "buttons": [],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 8,
+            "tagName": "section",
+            "id": "section-8",
+            "className": "tp-scene tp-dusk",
+            "heading": "Happy families & puppies",
+            "top": 8714,
+            "height": 1687,
+            "width": 1440,
+            "imagesCount": 8,
+            "buttons": [
+              "Lulu 🧸 with her new mummy ❤️",
+              "Adorable Maltipoo baby 🧸❤️",
+              "My new teddy puppy 🥰🧸",
+              "Our new puppies 🧸🥰🤗",
+              "New puppy 🧸😍"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 9,
+            "tagName": "section",
+            "id": "section-9",
+            "className": "tp-scene tp-night",
+            "heading": "Questions, answered",
+            "top": 10401,
+            "height": 569,
+            "width": 1440,
+            "imagesCount": 0,
+            "buttons": [
+              "Read all questions"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 10,
+            "tagName": "section",
+            "id": "section-10",
+            "className": "tp-scene tp-home",
+            "heading": "Ready to meet your new best friend?",
+            "top": 10969,
+            "height": 1026,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "Enquire on WhatsApp",
+              "Visit & contact"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 11,
+            "tagName": "footer",
+            "id": "section-11",
+            "className": "tp-footer relative pb-[calc(var(--bar-h)+2rem)] text-milk md:pb-10 bg-cocoa-dark overflow-hidden",
+            "heading": "Explore",
+            "top": 11996,
+            "height": 668,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [],
+            "backgroundColor": "rgb(36, 19, 11)"
+          }
+        ],
+        "assets": {
+          "imagesCount": 39,
+          "brokenImages": [],
+          "videosCount": 1,
+          "linksCount": 61,
+          "sampleImages": [
+            {
+              "src": "http://localhost:3030/brand/logo.png",
+              "alt": "TeddyPups Logo",
+              "naturalWidth": 800,
+              "naturalHeight": 800,
+              "displayWidth": 48,
+              "displayHeight": 48,
+              "isBroken": false,
+              "loading": "auto"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_4b8cfb8204d24eadaf524332aba1dc15-mv2.webp",
+              "alt": "Max, male Maltipoo puppy",
+              "naturalWidth": 607,
+              "naturalHeight": 700,
+              "displayWidth": 43,
+              "displayHeight": 77,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_50f0ae67c9ff437d911597d52a9e63b3-mv2.jpg",
+              "alt": "Female Korean Teacup Maltipoo puppy",
+              "naturalWidth": 1200,
+              "naturalHeight": 1600,
+              "displayWidth": 43,
+              "displayHeight": 77,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_556841b9a73942e5a9d782a683f3bc68-mv2.jpg",
+              "alt": "Female Pomeranian puppy",
+              "naturalWidth": 720,
+              "naturalHeight": 1280,
+              "displayWidth": 43,
+              "displayHeight": 77,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_7ce7e7bd18424b6c8fb16dd30113ade2-mv2.jpg",
+              "alt": "Male Maltipoo & Cavapoo puppy",
+              "naturalWidth": 960,
+              "naturalHeight": 1280,
+              "displayWidth": 43,
+              "displayHeight": 77,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_0b2c0c0d178c4005acbe28725a5ea573-mv2.jpg",
+              "alt": "Toy Poodle puppy",
+              "naturalWidth": 960,
+              "naturalHeight": 1280,
+              "displayWidth": 43,
+              "displayHeight": 77,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_2b5dcece361b4589890ae920c66a1b70-mv2.jpg",
+              "alt": "Female Maltipoo puppy",
+              "naturalWidth": 960,
+              "naturalHeight": 1280,
+              "displayWidth": 43,
+              "displayHeight": 77,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_a8d264c1aa754d80bc7c98917dfd1fda-mv2.jpg",
+              "alt": "",
+              "naturalWidth": 960,
+              "naturalHeight": 1280,
+              "displayWidth": 1,
+              "displayHeight": 220,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_4b8cfb8204d24eadaf524332aba1dc15-mv2.webp",
+              "alt": "Max, male Maltipoo puppy",
+              "naturalWidth": 607,
+              "naturalHeight": 700,
+              "displayWidth": 210,
+              "displayHeight": 278,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_50f0ae67c9ff437d911597d52a9e63b3-mv2.jpg",
+              "alt": "Female Korean Teacup Maltipoo puppy",
+              "naturalWidth": 1200,
+              "naturalHeight": 1600,
+              "displayWidth": 210,
+              "displayHeight": 278,
+              "isBroken": false,
+              "loading": "lazy"
+            }
+          ]
+        }
+      },
+      "comparison": {},
+      "responsive": {
+        "large-desktop": {
+          "viewport": "1920x1080",
+          "innerWidth": 1920,
+          "scrollWidth": 1920,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "desktop": {
+          "viewport": "1440x900",
+          "innerWidth": 1440,
+          "scrollWidth": 1440,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "laptop": {
+          "viewport": "1366x768",
+          "innerWidth": 1366,
+          "scrollWidth": 1366,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "small-laptop": {
+          "viewport": "1280x800",
+          "innerWidth": 1280,
+          "scrollWidth": 1280,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "tablet-landscape": {
+          "viewport": "1024x768",
+          "innerWidth": 1024,
+          "scrollWidth": 1024,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "tablet-portrait": {
+          "viewport": "768x1024",
+          "innerWidth": 768,
+          "scrollWidth": 768,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "mobile-large": {
+          "viewport": "430x932",
+          "innerWidth": 430,
+          "scrollWidth": 430,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-standard": {
+          "viewport": "390x844",
+          "innerWidth": 390,
+          "scrollWidth": 390,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-small": {
+          "viewport": "375x812",
+          "innerWidth": 375,
+          "scrollWidth": 375,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-compact": {
+          "viewport": "360x800",
+          "innerWidth": 360,
+          "scrollWidth": 360,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        }
+      },
+      "scroll": {
+        "downward": [
+          {
+            "step": 0,
+            "y": 0,
+            "refScrollY": 0,
+            "localScrollY": 0
+          },
+          {
+            "step": 1,
+            "y": 1586,
+            "refScrollY": 1586,
+            "localScrollY": 1586
+          },
+          {
+            "step": 2,
+            "y": 3172,
+            "refScrollY": 3172,
+            "localScrollY": 3172
+          },
+          {
+            "step": 3,
+            "y": 4758,
+            "refScrollY": 4758,
+            "localScrollY": 4758
+          },
+          {
+            "step": 4,
+            "y": 6344,
+            "refScrollY": 6344,
+            "localScrollY": 6344
+          },
+          {
+            "step": 5,
+            "y": 7930,
+            "refScrollY": 7930,
+            "localScrollY": 7930
+          },
+          {
+            "step": 6,
+            "y": 9516,
+            "refScrollY": 9516,
+            "localScrollY": 9516
+          },
+          {
+            "step": 7,
+            "y": 11102,
+            "refScrollY": 11102,
+            "localScrollY": 11102
+          },
+          {
+            "step": 8,
+            "y": 12688,
+            "refScrollY": 11795,
+            "localScrollY": 11764
+          },
+          {
+            "step": 9,
+            "y": 12695,
+            "refScrollY": 11795,
+            "localScrollY": 11764
+          }
+        ],
+        "reverse": [
+          {
+            "step": 0,
+            "y": 12695,
+            "refScrollY": 11795,
+            "localScrollY": 11764
+          },
+          {
+            "step": 1,
+            "y": 12688,
+            "refScrollY": 11795,
+            "localScrollY": 11764
+          },
+          {
+            "step": 2,
+            "y": 11102,
+            "refScrollY": 11102,
+            "localScrollY": 11102
+          },
+          {
+            "step": 3,
+            "y": 9516,
+            "refScrollY": 9516,
+            "localScrollY": 9516
+          },
+          {
+            "step": 4,
+            "y": 7930,
+            "refScrollY": 7930,
+            "localScrollY": 7930
+          },
+          {
+            "step": 5,
+            "y": 6344,
+            "refScrollY": 6344,
+            "localScrollY": 6344
+          },
+          {
+            "step": 6,
+            "y": 4758,
+            "refScrollY": 4758,
+            "localScrollY": 4758
+          },
+          {
+            "step": 7,
+            "y": 3172,
+            "refScrollY": 3172,
+            "localScrollY": 3172
+          },
+          {
+            "step": 8,
+            "y": 1586,
+            "refScrollY": 1586,
+            "localScrollY": 1586
+          },
+          {
+            "step": 9,
+            "y": 0,
+            "refScrollY": 0,
+            "localScrollY": 0
+          }
+        ]
+      }
+    },
+    "puppy-detail": {
+      "name": "Puppy Detail (Max)",
+      "route": "/puppies/maltipoo-max-male",
+      "reference": {
+        "sections": [
+          {
+            "index": 1,
+            "tagName": "header",
+            "id": "site-header",
+            "className": "tp-header fixed inset-x-0 top-0 z-50",
+            "heading": "",
+            "top": 0,
+            "height": 76,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "WhatsApp us",
+              "Menu",
+              "Close",
+              "WhatsApp us"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 2,
+            "tagName": "section",
+            "id": "section-2",
+            "className": "mt-20",
+            "heading": "Coming home from abroad",
+            "top": 1323,
+            "height": 333,
+            "width": 1328,
+            "imagesCount": 0,
+            "buttons": [],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 3,
+            "tagName": "section",
+            "id": "enquire-maltipoo-max-male",
+            "className": "tp-letter mt-20 grid gap-10 lg:grid-cols-12",
+            "heading": "Ask about Max",
+            "top": 1735,
+            "height": 573,
+            "width": 1328,
+            "imagesCount": 0,
+            "buttons": [
+              "Send enquiry"
+            ],
+            "backgroundColor": "rgb(255, 253, 248)"
+          },
+          {
+            "index": 4,
+            "tagName": "footer",
+            "id": "section-4",
+            "className": "tp-footer relative pb-[calc(var(--bar-h)+2rem)] text-milk md:pb-10",
+            "heading": "Explore",
+            "top": 2586,
+            "height": 701,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [],
+            "backgroundColor": "rgb(36, 19, 11)"
+          }
+        ],
+        "assets": {
+          "imagesCount": 7,
+          "brokenImages": [],
+          "videosCount": 0,
+          "linksCount": 35,
+          "sampleImages": [
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fbrand%2Flogo.png&w=128&q=75",
+              "alt": "",
+              "naturalWidth": 64,
+              "naturalHeight": 64,
+              "displayWidth": 48,
+              "displayHeight": 48,
+              "isBroken": false,
+              "loading": "auto"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FZ0ToauDx7Eve%2F5fffe4d022%2Fb942a5_4b8cfb8204d24eadaf524332aba1dc15-mv2.webp&w=3840&q=85",
+              "alt": "Max, male Maltipoo puppy",
+              "naturalWidth": 580,
+              "naturalHeight": 669,
+              "displayWidth": 745,
+              "displayHeight": 896,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FZ0ToauDx7Eve%2F5fffe4d022%2Fb942a5_4b8cfb8204d24eadaf524332aba1dc15-mv2.webp&w=3840&q=75",
+              "alt": "",
+              "naturalWidth": 96,
+              "naturalHeight": 111,
+              "displayWidth": 90,
+              "displayHeight": 106,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FRH7J577OfQ7f%2Fe776d07dbd%2Fb942a5_a1fa75c7bf2f4d688ec0ce0344baef67f000.jpg&w=3840&q=75",
+              "alt": "",
+              "naturalWidth": 96,
+              "naturalHeight": 171,
+              "displayWidth": 90,
+              "displayHeight": 106,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FnZTGFv46hrZI%2Ffb9eeefc9c%2Fb942a5_dcb8eb174915463ea0c40c58b7b0e406-mv2.jpg&w=3840&q=75",
+              "alt": "Male Korean Teacup Pomeranian puppy",
+              "naturalWidth": 80,
+              "naturalHeight": 106,
+              "displayWidth": 74,
+              "displayHeight": 90,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FgAaGwoGej2g6%2F5523e884dd%2Fb942a5_50f0ae67c9ff437d911597d52a9e63b3-mv2.jpg&w=3840&q=75",
+              "alt": "Female Korean Teacup Maltipoo puppy",
+              "naturalWidth": 80,
+              "naturalHeight": 106,
+              "displayWidth": 74,
+              "displayHeight": 90,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fbrand%2Flogo.png&w=96&q=75",
+              "alt": "",
+              "naturalWidth": 48,
+              "naturalHeight": 48,
+              "displayWidth": 36,
+              "displayHeight": 36,
+              "isBroken": false,
+              "loading": "lazy"
+            }
+          ]
+        }
+      },
+      "local": {
+        "sections": [
+          {
+            "index": 1,
+            "tagName": "header",
+            "id": "site-header",
+            "className": "tp-header fixed inset-x-0 top-0 z-50 transition-all duration-300",
+            "heading": "",
+            "top": 0,
+            "height": 76,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "WhatsApp us",
+              "Menu"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 2,
+            "tagName": "section",
+            "id": "section-2",
+            "className": "mt-20",
+            "heading": "Coming home from abroad",
+            "top": 1321,
+            "height": 282,
+            "width": 1328,
+            "imagesCount": 0,
+            "buttons": [],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 3,
+            "tagName": "section",
+            "id": "enquire-maltipoo-max-male",
+            "className": "tp-letter mt-20 grid gap-10 lg:grid-cols-12",
+            "heading": "Ask about Max",
+            "top": 1683,
+            "height": 539,
+            "width": 1328,
+            "imagesCount": 0,
+            "buttons": [
+              "Send enquiry"
+            ],
+            "backgroundColor": "rgb(255, 253, 248)"
+          },
+          {
+            "index": 4,
+            "tagName": "footer",
+            "id": "section-4",
+            "className": "tp-footer relative pb-[calc(var(--bar-h)+2rem)] text-milk md:pb-10 bg-cocoa-dark overflow-hidden",
+            "heading": "Explore",
+            "top": 2501,
+            "height": 668,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [],
+            "backgroundColor": "rgb(36, 19, 11)"
+          }
+        ],
+        "assets": {
+          "imagesCount": 7,
+          "brokenImages": [],
+          "videosCount": 0,
+          "linksCount": 28,
+          "sampleImages": [
+            {
+              "src": "http://localhost:3030/brand/logo.png",
+              "alt": "TeddyPups Logo",
+              "naturalWidth": 800,
+              "naturalHeight": 800,
+              "displayWidth": 48,
+              "displayHeight": 48,
+              "isBroken": false,
+              "loading": "auto"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_4b8cfb8204d24eadaf524332aba1dc15-mv2.webp",
+              "alt": "Max, male Maltipoo puppy",
+              "naturalWidth": 607,
+              "naturalHeight": 700,
+              "displayWidth": 322,
+              "displayHeight": 404,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_4b8cfb8204d24eadaf524332aba1dc15-mv2.webp",
+              "alt": "",
+              "naturalWidth": 607,
+              "naturalHeight": 700,
+              "displayWidth": 74,
+              "displayHeight": 90,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_a1fa75c7bf2f4d688ec0ce0344baef67f000.jpg",
+              "alt": "",
+              "naturalWidth": 576,
+              "naturalHeight": 1024,
+              "displayWidth": 74,
+              "displayHeight": 90,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_dcb8eb174915463ea0c40c58b7b0e406-mv2.jpg",
+              "alt": "Male Korean Teacup Pomeranian puppy",
+              "naturalWidth": 1200,
+              "naturalHeight": 1600,
+              "displayWidth": 74,
+              "displayHeight": 90,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_50f0ae67c9ff437d911597d52a9e63b3-mv2.jpg",
+              "alt": "Female Korean Teacup Maltipoo puppy",
+              "naturalWidth": 1200,
+              "naturalHeight": 1600,
+              "displayWidth": 74,
+              "displayHeight": 90,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "http://localhost:3030/brand/logo.png",
+              "alt": "TeddyPups Small Logo",
+              "naturalWidth": 800,
+              "naturalHeight": 800,
+              "displayWidth": 36,
+              "displayHeight": 36,
+              "isBroken": false,
+              "loading": "auto"
+            }
+          ]
+        }
+      },
+      "comparison": {},
+      "responsive": {
+        "large-desktop": {
+          "viewport": "1920x1080",
+          "innerWidth": 1920,
+          "scrollWidth": 1920,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "desktop": {
+          "viewport": "1440x900",
+          "innerWidth": 1440,
+          "scrollWidth": 1440,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "laptop": {
+          "viewport": "1366x768",
+          "innerWidth": 1366,
+          "scrollWidth": 1366,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "small-laptop": {
+          "viewport": "1280x800",
+          "innerWidth": 1280,
+          "scrollWidth": 1280,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "tablet-landscape": {
+          "viewport": "1024x768",
+          "innerWidth": 1024,
+          "scrollWidth": 1024,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "tablet-portrait": {
+          "viewport": "768x1024",
+          "innerWidth": 768,
+          "scrollWidth": 768,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "mobile-large": {
+          "viewport": "430x932",
+          "innerWidth": 430,
+          "scrollWidth": 430,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-standard": {
+          "viewport": "390x844",
+          "innerWidth": 390,
+          "scrollWidth": 390,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-small": {
+          "viewport": "375x812",
+          "innerWidth": 375,
+          "scrollWidth": 375,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-compact": {
+          "viewport": "360x800",
+          "innerWidth": 360,
+          "scrollWidth": 360,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        }
+      },
+      "scroll": {
+        "downward": [
+          {
+            "step": 0,
+            "y": 0,
+            "refScrollY": 0,
+            "localScrollY": 0
+          },
+          {
+            "step": 1,
+            "y": 500,
+            "refScrollY": 500,
+            "localScrollY": 500
+          },
+          {
+            "step": 2,
+            "y": 1000,
+            "refScrollY": 1000,
+            "localScrollY": 1000
+          },
+          {
+            "step": 3,
+            "y": 1500,
+            "refScrollY": 1500,
+            "localScrollY": 1500
+          },
+          {
+            "step": 4,
+            "y": 2000,
+            "refScrollY": 2000,
+            "localScrollY": 2000
+          },
+          {
+            "step": 5,
+            "y": 2500,
+            "refScrollY": 2388,
+            "localScrollY": 2269
+          },
+          {
+            "step": 6,
+            "y": 3000,
+            "refScrollY": 2388,
+            "localScrollY": 2269
+          },
+          {
+            "step": 7,
+            "y": 3288,
+            "refScrollY": 2388,
+            "localScrollY": 2269
+          }
+        ],
+        "reverse": [
+          {
+            "step": 0,
+            "y": 3288,
+            "refScrollY": 2388,
+            "localScrollY": 2269
+          },
+          {
+            "step": 1,
+            "y": 3000,
+            "refScrollY": 2388,
+            "localScrollY": 2269
+          },
+          {
+            "step": 2,
+            "y": 2500,
+            "refScrollY": 2388,
+            "localScrollY": 2269
+          },
+          {
+            "step": 3,
+            "y": 2000,
+            "refScrollY": 2000,
+            "localScrollY": 2000
+          },
+          {
+            "step": 4,
+            "y": 1500,
+            "refScrollY": 1500,
+            "localScrollY": 1500
+          },
+          {
+            "step": 5,
+            "y": 1000,
+            "refScrollY": 1000,
+            "localScrollY": 1000
+          },
+          {
+            "step": 6,
+            "y": 500,
+            "refScrollY": 500,
+            "localScrollY": 500
+          },
+          {
+            "step": 7,
+            "y": 0,
+            "refScrollY": 0,
+            "localScrollY": 0
+          }
+        ]
+      }
+    },
+    "puppies": {
+      "name": "Puppies Listing",
+      "route": "/puppies",
+      "reference": {
+        "sections": [
+          {
+            "index": 1,
+            "tagName": "header",
+            "id": "site-header",
+            "className": "tp-header fixed inset-x-0 top-0 z-50",
+            "heading": "",
+            "top": 0,
+            "height": 76,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "WhatsApp us",
+              "Menu",
+              "Close",
+              "WhatsApp us"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 2,
+            "tagName": "section",
+            "id": "section-2",
+            "className": "tp-sketchbook",
+            "heading": "Available puppies",
+            "top": 76,
+            "height": 2506,
+            "width": 1440,
+            "imagesCount": 15,
+            "buttons": [
+              "Everywhere",
+              "Imported",
+              "Korean Teacup",
+              "Maltipoo",
+              "Pomeranian"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 3,
+            "tagName": "section",
+            "id": "section-3",
+            "className": "tp-gone-strip",
+            "heading": "Already gone home",
+            "top": 2582,
+            "height": 388,
+            "width": 1440,
+            "imagesCount": 5,
+            "buttons": [
+              "See the puppies who've gone home"
+            ],
+            "backgroundColor": "rgb(251, 227, 180)"
+          },
+          {
+            "index": 4,
+            "tagName": "footer",
+            "id": "section-4",
+            "className": "tp-footer relative pb-[calc(var(--bar-h)+2rem)] text-milk md:pb-10",
+            "heading": "Explore",
+            "top": 2970,
+            "height": 701,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [],
+            "backgroundColor": "rgb(36, 19, 11)"
+          }
+        ],
+        "assets": {
+          "imagesCount": 22,
+          "brokenImages": [],
+          "videosCount": 0,
+          "linksCount": 51,
+          "sampleImages": [
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fbrand%2Flogo.png&w=128&q=75",
+              "alt": "",
+              "naturalWidth": 64,
+              "naturalHeight": 64,
+              "displayWidth": 48,
+              "displayHeight": 48,
+              "isBroken": false,
+              "loading": "auto"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FZ0ToauDx7Eve%2F5fffe4d022%2Fb942a5_4b8cfb8204d24eadaf524332aba1dc15-mv2.webp&w=3840&q=75",
+              "alt": "",
+              "naturalWidth": 316,
+              "naturalHeight": 365,
+              "displayWidth": 272,
+              "displayHeight": 272,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FgAaGwoGej2g6%2F5523e884dd%2Fb942a5_50f0ae67c9ff437d911597d52a9e63b3-mv2.jpg&w=3840&q=75",
+              "alt": "",
+              "naturalWidth": 316,
+              "naturalHeight": 422,
+              "displayWidth": 272,
+              "displayHeight": 272,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FxeMJCapr5vcU%2Fe618c653b2%2Fb942a5_14376a216177484dbbb27995d0f6aeb7-mv2.jpg&w=3840&q=75",
+              "alt": "",
+              "naturalWidth": 316,
+              "naturalHeight": 422,
+              "displayWidth": 272,
+              "displayHeight": 272,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FYQhey4j7uWvZ%2F3ea10db6c1%2Fb942a5_7ce7e7bd18424b6c8fb16dd30113ade2-mv2.jpg&w=3840&q=75",
+              "alt": "",
+              "naturalWidth": 316,
+              "naturalHeight": 422,
+              "displayWidth": 272,
+              "displayHeight": 272,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FvMu0BPvkAZ-j%2Fc65e53967d%2Fb942a5_0b2c0c0d178c4005acbe28725a5ea573-mv2.jpg&w=3840&q=75",
+              "alt": "",
+              "naturalWidth": 316,
+              "naturalHeight": 422,
+              "displayWidth": 272,
+              "displayHeight": 272,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2F3WJNmn6VVgVu%2F732f779474%2Fb942a5_2b5dcece361b4589890ae920c66a1b70-mv2.jpg&w=3840&q=75",
+              "alt": "",
+              "naturalWidth": 316,
+              "naturalHeight": 422,
+              "displayWidth": 272,
+              "displayHeight": 272,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2F3yOfnmoyPooH%2F81e0c7e00c%2Fb942a5_556841b9a73942e5a9d782a683f3bc68-mv2.jpg&w=3840&q=75",
+              "alt": "",
+              "naturalWidth": 316,
+              "naturalHeight": 563,
+              "displayWidth": 272,
+              "displayHeight": 272,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FO-6w4FYqE10j%2Fbe76f399cc%2Fb942a5_bb73ebbb952047988f944f3a8e3052bd-mv2.jpg&w=3840&q=75",
+              "alt": "",
+              "naturalWidth": 316,
+              "naturalHeight": 485,
+              "displayWidth": 272,
+              "displayHeight": 272,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FqNrTCSrsYyzY%2F168fa8c4ff%2Fb942a5_eb14616c76c24da89afe7fa3b7d7ae6a-mv2.jpeg&w=3840&q=75",
+              "alt": "",
+              "naturalWidth": 316,
+              "naturalHeight": 422,
+              "displayWidth": 272,
+              "displayHeight": 272,
+              "isBroken": false,
+              "loading": "lazy"
+            }
+          ]
+        }
+      },
+      "local": {
+        "sections": [
+          {
+            "index": 1,
+            "tagName": "header",
+            "id": "site-header",
+            "className": "tp-header fixed inset-x-0 top-0 z-50 transition-all duration-300",
+            "heading": "",
+            "top": 0,
+            "height": 76,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "WhatsApp us",
+              "Menu"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 2,
+            "tagName": "section",
+            "id": "section-2",
+            "className": "tp-sketchbook",
+            "heading": "Available puppies",
+            "top": 76,
+            "height": 2617,
+            "width": 1440,
+            "imagesCount": 15,
+            "buttons": [
+              "Everywhere",
+              "Imported",
+              "Korean Teacup",
+              "Maltipoo",
+              "Pomeranian"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 3,
+            "tagName": "section",
+            "id": "section-3",
+            "className": "tp-gone-strip",
+            "heading": "Already gone home",
+            "top": 2693,
+            "height": 311,
+            "width": 1440,
+            "imagesCount": 5,
+            "buttons": [
+              "See the puppies who've gone home"
+            ],
+            "backgroundColor": "rgb(251, 227, 180)"
+          },
+          {
+            "index": 4,
+            "tagName": "footer",
+            "id": "section-4",
+            "className": "tp-footer relative pb-[calc(var(--bar-h)+2rem)] text-milk md:pb-10 bg-cocoa-dark overflow-hidden",
+            "heading": "Explore",
+            "top": 3004,
+            "height": 668,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [],
+            "backgroundColor": "rgb(36, 19, 11)"
+          }
+        ],
+        "assets": {
+          "imagesCount": 22,
+          "brokenImages": [],
+          "videosCount": 0,
+          "linksCount": 44,
+          "sampleImages": [
+            {
+              "src": "http://localhost:3030/brand/logo.png",
+              "alt": "TeddyPups Logo",
+              "naturalWidth": 800,
+              "naturalHeight": 800,
+              "displayWidth": 48,
+              "displayHeight": 48,
+              "isBroken": false,
+              "loading": "auto"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_4b8cfb8204d24eadaf524332aba1dc15-mv2.webp",
+              "alt": "",
+              "naturalWidth": 607,
+              "naturalHeight": 700,
+              "displayWidth": 135,
+              "displayHeight": 135,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_50f0ae67c9ff437d911597d52a9e63b3-mv2.jpg",
+              "alt": "",
+              "naturalWidth": 1200,
+              "naturalHeight": 1600,
+              "displayWidth": 135,
+              "displayHeight": 135,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_14376a216177484dbbb27995d0f6aeb7-mv2.jpg",
+              "alt": "",
+              "naturalWidth": 960,
+              "naturalHeight": 1280,
+              "displayWidth": 135,
+              "displayHeight": 135,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_7ce7e7bd18424b6c8fb16dd30113ade2-mv2.jpg",
+              "alt": "",
+              "naturalWidth": 960,
+              "naturalHeight": 1280,
+              "displayWidth": 135,
+              "displayHeight": 135,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_0b2c0c0d178c4005acbe28725a5ea573-mv2.jpg",
+              "alt": "",
+              "naturalWidth": 960,
+              "naturalHeight": 1280,
+              "displayWidth": 135,
+              "displayHeight": 135,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_2b5dcece361b4589890ae920c66a1b70-mv2.jpg",
+              "alt": "",
+              "naturalWidth": 960,
+              "naturalHeight": 1280,
+              "displayWidth": 135,
+              "displayHeight": 135,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_556841b9a73942e5a9d782a683f3bc68-mv2.jpg",
+              "alt": "",
+              "naturalWidth": 720,
+              "naturalHeight": 1280,
+              "displayWidth": 135,
+              "displayHeight": 135,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_bb73ebbb952047988f944f3a8e3052bd-mv2.jpg",
+              "alt": "",
+              "naturalWidth": 836,
+              "naturalHeight": 1280,
+              "displayWidth": 135,
+              "displayHeight": 135,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "http://localhost:3030/media/b942a5_eb14616c76c24da89afe7fa3b7d7ae6a-mv2.jpeg",
+              "alt": "",
+              "naturalWidth": 1200,
+              "naturalHeight": 1600,
+              "displayWidth": 135,
+              "displayHeight": 135,
+              "isBroken": false,
+              "loading": "lazy"
+            }
+          ]
+        }
+      },
+      "comparison": {},
+      "responsive": {
+        "large-desktop": {
+          "viewport": "1920x1080",
+          "innerWidth": 1920,
+          "scrollWidth": 1920,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "desktop": {
+          "viewport": "1440x900",
+          "innerWidth": 1440,
+          "scrollWidth": 1440,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "laptop": {
+          "viewport": "1366x768",
+          "innerWidth": 1366,
+          "scrollWidth": 1366,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "small-laptop": {
+          "viewport": "1280x800",
+          "innerWidth": 1280,
+          "scrollWidth": 1280,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "tablet-landscape": {
+          "viewport": "1024x768",
+          "innerWidth": 1024,
+          "scrollWidth": 1024,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "tablet-portrait": {
+          "viewport": "768x1024",
+          "innerWidth": 768,
+          "scrollWidth": 768,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "mobile-large": {
+          "viewport": "430x932",
+          "innerWidth": 430,
+          "scrollWidth": 430,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-standard": {
+          "viewport": "390x844",
+          "innerWidth": 390,
+          "scrollWidth": 390,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-small": {
+          "viewport": "375x812",
+          "innerWidth": 375,
+          "scrollWidth": 375,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-compact": {
+          "viewport": "360x800",
+          "innerWidth": 360,
+          "scrollWidth": 360,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        }
+      },
+      "scroll": {
+        "downward": [
+          {
+            "step": 0,
+            "y": 0,
+            "refScrollY": 0,
+            "localScrollY": 0
+          },
+          {
+            "step": 1,
+            "y": 500,
+            "refScrollY": 500,
+            "localScrollY": 500
+          },
+          {
+            "step": 2,
+            "y": 1000,
+            "refScrollY": 1000,
+            "localScrollY": 1000
+          },
+          {
+            "step": 3,
+            "y": 1500,
+            "refScrollY": 1500,
+            "localScrollY": 1500
+          },
+          {
+            "step": 4,
+            "y": 2000,
+            "refScrollY": 2000,
+            "localScrollY": 2000
+          },
+          {
+            "step": 5,
+            "y": 2500,
+            "refScrollY": 2500,
+            "localScrollY": 2500
+          },
+          {
+            "step": 6,
+            "y": 3000,
+            "refScrollY": 2771,
+            "localScrollY": 2772
+          },
+          {
+            "step": 7,
+            "y": 3500,
+            "refScrollY": 2771,
+            "localScrollY": 2772
+          },
+          {
+            "step": 8,
+            "y": 3672,
+            "refScrollY": 2771,
+            "localScrollY": 2772
+          }
+        ],
+        "reverse": [
+          {
+            "step": 0,
+            "y": 3672,
+            "refScrollY": 2771,
+            "localScrollY": 2772
+          },
+          {
+            "step": 1,
+            "y": 3500,
+            "refScrollY": 2771,
+            "localScrollY": 2772
+          },
+          {
+            "step": 2,
+            "y": 3000,
+            "refScrollY": 2771,
+            "localScrollY": 2772
+          },
+          {
+            "step": 3,
+            "y": 2500,
+            "refScrollY": 2500,
+            "localScrollY": 2500
+          },
+          {
+            "step": 4,
+            "y": 2000,
+            "refScrollY": 2000,
+            "localScrollY": 2000
+          },
+          {
+            "step": 5,
+            "y": 1500,
+            "refScrollY": 1500,
+            "localScrollY": 1500
+          },
+          {
+            "step": 6,
+            "y": 1000,
+            "refScrollY": 1000,
+            "localScrollY": 1000
+          },
+          {
+            "step": 7,
+            "y": 500,
+            "refScrollY": 500,
+            "localScrollY": 500
+          },
+          {
+            "step": 8,
+            "y": 0,
+            "refScrollY": 0,
+            "localScrollY": 0
+          }
+        ]
+      }
+    },
+    "happy-families": {
+      "name": "Happy Families",
+      "route": "/happy-families",
+      "reference": {
+        "sections": [
+          {
+            "index": 1,
+            "tagName": "header",
+            "id": "site-header",
+            "className": "tp-header fixed inset-x-0 top-0 z-50",
+            "heading": "",
+            "top": 0,
+            "height": 76,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "WhatsApp us",
+              "Menu",
+              "Close",
+              "WhatsApp us"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 2,
+            "tagName": "section",
+            "id": "section-2",
+            "className": "tp-memories",
+            "heading": "Happy families",
+            "top": 76,
+            "height": 8093,
+            "width": 1440,
+            "imagesCount": 64,
+            "buttons": [
+              "Lulu 🧸 with her new mummy ❤️",
+              "Adorable Maltipoo baby 🧸❤️",
+              "My new teddy puppy 🥰🧸",
+              "Our new puppies 🧸🥰🤗",
+              "New puppy 🧸😍"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 3,
+            "tagName": "footer",
+            "id": "section-3",
+            "className": "tp-footer relative pb-[calc(var(--bar-h)+2rem)] text-milk md:pb-10",
+            "heading": "Explore",
+            "top": 8169,
+            "height": 701,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [],
+            "backgroundColor": "rgb(36, 19, 11)"
+          }
+        ],
+        "assets": {
+          "imagesCount": 66,
+          "brokenImages": [],
+          "videosCount": 0,
+          "linksCount": 30,
+          "sampleImages": [
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fbrand%2Flogo.png&w=128&q=75",
+              "alt": "",
+              "naturalWidth": 64,
+              "naturalHeight": 64,
+              "displayWidth": 48,
+              "displayHeight": 48,
+              "isBroken": false,
+              "loading": "auto"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FTUslu26Ueaq-%2F9c3516c040%2Fedb2f5_6627857aca7e495ea37d9f62d814d323-mv2.jpeg&w=3840&q=75",
+              "alt": "A happy TeddyPups family with their new puppy",
+              "naturalWidth": 316,
+              "naturalHeight": 422,
+              "displayWidth": 270,
+              "displayHeight": 361,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FOcgEePeBmGuu%2F41fb22320b%2Fedb2f5_adf88f7400c848249d60698fca0336e9-mv2.jpeg&w=3840&q=75",
+              "alt": "A happy TeddyPups family with their new puppy",
+              "naturalWidth": 316,
+              "naturalHeight": 301,
+              "displayWidth": 270,
+              "displayHeight": 257,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FRYkyuv4DBCTC%2Fd9e02a0dc8%2Fedb2f5_7ed2ee1ba89b4230b52f5e3981b1b198-mv2.jpeg&w=3840&q=75",
+              "alt": "A happy TeddyPups family with their new puppy",
+              "naturalWidth": 316,
+              "naturalHeight": 422,
+              "displayWidth": 270,
+              "displayHeight": 361,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2Fd267R4d3lMSv%2F96d8604ca3%2Fedb2f5_02b95a69a2c24c7e81b60e6d8c01baf7-mv2.jpeg&w=3840&q=75",
+              "alt": "A happy TeddyPups family with their new puppy",
+              "naturalWidth": 316,
+              "naturalHeight": 301,
+              "displayWidth": 270,
+              "displayHeight": 257,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FXqxhmNftVKic%2F5adf2f28fe%2Fedb2f5_37f5218f73e842b88ee3ae0c911bcafa-mv2.jpeg&w=3840&q=75",
+              "alt": "A happy TeddyPups family with their new puppy",
+              "naturalWidth": 316,
+              "naturalHeight": 422,
+              "displayWidth": 270,
+              "displayHeight": 361,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2F1II_yVrwWdOG%2Fc07a8ef9f1%2Fedb2f5_258010c661f64f3b8b952c5a2f7677de-mv2.jpeg&w=3840&q=75",
+              "alt": "A happy TeddyPups family with their new puppy",
+              "naturalWidth": 316,
+              "naturalHeight": 380,
+              "displayWidth": 270,
+              "displayHeight": 325,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FbKP7vwN0R2OU%2F1aa47534b5%2Fedb2f5_b8d76dffb97f46b5a9f2aaf9c1067b4b-mv2.jpeg&w=3840&q=75",
+              "alt": "A happy TeddyPups family with their new puppy",
+              "naturalWidth": 316,
+              "naturalHeight": 422,
+              "displayWidth": 270,
+              "displayHeight": 361,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FToVkYw_K3UrY%2F81a2bd9ac1%2Fedb2f5_582a3767e5eb408f9684a7e623229dc4-mv2.jpeg&w=3840&q=75",
+              "alt": "A happy TeddyPups family with their new puppy",
+              "naturalWidth": 316,
+              "naturalHeight": 422,
+              "displayWidth": 270,
+              "displayHeight": 361,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2FstDfO2jMfvb_%2F6228a11db2%2Fedb2f5_4b08003ef57c4663b55c9ac0c4147c36-mv2.jpeg&w=3840&q=75",
+              "alt": "A happy TeddyPups family with their new puppy",
+              "naturalWidth": 316,
+              "naturalHeight": 363,
+              "displayWidth": 270,
+              "displayHeight": 311,
+              "isBroken": false,
+              "loading": "lazy"
+            }
+          ]
+        }
+      },
+      "local": {
+        "sections": [
+          {
+            "index": 1,
+            "tagName": "header",
+            "id": "site-header",
+            "className": "tp-header fixed inset-x-0 top-0 z-50 transition-all duration-300",
+            "heading": "",
+            "top": 0,
+            "height": 76,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "WhatsApp us",
+              "Menu"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 2,
+            "tagName": "section",
+            "id": "section-2",
+            "className": "tp-memories",
+            "heading": "Happy families",
+            "top": 76,
+            "height": 7936,
+            "width": 1440,
+            "imagesCount": 64,
+            "buttons": [
+              "Lulu 🧸 with her new mummy ❤️",
+              "Adorable Maltipoo baby 🧸❤️",
+              "My new teddy puppy 🥰🧸",
+              "Our new puppies 🧸🥰🤗",
+              "New puppy 🧸😍"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 3,
+            "tagName": "footer",
+            "id": "section-3",
+            "className": "tp-footer relative pb-[calc(var(--bar-h)+2rem)] text-milk md:pb-10 bg-cocoa-dark overflow-hidden",
+            "heading": "Explore",
+            "top": 8012,
+            "height": 668,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [],
+            "backgroundColor": "rgb(36, 19, 11)"
+          }
+        ],
+        "assets": {
+          "imagesCount": 66,
+          "brokenImages": [],
+          "videosCount": 0,
+          "linksCount": 23,
+          "sampleImages": [
+            {
+              "src": "http://localhost:3030/brand/logo.png",
+              "alt": "TeddyPups Logo",
+              "naturalWidth": 800,
+              "naturalHeight": 800,
+              "displayWidth": 48,
+              "displayHeight": 48,
+              "isBroken": false,
+              "loading": "auto"
+            },
+            {
+              "src": "http://localhost:3030/media/TUslu26Ueaq-/9c3516c040/edb2f5_6627857aca7e495ea37d9f62d814d323-mv2.jpeg",
+              "alt": "A happy TeddyPups family with their new puppy",
+              "naturalWidth": 960,
+              "naturalHeight": 1280,
+              "displayWidth": 298,
+              "displayHeight": 397,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/OcgEePeBmGuu/41fb22320b/edb2f5_adf88f7400c848249d60698fca0336e9-mv2.jpeg",
+              "alt": "A happy TeddyPups family with their new puppy",
+              "naturalWidth": 1320,
+              "naturalHeight": 1254,
+              "displayWidth": 298,
+              "displayHeight": 283,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/RYkyuv4DBCTC/d9e02a0dc8/edb2f5_7ed2ee1ba89b4230b52f5e3981b1b198-mv2.jpeg",
+              "alt": "A happy TeddyPups family with their new puppy",
+              "naturalWidth": 960,
+              "naturalHeight": 1280,
+              "displayWidth": 298,
+              "displayHeight": 397,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/d267R4d3lMSv/96d8604ca3/edb2f5_02b95a69a2c24c7e81b60e6d8c01baf7-mv2.jpeg",
+              "alt": "A happy TeddyPups family with their new puppy",
+              "naturalWidth": 1320,
+              "naturalHeight": 1254,
+              "displayWidth": 298,
+              "displayHeight": 283,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/XqxhmNftVKic/5adf2f28fe/edb2f5_37f5218f73e842b88ee3ae0c911bcafa-mv2.jpeg",
+              "alt": "A happy TeddyPups family with their new puppy",
+              "naturalWidth": 960,
+              "naturalHeight": 1280,
+              "displayWidth": 298,
+              "displayHeight": 397,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/1II_yVrwWdOG/c07a8ef9f1/edb2f5_258010c661f64f3b8b952c5a2f7677de-mv2.jpeg",
+              "alt": "A happy TeddyPups family with their new puppy",
+              "naturalWidth": 1320,
+              "naturalHeight": 1587,
+              "displayWidth": 298,
+              "displayHeight": 358,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/bKP7vwN0R2OU/1aa47534b5/edb2f5_b8d76dffb97f46b5a9f2aaf9c1067b4b-mv2.jpeg",
+              "alt": "A happy TeddyPups family with their new puppy",
+              "naturalWidth": 960,
+              "naturalHeight": 1280,
+              "displayWidth": 298,
+              "displayHeight": 397,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/ToVkYw_K3UrY/81a2bd9ac1/edb2f5_582a3767e5eb408f9684a7e623229dc4-mv2.jpeg",
+              "alt": "A happy TeddyPups family with their new puppy",
+              "naturalWidth": 1200,
+              "naturalHeight": 1600,
+              "displayWidth": 298,
+              "displayHeight": 397,
+              "isBroken": false,
+              "loading": "eager"
+            },
+            {
+              "src": "http://localhost:3030/media/stDfO2jMfvb_/6228a11db2/edb2f5_4b08003ef57c4663b55c9ac0c4147c36-mv2.jpeg",
+              "alt": "A happy TeddyPups family with their new puppy",
+              "naturalWidth": 1289,
+              "naturalHeight": 1481,
+              "displayWidth": 298,
+              "displayHeight": 342,
+              "isBroken": false,
+              "loading": "lazy"
+            }
+          ]
+        }
+      },
+      "comparison": {},
+      "responsive": {
+        "large-desktop": {
+          "viewport": "1920x1080",
+          "innerWidth": 1920,
+          "scrollWidth": 1920,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "desktop": {
+          "viewport": "1440x900",
+          "innerWidth": 1440,
+          "scrollWidth": 1440,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "laptop": {
+          "viewport": "1366x768",
+          "innerWidth": 1366,
+          "scrollWidth": 1366,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "small-laptop": {
+          "viewport": "1280x800",
+          "innerWidth": 1280,
+          "scrollWidth": 1280,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "tablet-landscape": {
+          "viewport": "1024x768",
+          "innerWidth": 1024,
+          "scrollWidth": 1024,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "tablet-portrait": {
+          "viewport": "768x1024",
+          "innerWidth": 768,
+          "scrollWidth": 768,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "mobile-large": {
+          "viewport": "430x932",
+          "innerWidth": 430,
+          "scrollWidth": 430,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-standard": {
+          "viewport": "390x844",
+          "innerWidth": 390,
+          "scrollWidth": 390,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-small": {
+          "viewport": "375x812",
+          "innerWidth": 375,
+          "scrollWidth": 375,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-compact": {
+          "viewport": "360x800",
+          "innerWidth": 360,
+          "scrollWidth": 360,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        }
+      },
+      "scroll": {
+        "downward": [
+          {
+            "step": 0,
+            "y": 0,
+            "refScrollY": 0,
+            "localScrollY": 0
+          },
+          {
+            "step": 1,
+            "y": 1108,
+            "refScrollY": 1108,
+            "localScrollY": 1108
+          },
+          {
+            "step": 2,
+            "y": 2216,
+            "refScrollY": 2216,
+            "localScrollY": 2216
+          },
+          {
+            "step": 3,
+            "y": 3324,
+            "refScrollY": 3324,
+            "localScrollY": 3324
+          },
+          {
+            "step": 4,
+            "y": 4432,
+            "refScrollY": 4432,
+            "localScrollY": 4432
+          },
+          {
+            "step": 5,
+            "y": 5540,
+            "refScrollY": 5540,
+            "localScrollY": 5540
+          },
+          {
+            "step": 6,
+            "y": 6648,
+            "refScrollY": 6648,
+            "localScrollY": 6648
+          },
+          {
+            "step": 7,
+            "y": 7756,
+            "refScrollY": 7756,
+            "localScrollY": 7756
+          },
+          {
+            "step": 8,
+            "y": 8864,
+            "refScrollY": 7971,
+            "localScrollY": 7780
+          },
+          {
+            "step": 9,
+            "y": 8871,
+            "refScrollY": 7971,
+            "localScrollY": 7780
+          }
+        ],
+        "reverse": [
+          {
+            "step": 0,
+            "y": 8871,
+            "refScrollY": 7971,
+            "localScrollY": 7780
+          },
+          {
+            "step": 1,
+            "y": 8864,
+            "refScrollY": 7971,
+            "localScrollY": 7780
+          },
+          {
+            "step": 2,
+            "y": 7756,
+            "refScrollY": 7756,
+            "localScrollY": 7756
+          },
+          {
+            "step": 3,
+            "y": 6648,
+            "refScrollY": 6648,
+            "localScrollY": 6648
+          },
+          {
+            "step": 4,
+            "y": 5540,
+            "refScrollY": 5540,
+            "localScrollY": 5540
+          },
+          {
+            "step": 5,
+            "y": 4432,
+            "refScrollY": 4432,
+            "localScrollY": 4432
+          },
+          {
+            "step": 6,
+            "y": 3324,
+            "refScrollY": 3324,
+            "localScrollY": 3324
+          },
+          {
+            "step": 7,
+            "y": 2216,
+            "refScrollY": 2216,
+            "localScrollY": 2216
+          },
+          {
+            "step": 8,
+            "y": 1108,
+            "refScrollY": 1108,
+            "localScrollY": 1108
+          },
+          {
+            "step": 9,
+            "y": 0,
+            "refScrollY": 0,
+            "localScrollY": 0
+          }
+        ]
+      }
+    },
+    "how-it-works": {
+      "name": "How It Works",
+      "route": "/how-it-works",
+      "reference": {
+        "sections": [
+          {
+            "index": 1,
+            "tagName": "header",
+            "id": "site-header",
+            "className": "tp-header fixed inset-x-0 top-0 z-50",
+            "heading": "",
+            "top": 0,
+            "height": 76,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "WhatsApp us",
+              "Menu",
+              "Close",
+              "WhatsApp us"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 2,
+            "tagName": "section",
+            "id": "section-2",
+            "className": "tp-scene ",
+            "heading": "How it works",
+            "top": 76,
+            "height": 3716,
+            "width": 1440,
+            "imagesCount": 0,
+            "buttons": [
+              "In Dubai\nmeet in person",
+              "Imported\norder upon request",
+              "Ask us on WhatsApp",
+              "See available puppies"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 3,
+            "tagName": "header",
+            "id": "section-3",
+            "className": "grid gap-8 md:grid-cols-12 md:items-end",
+            "heading": "How it works",
+            "top": 140,
+            "height": 125,
+            "width": 1328,
+            "imagesCount": 0,
+            "buttons": [],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 4,
+            "tagName": "section",
+            "id": "section-4",
+            "className": "tp-journeys",
+            "heading": "Two ways home",
+            "top": 445,
+            "height": 870,
+            "width": 1328,
+            "imagesCount": 0,
+            "buttons": [
+              "In Dubai\nmeet in person",
+              "Imported\norder upon request"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 5,
+            "tagName": "section",
+            "id": "promise",
+            "className": "tp-paper mt-24 -rotate-[0.6deg]",
+            "heading": "Our premium puppy promise",
+            "top": 1404,
+            "height": 587,
+            "width": 1334,
+            "imagesCount": 0,
+            "buttons": [],
+            "backgroundColor": "rgb(255, 248, 234)"
+          },
+          {
+            "index": 6,
+            "tagName": "section",
+            "id": "delivery",
+            "className": "mt-24 grid items-center gap-10 lg:grid-cols-12",
+            "heading": "Delivery & collection",
+            "top": 2080,
+            "height": 633,
+            "width": 1328,
+            "imagesCount": 0,
+            "buttons": [],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 7,
+            "tagName": "section",
+            "id": "why",
+            "className": "mt-24 grid gap-12 lg:grid-cols-12",
+            "heading": "Why choose us",
+            "top": 2809,
+            "height": 408,
+            "width": 1328,
+            "imagesCount": 0,
+            "buttons": [],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 8,
+            "tagName": "section",
+            "id": "section-8",
+            "className": "tp-board mt-24 grid items-center gap-8 md:grid-cols-[1fr_auto] md:!p-12",
+            "heading": "Unique and high quality puppies",
+            "top": 3313,
+            "height": 383,
+            "width": 1328,
+            "imagesCount": 0,
+            "buttons": [
+              "Ask us on WhatsApp",
+              "See available puppies"
+            ],
+            "backgroundColor": "rgb(255, 253, 248)"
+          },
+          {
+            "index": 9,
+            "tagName": "footer",
+            "id": "section-9",
+            "className": "tp-footer relative pb-[calc(var(--bar-h)+2rem)] text-milk md:pb-10",
+            "heading": "Explore",
+            "top": 3792,
+            "height": 701,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [],
+            "backgroundColor": "rgb(36, 19, 11)"
+          }
+        ],
+        "assets": {
+          "imagesCount": 2,
+          "brokenImages": [],
+          "videosCount": 0,
+          "linksCount": 36,
+          "sampleImages": [
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fbrand%2Flogo.png&w=128&q=75",
+              "alt": "",
+              "naturalWidth": 64,
+              "naturalHeight": 64,
+              "displayWidth": 48,
+              "displayHeight": 48,
+              "isBroken": false,
+              "loading": "auto"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fbrand%2Flogo.png&w=96&q=75",
+              "alt": "",
+              "naturalWidth": 48,
+              "naturalHeight": 48,
+              "displayWidth": 36,
+              "displayHeight": 36,
+              "isBroken": false,
+              "loading": "lazy"
+            }
+          ]
+        }
+      },
+      "local": {
+        "sections": [
+          {
+            "index": 1,
+            "tagName": "header",
+            "id": "site-header",
+            "className": "tp-header fixed inset-x-0 top-0 z-50 transition-all duration-300",
+            "heading": "",
+            "top": 0,
+            "height": 76,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "WhatsApp us",
+              "Menu"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 2,
+            "tagName": "section",
+            "id": "section-2",
+            "className": "tp-scene ",
+            "heading": "How it works",
+            "top": 76,
+            "height": 3722,
+            "width": 1440,
+            "imagesCount": 0,
+            "buttons": [
+              "In Dubai\nmeet in person",
+              "Imported\norder upon request",
+              "Ask us on WhatsApp",
+              "See available puppies"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 3,
+            "tagName": "header",
+            "id": "section-3",
+            "className": "grid gap-8 md:grid-cols-12 md:items-end",
+            "heading": "How it works",
+            "top": 140,
+            "height": 276,
+            "width": 1328,
+            "imagesCount": 0,
+            "buttons": [],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 4,
+            "tagName": "section",
+            "id": "section-4",
+            "className": "tp-journeys",
+            "heading": "Two ways home",
+            "top": 596,
+            "height": 839,
+            "width": 1328,
+            "imagesCount": 0,
+            "buttons": [
+              "In Dubai\nmeet in person",
+              "Imported\norder upon request"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 5,
+            "tagName": "section",
+            "id": "promise",
+            "className": "tp-paper mt-24 -rotate-[0.6deg]",
+            "heading": "Our premium puppy promise",
+            "top": 1525,
+            "height": 616,
+            "width": 1334,
+            "imagesCount": 0,
+            "buttons": [],
+            "backgroundColor": "rgb(255, 248, 234)"
+          },
+          {
+            "index": 6,
+            "tagName": "section",
+            "id": "delivery",
+            "className": "mt-24 grid items-center gap-10 lg:grid-cols-12",
+            "heading": "Delivery & collection",
+            "top": 2230,
+            "height": 613,
+            "width": 1328,
+            "imagesCount": 0,
+            "buttons": [],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 7,
+            "tagName": "section",
+            "id": "why",
+            "className": "mt-24 grid gap-12 lg:grid-cols-12",
+            "heading": "Why choose us",
+            "top": 2939,
+            "height": 379,
+            "width": 1328,
+            "imagesCount": 0,
+            "buttons": [],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 8,
+            "tagName": "section",
+            "id": "section-8",
+            "className": "tp-board mt-24 grid items-center gap-8 md:grid-cols-[1fr_auto] md:!p-12",
+            "heading": "Unique and high quality puppies",
+            "top": 3415,
+            "height": 287,
+            "width": 1328,
+            "imagesCount": 0,
+            "buttons": [
+              "Ask us on WhatsApp",
+              "See available puppies"
+            ],
+            "backgroundColor": "rgb(255, 253, 248)"
+          },
+          {
+            "index": 9,
+            "tagName": "footer",
+            "id": "section-9",
+            "className": "tp-footer relative pb-[calc(var(--bar-h)+2rem)] text-milk md:pb-10 bg-cocoa-dark overflow-hidden",
+            "heading": "Explore",
+            "top": 3798,
+            "height": 668,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [],
+            "backgroundColor": "rgb(36, 19, 11)"
+          }
+        ],
+        "assets": {
+          "imagesCount": 2,
+          "brokenImages": [],
+          "videosCount": 0,
+          "linksCount": 29,
+          "sampleImages": [
+            {
+              "src": "http://localhost:3030/brand/logo.png",
+              "alt": "TeddyPups Logo",
+              "naturalWidth": 800,
+              "naturalHeight": 800,
+              "displayWidth": 48,
+              "displayHeight": 48,
+              "isBroken": false,
+              "loading": "auto"
+            },
+            {
+              "src": "http://localhost:3030/brand/logo.png",
+              "alt": "TeddyPups Small Logo",
+              "naturalWidth": 800,
+              "naturalHeight": 800,
+              "displayWidth": 36,
+              "displayHeight": 36,
+              "isBroken": false,
+              "loading": "auto"
+            }
+          ]
+        }
+      },
+      "comparison": {},
+      "responsive": {
+        "large-desktop": {
+          "viewport": "1920x1080",
+          "innerWidth": 1920,
+          "scrollWidth": 1920,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "desktop": {
+          "viewport": "1440x900",
+          "innerWidth": 1440,
+          "scrollWidth": 1440,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "laptop": {
+          "viewport": "1366x768",
+          "innerWidth": 1366,
+          "scrollWidth": 1366,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "small-laptop": {
+          "viewport": "1280x800",
+          "innerWidth": 1280,
+          "scrollWidth": 1280,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "tablet-landscape": {
+          "viewport": "1024x768",
+          "innerWidth": 1024,
+          "scrollWidth": 1024,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "tablet-portrait": {
+          "viewport": "768x1024",
+          "innerWidth": 768,
+          "scrollWidth": 768,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "mobile-large": {
+          "viewport": "430x932",
+          "innerWidth": 430,
+          "scrollWidth": 430,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-standard": {
+          "viewport": "390x844",
+          "innerWidth": 390,
+          "scrollWidth": 390,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-small": {
+          "viewport": "375x812",
+          "innerWidth": 375,
+          "scrollWidth": 375,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-compact": {
+          "viewport": "360x800",
+          "innerWidth": 360,
+          "scrollWidth": 360,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        }
+      },
+      "scroll": {
+        "downward": [
+          {
+            "step": 0,
+            "y": 0,
+            "refScrollY": 0,
+            "localScrollY": 0
+          },
+          {
+            "step": 1,
+            "y": 561,
+            "refScrollY": 561,
+            "localScrollY": 561
+          },
+          {
+            "step": 2,
+            "y": 1122,
+            "refScrollY": 1122,
+            "localScrollY": 1122
+          },
+          {
+            "step": 3,
+            "y": 1683,
+            "refScrollY": 1683,
+            "localScrollY": 1683
+          },
+          {
+            "step": 4,
+            "y": 2244,
+            "refScrollY": 2244,
+            "localScrollY": 2244
+          },
+          {
+            "step": 5,
+            "y": 2805,
+            "refScrollY": 2805,
+            "localScrollY": 2805
+          },
+          {
+            "step": 6,
+            "y": 3366,
+            "refScrollY": 3366,
+            "localScrollY": 3366
+          },
+          {
+            "step": 7,
+            "y": 3927,
+            "refScrollY": 3593,
+            "localScrollY": 3566
+          },
+          {
+            "step": 8,
+            "y": 4488,
+            "refScrollY": 3593,
+            "localScrollY": 3566
+          },
+          {
+            "step": 9,
+            "y": 4493,
+            "refScrollY": 3593,
+            "localScrollY": 3566
+          }
+        ],
+        "reverse": [
+          {
+            "step": 0,
+            "y": 4493,
+            "refScrollY": 3593,
+            "localScrollY": 3566
+          },
+          {
+            "step": 1,
+            "y": 4488,
+            "refScrollY": 3593,
+            "localScrollY": 3566
+          },
+          {
+            "step": 2,
+            "y": 3927,
+            "refScrollY": 3593,
+            "localScrollY": 3566
+          },
+          {
+            "step": 3,
+            "y": 3366,
+            "refScrollY": 3366,
+            "localScrollY": 3366
+          },
+          {
+            "step": 4,
+            "y": 2805,
+            "refScrollY": 2805,
+            "localScrollY": 2805
+          },
+          {
+            "step": 5,
+            "y": 2244,
+            "refScrollY": 2244,
+            "localScrollY": 2244
+          },
+          {
+            "step": 6,
+            "y": 1683,
+            "refScrollY": 1683,
+            "localScrollY": 1683
+          },
+          {
+            "step": 7,
+            "y": 1122,
+            "refScrollY": 1122,
+            "localScrollY": 1122
+          },
+          {
+            "step": 8,
+            "y": 561,
+            "refScrollY": 561,
+            "localScrollY": 561
+          },
+          {
+            "step": 9,
+            "y": 0,
+            "refScrollY": 0,
+            "localScrollY": 0
+          }
+        ]
+      }
+    },
+    "faq": {
+      "name": "FAQ",
+      "route": "/faq",
+      "reference": {
+        "sections": [
+          {
+            "index": 1,
+            "tagName": "header",
+            "id": "site-header",
+            "className": "tp-header fixed inset-x-0 top-0 z-50",
+            "heading": "",
+            "top": 0,
+            "height": 76,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "WhatsApp us",
+              "Menu",
+              "Close",
+              "WhatsApp us"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 2,
+            "tagName": "section",
+            "id": "section-2",
+            "className": "tp-scene tp-faqroom overflow-hidden",
+            "heading": "Questions & answers",
+            "top": 76,
+            "height": 1605,
+            "width": 1440,
+            "imagesCount": 0,
+            "buttons": [
+              "Ask your own question",
+              "Are your puppies vaccinated and health-checked?",
+              "Can I meet a puppy before I decide?",
+              "Can I take my puppy home the same day?",
+              "Do you import puppies from abroad?"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 3,
+            "tagName": "header",
+            "id": "section-3",
+            "className": "max-w-4xl",
+            "heading": "Questions & answers",
+            "top": 140,
+            "height": 334,
+            "width": 896,
+            "imagesCount": 0,
+            "buttons": [],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 4,
+            "tagName": "footer",
+            "id": "section-4",
+            "className": "tp-footer relative pb-[calc(var(--bar-h)+2rem)] text-milk md:pb-10",
+            "heading": "Explore",
+            "top": 1681,
+            "height": 701,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [],
+            "backgroundColor": "rgb(36, 19, 11)"
+          }
+        ],
+        "assets": {
+          "imagesCount": 2,
+          "brokenImages": [],
+          "videosCount": 0,
+          "linksCount": 31,
+          "sampleImages": [
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fbrand%2Flogo.png&w=128&q=75",
+              "alt": "",
+              "naturalWidth": 64,
+              "naturalHeight": 64,
+              "displayWidth": 48,
+              "displayHeight": 48,
+              "isBroken": false,
+              "loading": "auto"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fbrand%2Flogo.png&w=96&q=75",
+              "alt": "",
+              "naturalWidth": 48,
+              "naturalHeight": 48,
+              "displayWidth": 36,
+              "displayHeight": 36,
+              "isBroken": false,
+              "loading": "lazy"
+            }
+          ]
+        }
+      },
+      "local": {
+        "sections": [
+          {
+            "index": 1,
+            "tagName": "header",
+            "id": "site-header",
+            "className": "tp-header fixed inset-x-0 top-0 z-50 transition-all duration-300",
+            "heading": "",
+            "top": 0,
+            "height": 76,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "WhatsApp us",
+              "Menu"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 2,
+            "tagName": "section",
+            "id": "section-2",
+            "className": "tp-scene tp-faqroom overflow-hidden",
+            "heading": "Questions & answers",
+            "top": 76,
+            "height": 1632,
+            "width": 1440,
+            "imagesCount": 0,
+            "buttons": [
+              "Ask your own question",
+              "Are your puppies vaccinated and health-checked?",
+              "Can I meet a puppy before I decide?",
+              "Can I take my puppy home the same day?",
+              "Do you import puppies from abroad?"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 3,
+            "tagName": "header",
+            "id": "section-3",
+            "className": "max-w-4xl",
+            "heading": "Questions & answers",
+            "top": 140,
+            "height": 361,
+            "width": 896,
+            "imagesCount": 0,
+            "buttons": [],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 4,
+            "tagName": "footer",
+            "id": "section-4",
+            "className": "tp-footer relative pb-[calc(var(--bar-h)+2rem)] text-milk md:pb-10 bg-cocoa-dark overflow-hidden",
+            "heading": "Explore",
+            "top": 1708,
+            "height": 668,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [],
+            "backgroundColor": "rgb(36, 19, 11)"
+          }
+        ],
+        "assets": {
+          "imagesCount": 2,
+          "brokenImages": [],
+          "videosCount": 0,
+          "linksCount": 24,
+          "sampleImages": [
+            {
+              "src": "http://localhost:3030/brand/logo.png",
+              "alt": "TeddyPups Logo",
+              "naturalWidth": 800,
+              "naturalHeight": 800,
+              "displayWidth": 48,
+              "displayHeight": 48,
+              "isBroken": false,
+              "loading": "auto"
+            },
+            {
+              "src": "http://localhost:3030/brand/logo.png",
+              "alt": "TeddyPups Small Logo",
+              "naturalWidth": 800,
+              "naturalHeight": 800,
+              "displayWidth": 36,
+              "displayHeight": 36,
+              "isBroken": false,
+              "loading": "auto"
+            }
+          ]
+        }
+      },
+      "comparison": {},
+      "responsive": {
+        "large-desktop": {
+          "viewport": "1920x1080",
+          "innerWidth": 1920,
+          "scrollWidth": 1920,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "desktop": {
+          "viewport": "1440x900",
+          "innerWidth": 1440,
+          "scrollWidth": 1440,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "laptop": {
+          "viewport": "1366x768",
+          "innerWidth": 1366,
+          "scrollWidth": 1366,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "small-laptop": {
+          "viewport": "1280x800",
+          "innerWidth": 1280,
+          "scrollWidth": 1280,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "tablet-landscape": {
+          "viewport": "1024x768",
+          "innerWidth": 1024,
+          "scrollWidth": 1024,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "tablet-portrait": {
+          "viewport": "768x1024",
+          "innerWidth": 768,
+          "scrollWidth": 768,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "mobile-large": {
+          "viewport": "430x932",
+          "innerWidth": 430,
+          "scrollWidth": 430,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-standard": {
+          "viewport": "390x844",
+          "innerWidth": 390,
+          "scrollWidth": 390,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-small": {
+          "viewport": "375x812",
+          "innerWidth": 375,
+          "scrollWidth": 375,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-compact": {
+          "viewport": "360x800",
+          "innerWidth": 360,
+          "scrollWidth": 360,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        }
+      },
+      "scroll": {
+        "downward": [
+          {
+            "step": 0,
+            "y": 0,
+            "refScrollY": 0,
+            "localScrollY": 0
+          },
+          {
+            "step": 1,
+            "y": 500,
+            "refScrollY": 500,
+            "localScrollY": 500
+          },
+          {
+            "step": 2,
+            "y": 1000,
+            "refScrollY": 1000,
+            "localScrollY": 1000
+          },
+          {
+            "step": 3,
+            "y": 1500,
+            "refScrollY": 1483,
+            "localScrollY": 1477
+          },
+          {
+            "step": 4,
+            "y": 2000,
+            "refScrollY": 1483,
+            "localScrollY": 1477
+          },
+          {
+            "step": 5,
+            "y": 2383,
+            "refScrollY": 1483,
+            "localScrollY": 1477
+          }
+        ],
+        "reverse": [
+          {
+            "step": 0,
+            "y": 2383,
+            "refScrollY": 1483,
+            "localScrollY": 1477
+          },
+          {
+            "step": 1,
+            "y": 2000,
+            "refScrollY": 1483,
+            "localScrollY": 1477
+          },
+          {
+            "step": 2,
+            "y": 1500,
+            "refScrollY": 1483,
+            "localScrollY": 1477
+          },
+          {
+            "step": 3,
+            "y": 1000,
+            "refScrollY": 1000,
+            "localScrollY": 1000
+          },
+          {
+            "step": 4,
+            "y": 500,
+            "refScrollY": 500,
+            "localScrollY": 500
+          },
+          {
+            "step": 5,
+            "y": 0,
+            "refScrollY": 0,
+            "localScrollY": 0
+          }
+        ]
+      }
+    },
+    "contact": {
+      "name": "Contact",
+      "route": "/contact",
+      "reference": {
+        "sections": [
+          {
+            "index": 1,
+            "tagName": "header",
+            "id": "site-header",
+            "className": "tp-header fixed inset-x-0 top-0 z-50",
+            "heading": "",
+            "top": 0,
+            "height": 76,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "WhatsApp us",
+              "Menu",
+              "Close",
+              "WhatsApp us"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 2,
+            "tagName": "section",
+            "id": "section-2",
+            "className": "tp-scene ",
+            "heading": "Get in touch with us",
+            "top": 76,
+            "height": 1179,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "Post my letter",
+              "WhatsApp +971 50 000 0000",
+              "Open in Google Maps"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 3,
+            "tagName": "header",
+            "id": "section-3",
+            "className": "grid gap-6 lg:grid-cols-12 lg:items-end",
+            "heading": "Get in touch with us",
+            "top": 140,
+            "height": 249,
+            "width": 1328,
+            "imagesCount": 0,
+            "buttons": [],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 4,
+            "tagName": "section",
+            "id": "section-4",
+            "className": "tp-shopfront mt-12",
+            "heading": "Visit us in Downtown Dubai",
+            "top": 719,
+            "height": 436,
+            "width": 521,
+            "imagesCount": 1,
+            "buttons": [
+              "Open in Google Maps"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 5,
+            "tagName": "footer",
+            "id": "section-5",
+            "className": "tp-footer relative pb-[calc(var(--bar-h)+2rem)] text-milk md:pb-10",
+            "heading": "Explore",
+            "top": 1255,
+            "height": 701,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [],
+            "backgroundColor": "rgb(36, 19, 11)"
+          }
+        ],
+        "assets": {
+          "imagesCount": 3,
+          "brokenImages": [],
+          "videosCount": 0,
+          "linksCount": 34,
+          "sampleImages": [
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fbrand%2Flogo.png&w=128&q=75",
+              "alt": "",
+              "naturalWidth": 64,
+              "naturalHeight": 64,
+              "displayWidth": 48,
+              "displayHeight": 48,
+              "isBroken": false,
+              "loading": "auto"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fmedia%2Fskvodl2NZiKq%2Fcefab5eee9%2F27b888_323008bb0f6a41d4bde2a0da7206cd98f003.jpg&w=3840&q=75",
+              "alt": "The apricot teddy bear puppy from our showroom, held up to say hello",
+              "naturalWidth": 176,
+              "naturalHeight": 312,
+              "displayWidth": 170,
+              "displayHeight": 229,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "https://puppy.instabizweb.com/_next/image?url=%2Fbrand%2Flogo.png&w=96&q=75",
+              "alt": "",
+              "naturalWidth": 48,
+              "naturalHeight": 48,
+              "displayWidth": 36,
+              "displayHeight": 36,
+              "isBroken": false,
+              "loading": "lazy"
+            }
+          ]
+        }
+      },
+      "local": {
+        "sections": [
+          {
+            "index": 1,
+            "tagName": "header",
+            "id": "site-header",
+            "className": "tp-header fixed inset-x-0 top-0 z-50 transition-all duration-300",
+            "heading": "",
+            "top": 0,
+            "height": 76,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "WhatsApp us",
+              "Menu"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 2,
+            "tagName": "section",
+            "id": "section-2",
+            "className": "tp-scene ",
+            "heading": "Get in touch with us",
+            "top": 76,
+            "height": 1316,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [
+              "Post my letter",
+              "WhatsApp +971 50 000 0000",
+              "Open in Google Maps"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 3,
+            "tagName": "header",
+            "id": "section-3",
+            "className": "grid gap-6 lg:grid-cols-12 lg:items-end",
+            "heading": "Get in touch with us",
+            "top": 140,
+            "height": 414,
+            "width": 1328,
+            "imagesCount": 0,
+            "buttons": [],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 4,
+            "tagName": "section",
+            "id": "section-4",
+            "className": "tp-shopfront mt-12",
+            "heading": "Visit us in Downtown Dubai",
+            "top": 850,
+            "height": 349,
+            "width": 521,
+            "imagesCount": 1,
+            "buttons": [
+              "Open in Google Maps"
+            ],
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "index": 5,
+            "tagName": "footer",
+            "id": "section-5",
+            "className": "tp-footer relative pb-[calc(var(--bar-h)+2rem)] text-milk md:pb-10 bg-cocoa-dark overflow-hidden",
+            "heading": "Explore",
+            "top": 1392,
+            "height": 668,
+            "width": 1440,
+            "imagesCount": 1,
+            "buttons": [],
+            "backgroundColor": "rgb(36, 19, 11)"
+          }
+        ],
+        "assets": {
+          "imagesCount": 3,
+          "brokenImages": [],
+          "videosCount": 0,
+          "linksCount": 27,
+          "sampleImages": [
+            {
+              "src": "http://localhost:3030/brand/logo.png",
+              "alt": "TeddyPups Logo",
+              "naturalWidth": 800,
+              "naturalHeight": 800,
+              "displayWidth": 48,
+              "displayHeight": 48,
+              "isBroken": false,
+              "loading": "auto"
+            },
+            {
+              "src": "http://localhost:3030/media/27b888_323008bb0f6a41d4bde2a0da7206cd98f003.jpg",
+              "alt": "The apricot teddy bear puppy from our showroom, held up to say hello",
+              "naturalWidth": 1080,
+              "naturalHeight": 1920,
+              "displayWidth": 170,
+              "displayHeight": 229,
+              "isBroken": false,
+              "loading": "lazy"
+            },
+            {
+              "src": "http://localhost:3030/brand/logo.png",
+              "alt": "TeddyPups Small Logo",
+              "naturalWidth": 800,
+              "naturalHeight": 800,
+              "displayWidth": 36,
+              "displayHeight": 36,
+              "isBroken": false,
+              "loading": "auto"
+            }
+          ]
+        }
+      },
+      "comparison": {},
+      "responsive": {
+        "large-desktop": {
+          "viewport": "1920x1080",
+          "innerWidth": 1920,
+          "scrollWidth": 1920,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "desktop": {
+          "viewport": "1440x900",
+          "innerWidth": 1440,
+          "scrollWidth": 1440,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "laptop": {
+          "viewport": "1366x768",
+          "innerWidth": 1366,
+          "scrollWidth": 1366,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "small-laptop": {
+          "viewport": "1280x800",
+          "innerWidth": 1280,
+          "scrollWidth": 1280,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "tablet-landscape": {
+          "viewport": "1024x768",
+          "innerWidth": 1024,
+          "scrollWidth": 1024,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "tablet-portrait": {
+          "viewport": "768x1024",
+          "innerWidth": 768,
+          "scrollWidth": 768,
+          "hasOverflow": false,
+          "navMode": "desktop-header",
+          "result": "PASS"
+        },
+        "mobile-large": {
+          "viewport": "430x932",
+          "innerWidth": 430,
+          "scrollWidth": 430,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-standard": {
+          "viewport": "390x844",
+          "innerWidth": 390,
+          "scrollWidth": 390,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-small": {
+          "viewport": "375x812",
+          "innerWidth": 375,
+          "scrollWidth": 375,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        },
+        "mobile-compact": {
+          "viewport": "360x800",
+          "innerWidth": 360,
+          "scrollWidth": 360,
+          "hasOverflow": false,
+          "navMode": "mobile-drawer",
+          "result": "PASS"
+        }
+      },
+      "scroll": {
+        "downward": [
+          {
+            "step": 0,
+            "y": 0,
+            "refScrollY": 0,
+            "localScrollY": 0
+          },
+          {
+            "step": 1,
+            "y": 500,
+            "refScrollY": 500,
+            "localScrollY": 500
+          },
+          {
+            "step": 2,
+            "y": 1000,
+            "refScrollY": 1000,
+            "localScrollY": 1000
+          },
+          {
+            "step": 3,
+            "y": 1500,
+            "refScrollY": 1056,
+            "localScrollY": 1160
+          },
+          {
+            "step": 4,
+            "y": 2000,
+            "refScrollY": 1056,
+            "localScrollY": 1160
+          },
+          {
+            "step": 5,
+            "y": 2060,
+            "refScrollY": 1056,
+            "localScrollY": 1160
+          }
+        ],
+        "reverse": [
+          {
+            "step": 0,
+            "y": 2060,
+            "refScrollY": 1056,
+            "localScrollY": 1160
+          },
+          {
+            "step": 1,
+            "y": 2000,
+            "refScrollY": 1056,
+            "localScrollY": 1160
+          },
+          {
+            "step": 2,
+            "y": 1500,
+            "refScrollY": 1056,
+            "localScrollY": 1160
+          },
+          {
+            "step": 3,
+            "y": 1000,
+            "refScrollY": 1000,
+            "localScrollY": 1000
+          },
+          {
+            "step": 4,
+            "y": 500,
+            "refScrollY": 500,
+            "localScrollY": 500
+          },
+          {
+            "step": 5,
+            "y": 0,
+            "refScrollY": 0,
+            "localScrollY": 0
+          }
+        ]
+      }
+    }
+  }
+}
