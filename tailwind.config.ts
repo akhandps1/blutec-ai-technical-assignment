@@ -2,13 +2,16 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx,json}",
   ],
   theme: {
     extend: {
       colors: {
+        toffee: {
+          DEFAULT: "#C2622B",
+          deep: "#A24A1A",
+          ink: "#8E3F15",
+        },
         terracotta: {
           DEFAULT: "#C2622B",
           dark: "#A24A1A",
@@ -19,6 +22,7 @@ const config: Config = {
           DEFAULT: "#2A170E",
           dark: "#24130B",
           light: "#5A3A28",
+          soft: "#5A3A28",
         },
         milk: {
           DEFAULT: "#FFFDF8",
@@ -31,6 +35,10 @@ const config: Config = {
         amber: {
           DEFAULT: "#F2BE6B",
           light: "#FBE3B4",
+        },
+        honey: {
+          DEFAULT: "#F2BE6B",
+          soft: "#FBE3B4",
         },
         forest: {
           DEFAULT: "#1F7A4D",
@@ -47,6 +55,8 @@ const config: Config = {
         },
       },
       fontFamily: {
+        plush: ["var(--font-fraunces)", "Fraunces", "serif"],
+        scrawl: ["var(--font-shantell)", "Shantell Sans", "cursive"],
         fraunces: ["var(--font-fraunces)", "Fraunces", "serif"],
         figtree: ["var(--font-figtree)", "Figtree", "sans-serif"],
         shantell: ["var(--font-shantell)", "Shantell Sans", "cursive"],
