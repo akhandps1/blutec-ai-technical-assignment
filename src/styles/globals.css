@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-terracotta: #C2622B;
+  --color-terracotta-dark: #A24A1A;
+  --color-cinnamon: #8E3F15;
+  --color-cocoa: #2A170E;
+  --color-cocoa-light: #5A3A28;
+  --color-espresso: #24130B;
+  --color-milk: #FFFDF8;
+  --color-cream: #FBF7F0;
+  --color-peach-light: #FFF8EA;
+  --color-peach-warm: #FFF1D8;
+  --color-amber: #F2BE6B;
+  --color-forest: #1F7A4D;
+  --color-forest-dark: #1F5D3A;
+  --color-sky: #BFDDF5;
+  --color-red: #B3261E;
+}
+
+body {
+  color: var(--color-cocoa);
+  background-color: var(--color-milk);
+  font-family: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scalloped divider pattern */
+.tp-curtain-scallop {
+  background-repeat: repeat-x;
+}
+
+/* Animations reverse-engineered from reference website */
+@keyframes tp-runner-x {
+  0% { transform: translateX(-40%); }
+  100% { transform: translateX(140%); }
+}
+
+@keyframes tp-runner-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+@keyframes tp-runner-leg-a {
+  0% { transform: rotate(24deg); }
+  100% { transform: rotate(-20deg); }
+}
+
+@keyframes tp-runner-leg-b {
+  0% { transform: rotate(-22deg); }
+  100% { transform: rotate(22deg); }
+}
+
+@keyframes tp-runner-wag {
+  0% { transform: rotate(-16deg); }
+  100% { transform: rotate(24deg); }
+}
+
+@keyframes tp-twinkle {
+  0%, 100% { opacity: 0.35; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.1); }
+}
+
+@keyframes tp-float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(2deg); }
+}
+
+@keyframes tp-stamp-thump {
+  0% { opacity: 0; transform: scale(1.4) rotate(-28deg); }
+  100% { opacity: 1; transform: scale(1) rotate(-12deg); }
+}
+
+@keyframes tp-breathe {
+  0%, 100% { transform: scale(1, 1); }
+  50% { transform: scale(1, 1.018); }
+}
+
+@keyframes tp-blink-shut {
+  0%, 92%, 100% { opacity: 0; }
+  94%, 98% { opacity: 1; }
+}
+
+@keyframes tp-door-open {
+  0% { transform: rotateY(0deg); }
+  100% { transform: rotateY(-38deg); }
+}
+
+.animate-runner-bob {
+  animation: tp-runner-bob 0.38s ease-in-out infinite alternate;
+}
+
+.animate-float {
+  animation: tp-float 3.2s ease-in-out infinite alternate;
+}
+
+.animate-twinkle {
+  animation: tp-twinkle 2.4s ease-in-out infinite alternate;
+}
+
+.animate-stamp {
+  animation: tp-stamp-thump 0.32s cubic-bezier(0.15, 1.2, 0.3, 1) forwards;
+}
+
+.animate-breathe {
+  animation: tp-breathe 2.8s ease-in-out infinite alternate;
+}

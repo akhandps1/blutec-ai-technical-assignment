@@ -1,0 +1,27 @@
+export const siteConfig = {
+  name: "TeddyPups U.A.E.",
+  description: "Specialized boutique miniature puppies in Dubai with direct delivery and international concierge.",
+  url: "https://puppy.instabizweb.com",
+  phone: "+971 50 000 0000",
+  whatsappNumber: "919898124987",
+  whatsappUrl: "https://wa.me/919898124987?text=Hi%20Insta%20Biz%20Web%2C%20I%27d%20like%20to%20discuss%20a%20project.",
+  email: "info@instabizweb.com",
+  address: "Downtown Dubai, United Arab Emirates",
+  navItems: [
+    { label: "Home", href: "/" },
+    { label: "Puppies", href: "/puppies" },
+    { label: "Happy families", href: "/happy-families" },
+    { label: "How it works", href: "/how-it-works" },
+    { label: "FAQ", href: "/faq" },
+    { label: "Visit & contact", href: "/contact" },
+  ],
+  footerLinks: [
+    { label: "Available puppies", href: "/puppies" },
+    { label: "Gone home", href: "/gone-home" },
+    { label: "Happy families", href: "/happy-families" },
+    { label: "How it works", href: "/how-it-works" },
+    { label: "Delivery & collection", href: "/how-it-works#delivery" },
+    { label: "FAQ", href: "/faq" },
+    { label: "Visit & contact", href: "/contact" },
+  ],
+};

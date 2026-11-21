@@ -1,0 +1,418 @@
+[
+  {
+    "filename": "home_desktop_full.png",
+    "category": "Full Page",
+    "page": "home",
+    "viewport": "desktop (1440x900)",
+    "state": "Default initial load",
+    "description": "Full page capture of home at desktop resolution"
+  },
+  {
+    "filename": "puppies_desktop_full.png",
+    "category": "Full Page",
+    "page": "puppies",
+    "viewport": "desktop (1440x900)",
+    "state": "Default initial load",
+    "description": "Full page capture of puppies at desktop resolution"
+  },
+  {
+    "filename": "gone-home_desktop_full.png",
+    "category": "Full Page",
+    "page": "gone-home",
+    "viewport": "desktop (1440x900)",
+    "state": "Default initial load",
+    "description": "Full page capture of gone-home at desktop resolution"
+  },
+  {
+    "filename": "happy-families_desktop_full.png",
+    "category": "Full Page",
+    "page": "happy-families",
+    "viewport": "desktop (1440x900)",
+    "state": "Default initial load",
+    "description": "Full page capture of happy-families at desktop resolution"
+  },
+  {
+    "filename": "how-it-works_desktop_full.png",
+    "category": "Full Page",
+    "page": "how-it-works",
+    "viewport": "desktop (1440x900)",
+    "state": "Default initial load",
+    "description": "Full page capture of how-it-works at desktop resolution"
+  },
+  {
+    "filename": "faq_desktop_full.png",
+    "category": "Full Page",
+    "page": "faq",
+    "viewport": "desktop (1440x900)",
+    "state": "Default initial load",
+    "description": "Full page capture of faq at desktop resolution"
+  },
+  {
+    "filename": "contact_desktop_full.png",
+    "category": "Full Page",
+    "page": "contact",
+    "viewport": "desktop (1440x900)",
+    "state": "Default initial load",
+    "description": "Full page capture of contact at desktop resolution"
+  },
+  {
+    "filename": "puppy-detail-max_desktop_full.png",
+    "category": "Full Page",
+    "page": "puppy-detail-max",
+    "viewport": "desktop (1440x900)",
+    "state": "Default initial load",
+    "description": "Full page capture of puppy-detail-max at desktop resolution"
+  },
+  {
+    "filename": "404-not-found_desktop_full.png",
+    "category": "Full Page",
+    "page": "404-not-found",
+    "viewport": "desktop (1440x900)",
+    "state": "Default initial load",
+    "description": "Full page capture of 404-not-found at desktop resolution"
+  },
+  {
+    "filename": "home_laptop_full.png",
+    "category": "Full Page",
+    "page": "home",
+    "viewport": "laptop (1280x800)",
+    "state": "Default initial load",
+    "description": "Full page capture of home at laptop resolution"
+  },
+  {
+    "filename": "puppies_laptop_full.png",
+    "category": "Full Page",
+    "page": "puppies",
+    "viewport": "laptop (1280x800)",
+    "state": "Default initial load",
+    "description": "Full page capture of puppies at laptop resolution"
+  },
+  {
+    "filename": "gone-home_laptop_full.png",
+    "category": "Full Page",
+    "page": "gone-home",
+    "viewport": "laptop (1280x800)",
+    "state": "Default initial load",
+    "description": "Full page capture of gone-home at laptop resolution"
+  },
+  {
+    "filename": "happy-families_laptop_full.png",
+    "category": "Full Page",
+    "page": "happy-families",
+    "viewport": "laptop (1280x800)",
+    "state": "Default initial load",
+    "description": "Full page capture of happy-families at laptop resolution"
+  },
+  {
+    "filename": "how-it-works_laptop_full.png",
+    "category": "Full Page",
+    "page": "how-it-works",
+    "viewport": "laptop (1280x800)",
+    "state": "Default initial load",
+    "description": "Full page capture of how-it-works at laptop resolution"
+  },
+  {
+    "filename": "faq_laptop_full.png",
+    "category": "Full Page",
+    "page": "faq",
+    "viewport": "laptop (1280x800)",
+    "state": "Default initial load",
+    "description": "Full page capture of faq at laptop resolution"
+  },
+  {
+    "filename": "contact_laptop_full.png",
+    "category": "Full Page",
+    "page": "contact",
+    "viewport": "laptop (1280x800)",
+    "state": "Default initial load",
+    "description": "Full page capture of contact at laptop resolution"
+  },
+  {
+    "filename": "puppy-detail-max_laptop_full.png",
+    "category": "Full Page",
+    "page": "puppy-detail-max",
+    "viewport": "laptop (1280x800)",
+    "state": "Default initial load",
+    "description": "Full page capture of puppy-detail-max at laptop resolution"
+  },
+  {
+    "filename": "404-not-found_laptop_full.png",
+    "category": "Full Page",
+    "page": "404-not-found",
+    "viewport": "laptop (1280x800)",
+    "state": "Default initial load",
+    "description": "Full page capture of 404-not-found at laptop resolution"
+  },
+  {
+    "filename": "home_tablet_full.png",
+    "category": "Full Page",
+    "page": "home",
+    "viewport": "tablet (768x1024)",
+    "state": "Default initial load",
+    "description": "Full page capture of home at tablet resolution"
+  },
+  {
+    "filename": "puppies_tablet_full.png",
+    "category": "Full Page",
+    "page": "puppies",
+    "viewport": "tablet (768x1024)",
+    "state": "Default initial load",
+    "description": "Full page capture of puppies at tablet resolution"
+  },
+  {
+    "filename": "gone-home_tablet_full.png",
+    "category": "Full Page",
+    "page": "gone-home",
+    "viewport": "tablet (768x1024)",
+    "state": "Default initial load",
+    "description": "Full page capture of gone-home at tablet resolution"
+  },
+  {
+    "filename": "happy-families_tablet_full.png",
+    "category": "Full Page",
+    "page": "happy-families",
+    "viewport": "tablet (768x1024)",
+    "state": "Default initial load",
+    "description": "Full page capture of happy-families at tablet resolution"
+  },
+  {
+    "filename": "how-it-works_tablet_full.png",
+    "category": "Full Page",
+    "page": "how-it-works",
+    "viewport": "tablet (768x1024)",
+    "state": "Default initial load",
+    "description": "Full page capture of how-it-works at tablet resolution"
+  },
+  {
+    "filename": "faq_tablet_full.png",
+    "category": "Full Page",
+    "page": "faq",
+    "viewport": "tablet (768x1024)",
+    "state": "Default initial load",
+    "description": "Full page capture of faq at tablet resolution"
+  },
+  {
+    "filename": "contact_tablet_full.png",
+    "category": "Full Page",
+    "page": "contact",
+    "viewport": "tablet (768x1024)",
+    "state": "Default initial load",
+    "description": "Full page capture of contact at tablet resolution"
+  },
+  {
+    "filename": "puppy-detail-max_tablet_full.png",
+    "category": "Full Page",
+    "page": "puppy-detail-max",
+    "viewport": "tablet (768x1024)",
+    "state": "Default initial load",
+    "description": "Full page capture of puppy-detail-max at tablet resolution"
+  },
+  {
+    "filename": "404-not-found_tablet_full.png",
+    "category": "Full Page",
+    "page": "404-not-found",
+    "viewport": "tablet (768x1024)",
+    "state": "Default initial load",
+    "description": "Full page capture of 404-not-found at tablet resolution"
+  },
+  {
+    "filename": "home_mobile_full.png",
+    "category": "Full Page",
+    "page": "home",
+    "viewport": "mobile (390x844)",
+    "state": "Default initial load",
+    "description": "Full page capture of home at mobile resolution"
+  },
+  {
+    "filename": "puppies_mobile_full.png",
+    "category": "Full Page",
+    "page": "puppies",
+    "viewport": "mobile (390x844)",
+    "state": "Default initial load",
+    "description": "Full page capture of puppies at mobile resolution"
+  },
+  {
+    "filename": "gone-home_mobile_full.png",
+    "category": "Full Page",
+    "page": "gone-home",
+    "viewport": "mobile (390x844)",
+    "state": "Default initial load",
+    "description": "Full page capture of gone-home at mobile resolution"
+  },
+  {
+    "filename": "happy-families_mobile_full.png",
+    "category": "Full Page",
+    "page": "happy-families",
+    "viewport": "mobile (390x844)",
+    "state": "Default initial load",
+    "description": "Full page capture of happy-families at mobile resolution"
+  },
+  {
+    "filename": "how-it-works_mobile_full.png",
+    "category": "Full Page",
+    "page": "how-it-works",
+    "viewport": "mobile (390x844)",
+    "state": "Default initial load",
+    "description": "Full page capture of how-it-works at mobile resolution"
+  },
+  {
+    "filename": "faq_mobile_full.png",
+    "category": "Full Page",
+    "page": "faq",
+    "viewport": "mobile (390x844)",
+    "state": "Default initial load",
+    "description": "Full page capture of faq at mobile resolution"
+  },
+  {
+    "filename": "contact_mobile_full.png",
+    "category": "Full Page",
+    "page": "contact",
+    "viewport": "mobile (390x844)",
+    "state": "Default initial load",
+    "description": "Full page capture of contact at mobile resolution"
+  },
+  {
+    "filename": "puppy-detail-max_mobile_full.png",
+    "category": "Full Page",
+    "page": "puppy-detail-max",
+    "viewport": "mobile (390x844)",
+    "state": "Default initial load",
+    "description": "Full page capture of puppy-detail-max at mobile resolution"
+  },
+  {
+    "filename": "404-not-found_mobile_full.png",
+    "category": "Full Page",
+    "page": "404-not-found",
+    "viewport": "mobile (390x844)",
+    "state": "Default initial load",
+    "description": "Full page capture of 404-not-found at mobile resolution"
+  },
+  {
+    "filename": "home_header_desktop.png",
+    "category": "Section",
+    "page": "home",
+    "viewport": "desktop (1440x900)",
+    "state": "In viewport",
+    "description": "Site top navigation header with brand and menu"
+  },
+  {
+    "filename": "home_sec01_hero_desktop.png",
+    "category": "Section",
+    "page": "home",
+    "viewport": "desktop (1440x900)",
+    "state": "In viewport",
+    "description": "Hero section: 'Premium teacup puppies in Dubai'"
+  },
+  {
+    "filename": "home_sec02_meet_desktop.png",
+    "category": "Section",
+    "page": "home",
+    "viewport": "desktop (1440x900)",
+    "state": "In viewport",
+    "description": "Meet the pups showcase carousel"
+  },
+  {
+    "filename": "home_sec03_paths_desktop.png",
+    "category": "Section",
+    "page": "home",
+    "viewport": "desktop (1440x900)",
+    "state": "In viewport",
+    "description": "Two ways to meet your puppy (Local vs Imported)"
+  },
+  {
+    "filename": "home_sec04_journey_desktop.png",
+    "category": "Section",
+    "page": "home",
+    "viewport": "desktop (1440x900)",
+    "state": "In viewport",
+    "description": "Your puppy journey steps"
+  },
+  {
+    "filename": "home_sec05_trust_desktop.png",
+    "category": "Section",
+    "page": "home",
+    "viewport": "desktop (1440x900)",
+    "state": "In viewport",
+    "description": "Why families trust TeddyPups passport/guarantees"
+  },
+  {
+    "filename": "home_sec06_happy_families_desktop.png",
+    "category": "Section",
+    "page": "home",
+    "viewport": "desktop (1440x900)",
+    "state": "In viewport",
+    "description": "Happy families & puppies testimonials"
+  },
+  {
+    "filename": "home_sec07_faq_desktop.png",
+    "category": "Section",
+    "page": "home",
+    "viewport": "desktop (1440x900)",
+    "state": "In viewport",
+    "description": "Questions, answered accordion"
+  },
+  {
+    "filename": "home_sec08_ready_cta_desktop.png",
+    "category": "Section",
+    "page": "home",
+    "viewport": "desktop (1440x900)",
+    "state": "In viewport",
+    "description": "Ready to meet your new best friend banner"
+  },
+  {
+    "filename": "home_sec09_footer_desktop.png",
+    "category": "Section",
+    "page": "home",
+    "viewport": "desktop (1440x900)",
+    "state": "In viewport",
+    "description": "Footer section with quick links, contacts, socials"
+  },
+  {
+    "filename": "mobile_menu_drawer_open.png",
+    "category": "Interactive State",
+    "page": "home",
+    "viewport": "mobile (390x844)",
+    "state": "Menu Drawer Opened",
+    "description": "Mobile full-screen overlay navigation drawer opened with links and contact"
+  },
+  {
+    "filename": "faq_accordion_expanded_desktop.png",
+    "category": "Interactive State",
+    "page": "faq",
+    "viewport": "desktop (1440x900)",
+    "state": "Accordion Expanded",
+    "description": "FAQ items toggled open showing answer copy and typography"
+  },
+  {
+    "filename": "puppies_filter_maltipoo_desktop.png",
+    "category": "Interactive State",
+    "page": "puppies",
+    "viewport": "desktop (1440x900)",
+    "state": "Filter Active (?breed=maltipoo)",
+    "description": "Puppies catalog filtered by Maltipoo breed pills active"
+  },
+  {
+    "filename": "contact_form_filled_desktop.png",
+    "category": "Interactive State",
+    "page": "contact",
+    "viewport": "desktop (1440x900)",
+    "state": "Form Filled Active",
+    "description": "Contact form filled with sample input fields, focus states, and placeholder behavior"
+  },
+  {
+    "filename": "puppy_detail_video_playing_desktop.png",
+    "category": "Interactive State",
+    "page": "puppy-detail-max",
+    "viewport": "desktop (1440x900)",
+    "state": "Video Player Active",
+    "description": "Puppy detail hero media container switched from photo slider to HTML5 video playback"
+  },
+  {
+    "filename": "header_sticky_scrolled_desktop.png",
+    "category": "Interactive State",
+    "page": "home",
+    "viewport": "desktop (1440x900)",
+    "state": "Header Scrolled / Sticky",
+    "description": "Header behavior when scrolled down 1200px (blur, border, shadow, compact state)"
+  }
+]
