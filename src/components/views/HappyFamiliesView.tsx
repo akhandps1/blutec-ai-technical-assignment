@@ -164,6 +164,7 @@ export default function HappyFamiliesView() {
                       <span className="tp-polaroid block" style={parseStyle(m.style)}>
                         <span aria-hidden="true" className="tp-tape tp-tape--center" />
                         <span className="tp-polaroid__photo block relative overflow-hidden bg-[#e8c8a8]">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img
                             alt={m.alt || "A happy TeddyPups family with their new puppy"}
                             src={m.originalUrl}
@@ -265,6 +266,7 @@ export default function HappyFamiliesView() {
               }}
             >
               <div className="relative max-w-4xl max-h-[75vh] w-full h-full flex items-center justify-center">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   alt={moments[activePhoto].alt || `Photo ${activePhoto + 1} from TeddyPups families`}
                   src={moments[activePhoto].originalUrl}
