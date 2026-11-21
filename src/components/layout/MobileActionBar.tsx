@@ -5,7 +5,7 @@ export default function MobileActionBar() {
   return (
     <div
       data-whatsapp-bar="true"
-      className="tp-action-bar fixed inset-x-0 bottom-0 z-40 border-t-2 border-cocoa bg-milk px-3 pb-[calc(0.6rem+env(safe-area-inset-bottom))] pt-2.5 md:hidden"
+      className="tp-action-bar tp-mobile-bar fixed inset-x-0 bottom-0 z-40 border-t-2 border-cocoa bg-milk px-3 pb-[calc(0.6rem+env(safe-area-inset-bottom))] pt-2.5 md:hidden"
     >
       <div className="mx-auto flex max-w-md gap-2">
         <a

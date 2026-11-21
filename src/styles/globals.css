@@ -228,6 +228,17 @@ select {
   100% { transform: rotate(8deg); }
 }
 
+@keyframes tp-unfold-card {
+  0% {
+    transform: perspective(800px) rotateX(-80deg) translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    transform: perspective(800px) rotateX(0deg) translateY(0);
+    opacity: 1;
+  }
+}
+
 /* Reduced motion accessibility */
 @media (prefers-reduced-motion: reduce) {
   *, ::before, ::after {
