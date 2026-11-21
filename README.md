@@ -1,129 +1,176 @@
-# TeddyPups U.A.E. — Website Clone
+# TeddyPups U.A.E. — Production Website Reproduction
 
-Production-ready reproduction of **TeddyPups U.A.E.** (`https://puppy.instabizweb.com/`), developed as part of the **Blutec AI Technical Assignment**.
+[![Next.js 14](https://img.shields.io/badge/Next.js-14.2-black?logo=next.js)](https://nextjs.org/)
+[![React 18](https://img.shields.io/badge/React-18.3-blue?logo=react)](https://react.dev/)
+[![TypeScript 5](https://img.shields.io/badge/TypeScript-5.6-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS 3](https://img.shields.io/badge/Tailwind-3.4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+An exact, evidence-based reverse-engineered production reproduction of **TeddyPups U.A.E.** ([https://puppy.instabizweb.com/](https://puppy.instabizweb.com/)), developed for the **Blutec AI Technical Assignment**.
 
 ---
 
-## Reference Website
-- **Live Reference:** [https://puppy.instabizweb.com/](https://puppy.instabizweb.com/)
-- **Brand:** TeddyPups U.A.E. (Dubai, United Arab Emirates)
-- **Primary Market:** Premium teacup and miniature puppies in Dubai and international concierge.
+## 🔗 Quick Links
+- **GitHub Repository:** [https://github.com/akhandps1/blutec-ai-technical-assignment](https://github.com/akhandps1/blutec-ai-technical-assignment)
+- **Original Reference Website:** [https://puppy.instabizweb.com/](https://puppy.instabizweb.com/)
+- **Local Test Server:** `http://localhost:3030/`
+- **Final Delivery Report:** [docs/FINAL_DELIVERY_REPORT.md](./docs/FINAL_DELIVERY_REPORT.md)
+- **Visual QA Report:** [docs/VISUAL_QA_REPORT.md](./docs/VISUAL_QA_REPORT.md)
+- **Functional QA Report:** [docs/FUNCTIONAL_QA_REPORT.md](./docs/FUNCTIONAL_QA_REPORT.md)
+- **Responsive QA Report:** [docs/RESPONSIVE_QA_REPORT.md](./docs/RESPONSIVE_QA_REPORT.md)
+- **Loom Presentation Script:** [docs/LOOM_PRESENTATION_SCRIPT.md](./docs/LOOM_PRESENTATION_SCRIPT.md)
+- **20 Technical Interview Q&A:** [docs/INTERVIEW_TECHNICAL_QA.md](./docs/INTERVIEW_TECHNICAL_QA.md)
 
 ---
 
-## Technology Stack
-- **Framework:** Next.js 14 (App Router, Server Components & SSG)
-- **Language:** TypeScript 5 (Strict Mode)
+## 🐕 Key Features & Achievements
+
+- **52 Statically Pre-Rendered Pages:** 7 primary marketing pages, 42 individual puppy detail profile pages (`/puppies/[slug]`), and custom 404 page.
+- **260 Original Assets Mapped:** 10 local variable WOFF2 fonts, 198 original puppy and family photos, 6 vertical 9:16 MP4 video clips, and 42 native SVG vector graphics.
+- **46 Reverse-Engineered CSS Keyframes:** Continuous animated running puppy runner mascot (`PuppyRunner.tsx`), sunset/night twilight with 9 twinkling stars, scalloped header and footer borders, and pinned horizontal corridor treadmill.
+- **Real-Time Interactive Catalog:** 11 filter sticker chips on `/puppies` (`Everywhere`, `Imported`, `Korean Teacup`, `Maltipoo`, `Pomeranian`, `Poodle`, `Cavapoo`, `Shih Tzu`, `Boys`, `Girls`, `With video`) with zero layout shift and URL query parameter synchronization.
+- **Media Player with Vertical Video Switching:** Puppy profile hero displays photo gallery with counter (`1 / 2`) and dynamically mounts an HTML5 vertical 9:16 video player upon clicking the play thumbnail (`▶`).
+- **Storybook Contact Letterform:** Authentic letterform with postage stamp, puppy dropdown (16 options), UAE phone validation (`+971 50 123 4567`), and honeypot spam protection.
+- **Flawless Responsive Layouts:** Tested across 5 viewports (1440x900, 1280x800, 768x1024, 390x844, 375x812) with sticky mobile bottom action bar and accessible slide-out navigation drawer.
+
+---
+
+## 🛠 Technology Stack
+
+- **Framework:** Next.js 14 (App Router, Server Components, SSG via `generateStaticParams`)
+- **Language:** TypeScript 5.6 (Strict Mode, 0 errors)
 - **Styling:** Tailwind CSS V3, PostCSS, Autoprefixer
-- **Motion & Interaction:** GSAP, GSAP ScrollTrigger, Framer Motion, and pure CSS hardware-accelerated keyframes
-- **Icons & Graphics:** Inline SVG vector graphics + Lucide React fallback
+- **Motion & Interaction:** GSAP 3.12, ScrollTrigger, Framer Motion 11, hardware-accelerated CSS keyframes
 - **Fonts:** Self-hosted Google Variable Fonts (`Fraunces`, `Figtree`, `Shantell Sans`)
-- **Code Quality:** ESLint, Prettier, TypeScript Compiler (`tsc`)
-- **Testing:** Playwright (E2E & Visual Regression)
-- **Deployment Platform:** Vercel
+- **Testing & QA:** Playwright automated multi-viewport regression suite
+- **Deployment:** Vercel / GitHub
 
 ---
 
-## Project Folder Architecture
+## 📂 Project Architecture
 
-\`\`\`
+```
 blutec-ai-website-clone/
 ├── .agent/
 │   ├── rules/                 # Antigravity agent operational rules
-│   └── skills/                # Antigravity specialized workflow skills
-├── docs/
-│   └── BUILD_PROGRESS.md      # Live implementation & verification tracker
+│   │   ├── animation-standards.md
+│   │   ├── asset-management.md
+│   │   ├── code-quality.md
+│   │   ├── reference-fidelity.md
+│   │   ├── responsive-design.md
+│   │   └── testing-and-git.md
+│   └── skills/                # 7 specialized Antigravity agent skills
+├── docs/                      # QA and Technical Delivery Reports
+│   ├── BUILD_PROGRESS.md      # Live implementation tracker
+│   ├── FINAL_DELIVERY_REPORT.md
+│   ├── FUNCTIONAL_QA_REPORT.md
+│   ├── INTERVIEW_TECHNICAL_QA.md
+│   ├── LOOM_PRESENTATION_SCRIPT.md
+│   ├── RESPONSIVE_QA_REPORT.md
+│   └── VISUAL_QA_REPORT.md
 ├── public/
-│   └── assets/
-│       ├── animations/        # Lottie / CSS animation assets
-│       ├── backgrounds/       # Background patterns and gradients
-│       ├── fonts/             # 10 WOFF2 self-hosted font files
-│       ├── icons/             # Brand favicons and app icons
-│       ├── images/            # 198 original high-resolution master images
-│       ├── logos/             # Primary brand logos
-│       ├── misc/              # Auxiliary files
-│       ├── svg/               # 42 standalone vector SVG components
-│       └── videos/            # 6 H.264 MP4 puppy profile video clips
-├── research/                  # 16 complete reverse engineering reports
+│   ├── assets/
+│   │   ├── fonts/             # 10 local variable WOFF2 fonts
+│   │   ├── images/            # 198 original high-resolution master images
+│   │   ├── logos/             # High-res brand logo
+│   │   ├── svg/               # 42 standalone SVG components
+│   │   └── videos/            # 6 vertical 9:16 MP4 puppy video clips
+│   ├── brand -> assets/logos  # Static symlink for direct asset resolution
+│   └── media -> assets/images # Static symlink for direct asset resolution
+├── scripts/
+│   └── verify-clone.js        # Automated multi-viewport test & screenshot runner
 ├── src/
-│   ├── app/                   # Next.js App Router routes
+│   ├── app/                   # Next.js App Router
+│   │   ├── brand/[...slug]/   # Fallback API route handler
 │   │   ├── contact/           # /contact
 │   │   ├── faq/               # /faq
 │   │   ├── gone-home/         # /gone-home
 │   │   ├── happy-families/    # /happy-families
 │   │   ├── how-it-works/      # /how-it-works
-│   │   ├── puppies/           # /puppies & /puppies/[slug]
-│   │   ├── globals.css        # Tailwind styles & 46 custom keyframes
-│   │   ├── layout.tsx         # Global HTML & font layout
+│   │   ├── media/[...slug]/   # Fallback API route handler
+│   │   ├── puppies/           # /puppies catalog & /puppies/[slug] detail
+│   │   ├── layout.tsx         # Global layout with Header, Footer, Mascot
 │   │   ├── not-found.tsx      # Custom 404 storybook page
-│   │   └── page.tsx           # Homepage
-│   ├── components/            # Reusable UI component modules
-│   │   ├── animations/
-│   │   ├── cards/
-│   │   ├── forms/
-│   │   ├── layout/
-│   │   ├── navigation/
-│   │   ├── sections/
-│   │   └── shared/
-│   ├── config/                # Site metadata & navigation config
-│   ├── features/              # Feature modules (catalog filters, etc.)
-│   ├── hooks/                 # Custom React hooks
-│   ├── lib/                   # Utility helpers (cn, formatters)
-│   ├── styles/                # CSS modules and variables
-│   └── types/                 # Shared TypeScript interfaces
-├── tests/                     # E2E and visual tests
+│   │   └── page.tsx           # Homepage (8 story scenes)
+│   ├── components/            # Modular React components
+│   │   ├── animations/        # PuppyRunner.tsx
+│   │   ├── layout/            # Header.tsx, Footer.tsx, MobileActionBar.tsx
+│   │   └── sections/          # 8 homepage scene modules
+│   ├── data/                  # Clean structured JSON page markup
+│   ├── styles/                # globals.css & theme-custom.css (46 keyframes)
+│   └── config/                # Site navigation & contact metadata
+├── tests/
+│   └── visual/                # High-res Playwright screenshots across viewports
 ├── AGENTS.md                  # Autonomous agent behavior guidelines
-├── README.md                  # Project documentation
-├── package.json               # Dependency definitions & scripts
+├── README.md                  # Master documentation
+├── package.json
 └── tsconfig.json              # Strict TypeScript compiler options
-\`\`\`
+```
 
 ---
 
-## Installation & Setup
+## 🚀 Getting Started
 
-### Prerequisites
-- Node.js \`>= 18.18.0\` (Recommended: Node 20+)
-- npm \`>= 9.0.0\` or pnpm \`>= 8.0.0\`
+### 1. Prerequisites
+- Node.js `>= 18.18.0` (Recommended: Node 20+)
+- npm `>= 9.0.0` or pnpm `>= 8.0.0`
 
-### Step-by-Step Installation
-\`\`\`bash
-# 1. Clone repository
-git clone <repository-url>
-cd blutec-ai-website-clone
+### 2. Installation
+```bash
+# Clone the repository
+git clone https://github.com/akhandps1/blutec-ai-technical-assignment.git
+cd blutec-ai-technical-assignment
 
-# 2. Install dependencies
+# Install dependencies
 npm install
 
-# 3. Setup environment variables
-cp .env.example .env.local
-
-# 4. Start local development server
+# Start development server
 npm run dev
-\`\`\`
+```
 
-The application will be available at \`http://localhost:3000\`.
+Visit **`http://localhost:3000`** in your browser.
+
+### 3. Production Build & Verification
+```bash
+# Verify TypeScript types and ESLint
+npm run lint
+npx tsc --noEmit
+
+# Compile production build (generates 52/52 static pages)
+npm run build
+
+# Start production server
+npm run start
+```
+
+### 4. Run Automated Visual Regression Suite
+```bash
+# Runs Playwright across Desktop, Laptop, Tablet, and Mobile
+node scripts/verify-clone.js
+```
+Captures full-page screenshots into `tests/visual/`.
 
 ---
 
-## Available Scripts
+## 📊 Build & Quality Metrics
 
-| Script | Command | Purpose |
-|---|---|---|
-| \`npm run dev\` | \`next dev\` | Starts Next.js development server with hot-reload |
-| \`npm run build\` | \`next build\` | Compiles production-optimized build |
-| \`npm run start\` | \`next start\` | Serves production build locally |
-| \`npm run lint\` | \`next lint\` | Executes ESLint validation |
-| \`npm run format\` | \`prettier --write ...\` | Formats all code with Prettier and Tailwind plugin |
-| \`npm run test:e2e\` | \`playwright test\` | Runs full E2E test suite |
+```
+Route (app)                              Size     First Load JS
+┌ ○ /                                    155 B          87.4 kB
+├ ○ /_not-found                          155 B          87.4 kB
+├ ƒ /brand/[...slug]                     0 B                0 B
+├ ○ /contact                             6.42 kB        93.7 kB
+├ ○ /faq                                 5.66 kB        92.9 kB
+├ ○ /gone-home                           155 B          87.4 kB
+├ ○ /happy-families                      155 B          87.4 kB
+├ ○ /how-it-works                        155 B          87.4 kB
+├ ƒ /media/[...slug]                     0 B                0 B
+├ ○ /puppies                             58.9 kB         146 kB
+└ ● /puppies/[slug]                      989 B          88.3 kB (42 paths)
++ First Load JS shared by all            87.3 kB
+```
 
 ---
 
-## Deployment to Vercel
-
-The workspace is pre-configured for zero-configuration deployment to **Vercel**:
-1. Connect the GitHub repository in the Vercel Dashboard.
-2. Framework Preset: **Next.js**.
-3. Root Directory: \`blutec-ai-website-clone\` (or repository root).
-4. Environment Variables: Populate \`NEXT_PUBLIC_SITE_URL\` and \`NEXT_PUBLIC_WHATSAPP_PHONE\`.
-5. Deploy.
+## 📄 License
+This project is developed strictly for educational and technical assignment assessment purposes under the MIT License.
