@@ -1,0 +1,390 @@
+{
+  "timestamp": "2026-11-21T09:05:02.363Z",
+  "sections": [
+    {
+      "index": 1,
+      "id": "section-1",
+      "className": "tp-scene tp-hero",
+      "rect": {
+        "top": 76,
+        "height": 824,
+        "width": 1440
+      },
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "Gradient/Pattern",
+      "kicker": "every puppy is family",
+      "heading": "Premium teacuppuppies in Dubai",
+      "imagesCount": 7,
+      "buttonsCount": 2,
+      "buttons": [
+        "View available puppies",
+        "Enquire on WhatsApp"
+      ],
+      "hasMascot": true,
+      "isPinned": false
+    },
+    {
+      "index": 2,
+      "id": "section-2",
+      "className": "tp-scene tp-meet",
+      "rect": {
+        "top": 900,
+        "height": 4126,
+        "width": 1440
+      },
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "Gradient/Pattern",
+      "kicker": "",
+      "heading": "Meet the pups",
+      "imagesCount": 15,
+      "buttonsCount": 1,
+      "buttons": [
+        "See all available puppies"
+      ],
+      "hasMascot": true,
+      "isPinned": false
+    },
+    {
+      "index": 3,
+      "id": "section-3",
+      "className": "tp-scene tp-paths",
+      "rect": {
+        "top": 5026,
+        "height": 1107,
+        "width": 1440
+      },
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "Gradient/Pattern",
+      "kicker": "",
+      "heading": "Two ways to meet your puppy",
+      "imagesCount": 1,
+      "buttonsCount": 2,
+      "buttons": [
+        "Meet local puppies",
+        "See imported puppies"
+      ],
+      "hasMascot": true,
+      "isPinned": false
+    },
+    {
+      "index": 4,
+      "id": "section-4",
+      "className": "tp-scene tp-chat",
+      "rect": {
+        "top": 6133,
+        "height": 1697,
+        "width": 1440
+      },
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "Gradient/Pattern",
+      "kicker": "",
+      "heading": "Your puppy journey",
+      "imagesCount": 5,
+      "buttonsCount": 2,
+      "buttons": [
+        "How it works",
+        ""
+      ],
+      "hasMascot": true,
+      "isPinned": false
+    },
+    {
+      "index": 5,
+      "id": "section-5",
+      "className": "tp-scene tp-passport",
+      "rect": {
+        "top": 7830,
+        "height": 922,
+        "width": 1440
+      },
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "Gradient/Pattern",
+      "kicker": "puppy passport",
+      "heading": "Why families trust TeddyPups",
+      "imagesCount": 0,
+      "buttonsCount": 0,
+      "buttons": [],
+      "hasMascot": true,
+      "isPinned": false
+    },
+    {
+      "index": 6,
+      "id": "section-6",
+      "className": "tp-scene tp-dusk",
+      "rect": {
+        "top": 8753,
+        "height": 1584,
+        "width": 1440
+      },
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "Gradient/Pattern",
+      "kicker": "",
+      "heading": "Happy families & puppies",
+      "imagesCount": 8,
+      "buttonsCount": 9,
+      "buttons": [
+        "Lulu 🧸 with her new mummy ❤️",
+        "Adorable Maltipoo baby 🧸❤️",
+        "My new teddy puppy 🥰🧸",
+        "Our new puppies 🧸🥰🤗"
+      ],
+      "hasMascot": true,
+      "isPinned": false
+    },
+    {
+      "index": 7,
+      "id": "section-7",
+      "className": "tp-scene tp-night",
+      "rect": {
+        "top": 10336,
+        "height": 636,
+        "width": 1440
+      },
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "Gradient/Pattern",
+      "kicker": "",
+      "heading": "Questions, answered",
+      "imagesCount": 0,
+      "buttonsCount": 1,
+      "buttons": [
+        "Read all questions"
+      ],
+      "hasMascot": true,
+      "isPinned": false
+    },
+    {
+      "index": 8,
+      "id": "section-8",
+      "className": "tp-scene tp-home",
+      "rect": {
+        "top": 10972,
+        "height": 1021,
+        "width": 1440
+      },
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "Gradient/Pattern",
+      "kicker": "",
+      "heading": "Ready to meet your new best friend?",
+      "imagesCount": 1,
+      "buttonsCount": 2,
+      "buttons": [
+        "Enquire on WhatsApp",
+        "Visit & contact"
+      ],
+      "hasMascot": true,
+      "isPinned": false
+    }
+  ],
+  "downwardScroll": [
+    {
+      "scrollPosition": 0,
+      "refActiveSection": "tp-scene tp-hero",
+      "localActiveSection": "tp-scene tp-hero",
+      "refTrackTransform": "none",
+      "localTrackTransform": "translateX(0px)",
+      "refDoorsOpen": 0,
+      "localDoorsOpen": 0
+    },
+    {
+      "scrollPosition": 500,
+      "refActiveSection": "tp-scene tp-meet",
+      "localActiveSection": "tp-scene tp-meet",
+      "refTrackTransform": "none",
+      "localTrackTransform": "translateX(0px)",
+      "refDoorsOpen": 0,
+      "localDoorsOpen": 0
+    },
+    {
+      "scrollPosition": 900,
+      "refActiveSection": "tp-scene tp-meet",
+      "localActiveSection": "tp-scene tp-meet",
+      "refTrackTransform": "none",
+      "localTrackTransform": "translateX(0px)",
+      "refDoorsOpen": 0,
+      "localDoorsOpen": 0
+    },
+    {
+      "scrollPosition": 1500,
+      "refActiveSection": "tp-scene tp-meet",
+      "localActiveSection": "tp-scene tp-meet",
+      "refTrackTransform": "matrix(1, 0, 0, 1, -603.077, 0)",
+      "localTrackTransform": "translateX(-790.081px)",
+      "refDoorsOpen": 2,
+      "localDoorsOpen": 2
+    },
+    {
+      "scrollPosition": 2500,
+      "refActiveSection": "tp-scene tp-meet",
+      "localActiveSection": "tp-scene tp-meet",
+      "refTrackTransform": "matrix(1, 0, 0, 1, -1729.53, 0)",
+      "localTrackTransform": "translateX(-2106.88px)",
+      "refDoorsOpen": 6,
+      "localDoorsOpen": 1
+    },
+    {
+      "scrollPosition": 3500,
+      "refActiveSection": "tp-scene tp-meet",
+      "localActiveSection": "tp-scene tp-meet",
+      "refTrackTransform": "matrix(1, 0, 0, 1, -2978.16, 0)",
+      "localTrackTransform": "translateX(-3423.68px)",
+      "refDoorsOpen": 10,
+      "localDoorsOpen": 2
+    },
+    {
+      "scrollPosition": 4100,
+      "refActiveSection": "tp-scene tp-meet",
+      "localActiveSection": "tp-scene tp-meet",
+      "refTrackTransform": "matrix(1, 0, 0, 1, -3849.13, 0)",
+      "localTrackTransform": "translateX(-4213.76px)",
+      "refDoorsOpen": 13,
+      "localDoorsOpen": 1
+    },
+    {
+      "scrollPosition": 4900,
+      "refActiveSection": "tp-scene tp-paths",
+      "localActiveSection": "tp-scene tp-paths",
+      "refTrackTransform": "matrix(1, 0, 0, 1, -4022.84, 0)",
+      "localTrackTransform": "translateX(-4248px)",
+      "refDoorsOpen": 14,
+      "localDoorsOpen": 1
+    },
+    {
+      "scrollPosition": 5800,
+      "refActiveSection": "tp-scene tp-chat",
+      "localActiveSection": "tp-scene tp-chat",
+      "refTrackTransform": "matrix(1, 0, 0, 1, -4032, 0)",
+      "localTrackTransform": "translateX(-4248px)",
+      "refDoorsOpen": 14,
+      "localDoorsOpen": 1
+    },
+    {
+      "scrollPosition": 6600,
+      "refActiveSection": "tp-scene tp-chat",
+      "localActiveSection": "tp-scene tp-chat",
+      "refTrackTransform": "matrix(1, 0, 0, 1, -4032, 0)",
+      "localTrackTransform": "translateX(-4248px)",
+      "refDoorsOpen": 14,
+      "localDoorsOpen": 1
+    },
+    {
+      "scrollPosition": 7400,
+      "refActiveSection": "tp-scene tp-passport",
+      "localActiveSection": "tp-scene tp-passport",
+      "refTrackTransform": "matrix(1, 0, 0, 1, -4032, 0)",
+      "localTrackTransform": "translateX(-4248px)",
+      "refDoorsOpen": 14,
+      "localDoorsOpen": 1
+    },
+    {
+      "scrollPosition": 8200,
+      "refActiveSection": "tp-scene tp-passport",
+      "localActiveSection": "tp-scene tp-passport",
+      "refTrackTransform": "matrix(1, 0, 0, 1, -4032, 0)",
+      "localTrackTransform": "translateX(-4248px)",
+      "refDoorsOpen": 14,
+      "localDoorsOpen": 1
+    },
+    {
+      "scrollPosition": 9000,
+      "refActiveSection": "tp-scene tp-dusk",
+      "localActiveSection": "tp-scene tp-dusk",
+      "refTrackTransform": "matrix(1, 0, 0, 1, -4032, 0)",
+      "localTrackTransform": "translateX(-4248px)",
+      "refDoorsOpen": 14,
+      "localDoorsOpen": 1
+    }
+  ],
+  "reverseScroll": [
+    {
+      "scrollPosition": 9000,
+      "refTrackTransform": "matrix(1, 0, 0, 1, -4032, 0)",
+      "localTrackTransform": "translateX(-4248px)",
+      "refDoorsOpen": 14,
+      "localDoorsOpen": 1
+    },
+    {
+      "scrollPosition": 8200,
+      "refTrackTransform": "matrix(1, 0, 0, 1, -4032, 0)",
+      "localTrackTransform": "translateX(-4248px)",
+      "refDoorsOpen": 14,
+      "localDoorsOpen": 1
+    },
+    {
+      "scrollPosition": 7400,
+      "refTrackTransform": "matrix(1, 0, 0, 1, -4032, 0)",
+      "localTrackTransform": "translateX(-4248px)",
+      "refDoorsOpen": 14,
+      "localDoorsOpen": 1
+    },
+    {
+      "scrollPosition": 6600,
+      "refTrackTransform": "matrix(1, 0, 0, 1, -4032, 0)",
+      "localTrackTransform": "translateX(-4248px)",
+      "refDoorsOpen": 14,
+      "localDoorsOpen": 1
+    },
+    {
+      "scrollPosition": 5800,
+      "refTrackTransform": "matrix(1, 0, 0, 1, -4032, 0)",
+      "localTrackTransform": "translateX(-4248px)",
+      "refDoorsOpen": 14,
+      "localDoorsOpen": 1
+    },
+    {
+      "scrollPosition": 4900,
+      "refTrackTransform": "matrix(1, 0, 0, 1, -4032, 0)",
+      "localTrackTransform": "translateX(-4248px)",
+      "refDoorsOpen": 14,
+      "localDoorsOpen": 1
+    },
+    {
+      "scrollPosition": 4100,
+      "refTrackTransform": "matrix(1, 0, 0, 1, -4006.51, 0)",
+      "localTrackTransform": "translateX(-4213.76px)",
+      "refDoorsOpen": 14,
+      "localDoorsOpen": 1
+    },
+    {
+      "scrollPosition": 3500,
+      "refTrackTransform": "matrix(1, 0, 0, 1, -3411.27, 0)",
+      "localTrackTransform": "translateX(-3423.68px)",
+      "refDoorsOpen": 12,
+      "localDoorsOpen": 2
+    },
+    {
+      "scrollPosition": 2500,
+      "refTrackTransform": "matrix(1, 0, 0, 1, -2272.65, 0)",
+      "localTrackTransform": "translateX(-2106.88px)",
+      "refDoorsOpen": 8,
+      "localDoorsOpen": 1
+    },
+    {
+      "scrollPosition": 1500,
+      "refTrackTransform": "matrix(1, 0, 0, 1, -997.842, 0)",
+      "localTrackTransform": "translateX(-790.081px)",
+      "refDoorsOpen": 4,
+      "localDoorsOpen": 2
+    },
+    {
+      "scrollPosition": 900,
+      "refTrackTransform": "matrix(1, 0, 0, 1, -164.889, 0)",
+      "localTrackTransform": "translateX(0px)",
+      "refDoorsOpen": 1,
+      "localDoorsOpen": 0
+    },
+    {
+      "scrollPosition": 500,
+      "refTrackTransform": "none",
+      "localTrackTransform": "translateX(0px)",
+      "refDoorsOpen": 0,
+      "localDoorsOpen": 0
+    },
+    {
+      "scrollPosition": 0,
+      "refTrackTransform": "none",
+      "localTrackTransform": "translateX(0px)",
+      "refDoorsOpen": 0,
+      "localDoorsOpen": 0
+    }
+  ]
+}

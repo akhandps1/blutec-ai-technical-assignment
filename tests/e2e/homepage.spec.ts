@@ -57,26 +57,17 @@ test.describe("TeddyPups Homepage Comprehensive E2E Suite", () => {
     expect(facingRight).toBe("right");
 
     // Click mascot to trigger speech bubble
-    const buddyRect = await page.evaluate(() => {
-      const buddy = document.querySelector(".tp-hero .pup-buddy");
-      if (!buddy) return null;
-      const r = buddy.getBoundingClientRect();
-      return { x: r.left + r.width / 2, y: r.top + r.height / 2 };
+    await page.locator(".tp-hero .pup-buddy").click();
+    await page.waitForTimeout(300);
+    const bubble = await page.evaluate(() => {
+      const b = document.querySelector(".tp-hero .pup-buddy .pup-bubble");
+      return {
+        shown: b?.getAttribute("data-show") === "true",
+        text: b?.textContent || "",
+      };
     });
-
-    if (buddyRect) {
-      await page.mouse.click(buddyRect.x, buddyRect.y);
-      await page.waitForTimeout(200);
-      const bubble = await page.evaluate(() => {
-        const b = document.querySelector(".tp-hero .pup-buddy .pup-bubble");
-        return {
-          shown: b?.getAttribute("data-show") === "true",
-          text: b?.textContent || "",
-        };
-      });
-      expect(bubble.shown).toBe(true);
-      expect(bubble.text.length).toBeGreaterThan(0);
-    }
+    expect(bubble.shown).toBe(true);
+    expect(bubble.text.length).toBeGreaterThan(0);
   });
 
   test("Meet Pups corridor pins and translates horizontally on scroll", async ({ page }) => {
@@ -84,25 +75,25 @@ test.describe("TeddyPups Homepage Comprehensive E2E Suite", () => {
     await page.goto(`${BASE_URL}/`, { waitUntil: "networkidle" });
 
     // Initial state
-    const initialTranslate = await page.evaluate(() => document.querySelector(".tp-meet__track")?.style.transform);
+    const initialTranslate = await page.evaluate(() => (document.querySelector(".tp-meet__track") as HTMLElement | null)?.style.transform);
     expect(initialTranslate === "translateX(0px)" || initialTranslate === "" || initialTranslate === "none").toBe(true);
 
     // Scroll to mid-corridor
     await page.evaluate(() => window.scrollTo(0, 2500));
     await page.waitForTimeout(300);
-    const midTranslate = await page.evaluate(() => document.querySelector(".tp-meet__track")?.style.transform);
+    const midTranslate = await page.evaluate(() => (document.querySelector(".tp-meet__track") as HTMLElement | null)?.style.transform);
     expect(midTranslate).toContain("translateX(-");
 
     // Scroll to end of corridor
     await page.evaluate(() => window.scrollTo(0, 4100));
     await page.waitForTimeout(300);
-    const endTranslate = await page.evaluate(() => document.querySelector(".tp-meet__track")?.style.transform);
+    const endTranslate = await page.evaluate(() => (document.querySelector(".tp-meet__track") as HTMLElement | null)?.style.transform);
     expect(endTranslate).toContain("translateX(-4");
 
     // Reverse scroll back to top
     await page.evaluate(() => window.scrollTo(0, 0));
     await page.waitForTimeout(300);
-    const returnedTranslate = await page.evaluate(() => document.querySelector(".tp-meet__track")?.style.transform);
+    const returnedTranslate = await page.evaluate(() => (document.querySelector(".tp-meet__track") as HTMLElement | null)?.style.transform);
     expect(returnedTranslate === "translateX(0px)" || returnedTranslate === "none").toBe(true);
   });
 
