@@ -34,3 +34,5 @@ yarn-error.log*
 next-env.d.ts
 tests/visual/side_by_side/
 screenshots/
+!screenshots/readme/
+!screenshots/readme/*.png
