@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import howItWorksData from "@/data/how_it_works_data.json";
+import HowItWorksView from "./HowItWorksView";
 
 export const metadata: Metadata = {
   title: "How it works | TeddyPups U.A.E.",
@@ -8,10 +9,5 @@ export const metadata: Metadata = {
 };
 
 export default function HowItWorksPage() {
-  return (
-    <div
-      dangerouslySetInnerHTML={{ __html: howItWorksData.main }}
-      suppressHydrationWarning
-    />
-  );
+  return <HowItWorksView html={howItWorksData.main} />;
 }
