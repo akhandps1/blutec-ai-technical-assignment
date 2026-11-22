@@ -37,6 +37,13 @@
   --ink-soft: var(--color-cocoa-soft);
 }
 
+@media (max-width: 767px) {
+  :root {
+    --header-h: 4rem;
+    --bar-h: calc(4rem + env(safe-area-inset-bottom));
+  }
+}
+
 html {
   overflow-x: clip;
   cursor: url("/cursor/paw.svg") 9 6, auto;

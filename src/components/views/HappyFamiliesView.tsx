@@ -193,7 +193,7 @@ export default function HappyFamiliesView() {
             </div>
 
             {/* Bottom Mascot Section */}
-            <div className="tp-memories__foot mt-20 flex justify-center">
+            <div className="tp-memories__foot mt-20 flex flex-col items-center text-center">
               <div className="pup-buddy w-36 md:w-44" data-facing="left" data-live="">
                 <svg
                   viewBox="0 0 300 240"
@@ -229,6 +229,9 @@ export default function HappyFamiliesView() {
                   </g>
                 </svg>
               </div>
+              <p className="font-scrawl text-lg text-cocoa-soft mt-3">
+                every one of them was a Teddy Pup once
+              </p>
             </div>
           </div>
         </section>

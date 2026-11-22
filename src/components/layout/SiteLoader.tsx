@@ -54,12 +54,17 @@ export default function SiteLoader() {
         const url = new URL(urlStr, window.location.href);
         if (url.pathname === window.location.pathname && url.search === window.location.search) {
           pendingUrl.current = null;
-          window.scrollTo({ top: 0, behavior: "instant" });
+          if (url.hash) {
+            const target = document.querySelector(url.hash);
+            target?.scrollIntoView({ behavior: "smooth" });
+          } else {
+            window.scrollTo({ top: 0, behavior: "instant" });
+          }
           addTimer(arrive, 120);
           return;
         }
         router.push(url.pathname + url.search + url.hash);
-        addTimer(arrive, 6000);
+        addTimer(arrive, 2200);
       } catch (err) {
         arrive();
       }
@@ -95,6 +100,13 @@ export default function SiteLoader() {
 
         e.preventDefault();
         e.stopPropagation();
+
+        // Close any open site dialogs immediately so nothing obscures the page
+        document.querySelectorAll<HTMLDialogElement>("dialog.tp-menu[open]").forEach((d) => {
+          d.removeAttribute("data-closing");
+          d.close();
+        });
+        document.body.style.overflow = "";
 
         router.prefetch(url.pathname + url.search);
         window.dispatchEvent(new Event("tp:navigate"));
@@ -163,6 +175,14 @@ export default function SiteLoader() {
   useEffect(() => {
     if (pathname === currentPath.current) return;
     currentPath.current = pathname;
+
+    // Ensure all menus and body scroll locks are clear upon arrival
+    document.querySelectorAll<HTMLDialogElement>("dialog.tp-menu[open]").forEach((d) => {
+      d.removeAttribute("data-closing");
+      d.close();
+    });
+    document.body.style.overflow = "";
+
     const st = curtainRef.current?.dataset.state;
     if (st !== "covered" && st !== "snap" && st !== "covering") return;
     const delay = Math.max(0, 140 - (performance.now() - lastTime.current));
